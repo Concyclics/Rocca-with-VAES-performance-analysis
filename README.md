@@ -234,6 +234,86 @@ Performance counter stats for './rocca_s_5 4096' (10 runs):
              1.144 +- 0.234 seconds time elapsed  ( +- 20.47% )
 ```
 
+##### rocca_512_32_2perm perf
+
+```bash
+Key: dc54f7e5437ae9dcdd275a862d24d378350964d5d95b8de811b090f8ee898aca
+Tag: 4b9e511e145941b0533be36c91fd10979944ae3f33f64154dc0ca4a877fe737f4892d528287c7edc2ab65dd4ea7692e40f05d81c4585297528aa1e5387c19a52
+Time: 0.715951
+Throughput: 767.87 Gbps
+
+ Performance counter stats for './rocca_512_32_perm 4096':
+
+            716.50 msec task-clock                #    1.000 CPUs utilized          
+                 1      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                76      page-faults               #    0.106 K/sec                  
+        3772703631      cycles                    #    5.265 GHz                      (37.20%)
+           1089279      stalled-cycles-frontend   #    0.03% frontend cycles idle     (37.20%)
+            548803      stalled-cycles-backend    #    0.01% backend cycles idle      (37.49%)
+        5949071699      instructions              #    1.58  insn per cycle         
+                                                  #    0.00  stalled cycles per insn  (38.89%)
+         201979238      branches                  #  281.896 M/sec                    (40.29%)
+             39426      branch-misses             #    0.02% of all branches          (41.68%)
+        2133513492      L1-dcache-loads           # 2977.682 M/sec                    (41.87%)
+           1037569      L1-dcache-load-misses     #    0.05% of all L1-dcache hits    (41.87%)
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+            509864      L1-icache-loads           #    0.712 M/sec                    (41.87%)
+              4165      L1-icache-load-misses     #    0.82% of all L1-icache hits    (41.87%)
+              7316      dTLB-loads                #    0.010 M/sec                    (41.87%)
+              2268      dTLB-load-misses          #   31.00% of all dTLB cache hits   (41.58%)
+              4400      iTLB-loads                #    0.006 M/sec                    (40.18%)
+              2356      iTLB-load-misses          #   53.55% of all iTLB cache hits   (38.78%)
+             24759      L1-dcache-prefetches      #    0.035 M/sec                    (37.39%)
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+       0.716765471 seconds time elapsed
+
+       0.716746000 seconds user
+       0.000000000 seconds sys
+```
+
+##### rocca_512_32_1perm perf
+
+```bash
+Key: 3bf43019d7ec69e39e889e76e11856071f9bc06db1063c97d7d98efffea4c339
+Tag: c738ac1a3102d275b8208a54a515dffda45f7b9ed23112e8d1be39283821732ddb97a45e93b077cdbb0dafd7e344708b719f97d82ce5cca9c0ae1a6769595c03
+Time: 0.651368
+Throughput: 844.00 Gbps
+
+ Performance counter stats for './rocca_512_32_perm 4096':
+
+            651.95 msec task-clock                #    1.000 CPUs utilized          
+                 3      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                73      page-faults               #    0.112 K/sec                  
+        3370815086      cycles                    #    5.170 GHz                      (38.17%)
+            884125      stalled-cycles-frontend   #    0.03% frontend cycles idle     (39.70%)
+            613356      stalled-cycles-backend    #    0.02% backend cycles idle      (41.23%)
+        5256162884      instructions              #    1.56  insn per cycle         
+                                                  #    0.00  stalled cycles per insn  (42.77%)
+         135421330      branches                  #  207.716 M/sec                    (44.30%)
+             41209      branch-misses             #    0.03% of all branches          (44.78%)
+        2146037105      L1-dcache-loads           # 3291.703 M/sec                    (43.43%)
+           1439248      L1-dcache-load-misses     #    0.07% of all L1-dcache hits    (41.90%)
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+            674153      L1-icache-loads           #    1.034 M/sec                    (40.37%)
+              5220      L1-icache-load-misses     #    0.77% of all L1-icache hits    (38.83%)
+             10390      dTLB-loads                #    0.016 M/sec                    (37.29%)
+              1866      dTLB-load-misses          #   17.96% of all dTLB cache hits   (36.81%)
+              4235      iTLB-loads                #    0.006 M/sec                    (36.81%)
+              1328      iTLB-load-misses          #   31.36% of all iTLB cache hits   (36.80%)
+             21870      L1-dcache-prefetches      #    0.034 M/sec                    (36.81%)
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+       0.652244174 seconds time elapsed
+
+       0.652167000 seconds user
+       0.000000000 seconds sys
+```
+
 ## Appendix: codes
 
 ### rocca
