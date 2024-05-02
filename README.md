@@ -61,6 +61,7 @@ perf stat -d -d -d  -r 10 ./rocca_s_5 4096
 | rocca_s_5    | 310         |
 | rocca_512_32_2perm | 760 |
 | rocca_512_32_1perm | 840 |
+| rocca_512_32_0perm | 1000 |
 
 #### Conclusion
 
@@ -311,6 +312,45 @@ Throughput: 844.00 Gbps
        0.652244174 seconds time elapsed
 
        0.652167000 seconds user
+       0.000000000 seconds sys
+```
+##### rocca_512_32_0perm perf
+
+```bash
+Key: 805360c2075e847fb169ee9aadb3849fb8d5ee46b0147373895bdbf1099c558a
+Tag: 12d317dc28b0a941095c58baaa129c2dd428df72fc533f85774127143dd65e1521a5ee06b0bd5a93e22fa5ed57c5d6821b79d583b7a8b2c7d77d80e670aa0294
+Time: 0.546936
+Throughput: 1005.16 Gbps
+
+ Performance counter stats for './rocca_512_32_perm 4096':
+
+            547.52 msec task-clock                #    1.000 CPUs utilized          
+                 1      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                75      page-faults               #    0.137 K/sec                  
+        2891276385      cycles                    #    5.281 GHz                      (34.58%)
+            837002      stalled-cycles-frontend   #    0.03% frontend cycles idle     (36.29%)
+            671396      stalled-cycles-backend    #    0.02% backend cycles idle      (38.27%)
+        4718088461      instructions              #    1.63  insn per cycle         
+                                                  #    0.00  stalled cycles per insn  (39.94%)
+         135715517      branches                  #  247.872 M/sec                    (41.76%)
+             33871      branch-misses             #    0.02% of all branches          (43.59%)
+        2117154424      L1-dcache-loads           # 3866.796 M/sec                    (43.82%)
+           7740104      L1-dcache-load-misses     #    0.37% of all L1-dcache hits    (43.83%)
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+            426716      L1-icache-loads           #    0.779 M/sec                    (43.68%)
+              3644      L1-icache-load-misses     #    0.85% of all L1-icache hits    (43.62%)
+              8278      dTLB-loads                #    0.015 M/sec                    (41.80%)
+              3442      dTLB-load-misses          #   41.58% of all dTLB cache hits   (39.97%)
+              3389      iTLB-loads                #    0.006 M/sec                    (38.03%)
+              1960      iTLB-load-misses          #   57.83% of all iTLB cache hits   (36.32%)
+             14467      L1-dcache-prefetches      #    0.026 M/sec                    (34.49%)
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+       0.547778298 seconds time elapsed
+
+       0.547780000 seconds user
        0.000000000 seconds sys
 ```
 
