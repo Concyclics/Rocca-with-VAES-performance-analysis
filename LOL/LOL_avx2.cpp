@@ -1,4 +1,7 @@
 #include <immintrin.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 const __m128i LOLMINI_C = _mm_setr_epi16(0x35c9, 0x952b, 0xd4b1, 0x4ab5, 0xa291, 0x7eed, 0xa31b, 0x7ca1);
 const __m128i LOLMINI_SIGMA = _mm_setr_epi8(2, 3, 4, 5, 14, 15, 8, 9, 12, 13, 6, 7, 0, 1, 10, 11);
@@ -117,7 +120,9 @@ struct Loldouble
     }
 };
 
-#define repeat 65536 * 64
+int volatile dummy = 0;
+
+#define repeat 65536
 
 double test_speed_lol_mini(int len)
 {
@@ -146,7 +151,7 @@ double test_speed_lol_mini(int len)
     start = clock();
     for (int i = 0; i < repeat; i++)
     {
-        for (int j = 0; j < len; j++)
+        for (int j = 0; j < len; j+=16)
         {
             M = _mm_loadu_si128((__m128i *)(message + j));
             Z = ctx.keystream();
@@ -155,10 +160,12 @@ double test_speed_lol_mini(int len)
         }
     }
     end = clock();
+
     float seconds = (float)(end - start) / CLOCKS_PER_SEC;
     float gbps = 1.0 * len * repeat * 8 / seconds / 1e9;
     free(message);
     free(ciphertext);
+    dummy += ciphertext[len - 1];
     return gbps;
 }
 
@@ -202,6 +209,7 @@ double test_speed_lol_double(int len)
     float gbps = 1.0 * len * repeat * 8 / seconds / 1e9;
     free(message);
     free(ciphertext);
+    dummy += ciphertext[len - 1];
     return gbps;
 }
 
@@ -219,5 +227,6 @@ int main(int argc, char *argv[])
     {
         printf("Speed for %d bytes: %.2f Gbps\n", test_cases[i], test_speed_lol_double(test_cases[i]));
     }
+    printf("dummy = %d\n", dummy);
     return 0;
 }
