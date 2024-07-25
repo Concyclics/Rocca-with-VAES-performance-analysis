@@ -116,3 +116,108 @@ struct Loldouble
         hi = _mm256_xor_si256(hi, mainKey);
     }
 };
+
+#define repeat 65536 * 64
+
+double test_speed_lol_mini(int len)
+{
+    Lolmini ctx;
+    unsigned char key[32], iv[16];
+    for (int i = 0; i < 32; i++)
+    {
+        key[i] = rand() % 256;
+    }
+    for (int i = 0; i < 16; i++)
+    {
+        iv[i] = rand() % 256;
+    }
+    ctx.keyiv_setup(key, iv);
+
+    unsigned char *message = (unsigned char *)malloc(len);
+    unsigned char *ciphertext = (unsigned char *)malloc(len);
+
+    for (int i = 0; i < len; i++)
+    {
+        message[i] = rand() % 256;
+    }
+
+    time_t start, end;
+    __m128i M, C, Z;
+    start = clock();
+    for (int i = 0; i < repeat; i++)
+    {
+        for (int j = 0; j < len; j++)
+        {
+            M = _mm_loadu_si128((__m128i *)(message + j));
+            Z = ctx.keystream();
+            C = _mm_xor_si128(M, Z);
+            _mm_storeu_si128((__m128i *)(ciphertext + j), C);
+        }
+    }
+    end = clock();
+    float seconds = (float)(end - start) / CLOCKS_PER_SEC;
+    float gbps = 1.0 * len * repeat * 8 / seconds / 1e9;
+    free(message);
+    free(ciphertext);
+    return gbps;
+}
+
+double test_speed_lol_double(int len)
+{
+    Loldouble ctx;
+    unsigned char key[32], iv[32];
+    for (int i = 0; i < 32; i++)
+    {
+        key[i] = rand() % 256;
+    }
+    for (int i = 0; i < 32; i++)
+    {
+        iv[i] = rand() % 256;
+    }
+    ctx.keyiv_setup(key, iv);
+    
+    unsigned char *message = (unsigned char *)malloc(len);
+    unsigned char *ciphertext = (unsigned char *)malloc(len);
+
+    for (int i = 0; i < len; i++)
+    {
+        message[i] = rand() % 256;
+    }
+
+    time_t start, end;
+    __m256i M, C, Z;
+    start = clock();
+    for (int i = 0; i < repeat; i++)
+    {
+        for (int j = 0; j < len; j += 32)
+        {
+            M = _mm256_loadu_si256((__m256i *)(message + j));
+            Z = ctx.keystream();
+            C = _mm256_xor_si256(M, Z);
+            _mm256_storeu_si256((__m256i *)(ciphertext + j), C);
+        }
+    }
+    end = clock();
+    float seconds = (float)(end - start) / CLOCKS_PER_SEC;
+    float gbps = 1.0 * len * repeat * 8 / seconds / 1e9;
+    free(message);
+    free(ciphertext);
+    return gbps;
+}
+
+int main(int argc, char *argv[])
+{
+    int test_cases[] = {16384, 8192, 1024, 256, 64};
+    int test_cases_len = sizeof(test_cases) / sizeof(int);
+    printf("LOL-MINI\n");
+    for (int i = 0; i < test_cases_len; i++)
+    {
+        printf("Speed for %d bytes: %.2f Gbps\n", test_cases[i], test_speed_lol_mini(test_cases[i]));
+    }
+    printf("LOL-DOUBLE\n");
+    for (int i = 0; i < test_cases_len; i++)
+    {
+        printf("Speed for %d bytes: %.2f Gbps\n", test_cases[i], test_speed_lol_double(test_cases[i]));
+    }
+    return 0;
+}
