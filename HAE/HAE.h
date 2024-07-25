@@ -7,8 +7,9 @@
     Description   : HAE encryption algorithm designed for Kunpeng processor
                     The design intake instruction fusion feature of Kunpeng 920 
                     as well as unroll optimization in encryption for better speed
-                    speed for encryption can reach 52Gbps on Kunpeng 920@2.6GHz
-                    speed for encryption can reach 129Gbps on Intel-Skylake@4GHz
+                    speed reach 52Gbps on Kunpeng 920@2.6GHz
+                    speed reach 129Gbps on Intel-Skylake@4GHz
+                    speed reach 96Gbps on Sapphire Rapids@2.3GHz
 
 
 ******************************************************************************/
@@ -20,8 +21,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+ * For X86 with AES instruction set
+ * Compile with GCC/ICX command
+ * gcc -Ofast -march=native -maes HAE.c HAE_test.c -o HAE
+ */
 #if defined(__AES__) && defined(__x86_64__)
-
 #include <immintrin.h>
 #include <wmmintrin.h>
 
@@ -31,21 +36,21 @@ typedef __m128i DATA128b;
 #define store(x, y) _mm_storeu_si128((__m128i *)(x), y)
 #define xor(x, y) _mm_xor_si128(x, y)
 #define zero128() _mm_setzero_si128()
-//#define aesdimc(a, RoundKey) vaesimcq_u8(vaesdq_u8(a, RoundKey))
-//#define aesdimc(a, RoundKey) vaesdq_u8(vaesimcq_u8(a), RoundKey)
 #define aesemc(x, y) _mm_aesenc_si128(xor(x, y), zero128())
 #define aesdimc(x, y) _mm_aesdeclast_si128(xor(x, y), zero128())
 #define aesenc(x, y) _mm_aesenc_si128(x, y)
 
+/*
+ * For armv8 with AES instruction set
+ * Compile with GCC command
+ * gcc -Ofast -march=native HAE.c HAE_test.c -o HAE
+ */
 #elif defined(__ARM_FEATURE_AES) && defined(__ARM_NEON)
-
 #include <arm_neon.h>
 
 typedef uint8x16_t DATA128b;
 
 #define aesemc(a, RoundKey) vaesmcq_u8(vaeseq_u8(a, RoundKey))
-//#define aesdimc(a, RoundKey) vaesimcq_u8(vaesdq_u8(a, RoundKey))
-//#define aesdimc(a, RoundKey) vaesdq_u8(vaesimcq_u8(a), RoundKey)
 #define aesdimc(a, RoundKey) vaesdq_u8(a, RoundKey)
 #define xor(a, b) veorq_u8(a, b)
 #define load(x) vld1q_u8(x)
@@ -113,7 +118,16 @@ void HAE_stream_encrypt(DATA128b* state,
     const uint8_t* src,
     size_t size
 );
-
+/**
+ * decryption for HAE
+ *
+ * INPUT:
+ * @param state 2048bit: 16 * 128
+ * @param size length of message(byte)
+ * @param src a byte array for cipher
+ * OUTPUT:
+ * @param dst a byte array for message
+ */
 void HAE_stream_decrypt(DATA128b* state,
     uint8_t* dst, 
     const uint8_t* src,
