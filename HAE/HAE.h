@@ -21,11 +21,21 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
- * For X86 with AES instruction set
- * Compile with GCC/ICX command
- * gcc -Ofast -march=native -maes HAE.c HAE_test.c -o HAE
+/* Modify this part before run
  */
+
+#define UNROLL_BLOCK_SIZE 256 // NUM of STATES * BLOCK_SIZE
+#define BLOCK_SIZE 16 // 128bits = 16 Bytes
+#define UNROLL_ROUND 16 // = NUM of STATES
+#define STATE 16 // NUM of STATES
+
+#define P_0 0 
+#define P_1 1
+#define P_4 13
+#define P_7 9
+#define i_1 3
+#define i_2 13
+
 #if defined(__AES__) && defined(__x86_64__)
 #include <immintrin.h>
 #include <wmmintrin.h>
@@ -38,23 +48,29 @@ typedef __m128i DATA128b;
 #define zero128() _mm_setzero_si128()
 #define aesemc(x, y) _mm_aesenc_si128(xor(x, y), zero128())
 #define aesdimc(x, y) _mm_aesdeclast_si128(xor(x, y), zero128())
+#define aes(x) _mm_aesenc_si128(x, zero128())
 #define aesenc(x, y) _mm_aesenc_si128(x, y)
+#define X_A_X(a, b, c) aesenc(xor(a, b), c)
 
 /*
  * For armv8 with AES instruction set
  * Compile with GCC command
  * gcc -Ofast -march=native HAE.c HAE_test.c -o HAE
  */
-#elif defined(__ARM_FEATURE_AES) && defined(__ARM_NEON)
+#elif defined(__ARM_FEATURE_CRYPTO) && defined(__ARM_NEON)
 #include <arm_neon.h>
 
 typedef uint8x16_t DATA128b;
 
-#define aesemc(a, RoundKey) vaesmcq_u8(vaeseq_u8(a, RoundKey))
-#define aesdimc(a, RoundKey) vaesdq_u8(a, RoundKey)
-#define xor(a, b) veorq_u8(a, b)
 #define load(x) vld1q_u8(x)
 #define store(dst, x) vst1q_u8(dst, x)
+#define xor(a, b) veorq_u8(a, b)
+#define zero128() vmovq_n_u8(0)
+#define aesemc(x, y) vaesmcq_u8(vaeseq_u8(x, y))
+#define aesdimc(x, y) vaesdq_u8(x, y)
+#define aes(x) aesemc(x, zero128())
+#define aesenc(x, y) xor(aesemc(x, zero128()), y)
+#define X_A_X(a, b, c) xor(aesemc(a, b), c)
 
 #else
 
@@ -69,7 +85,7 @@ typedef uint8x16_t DATA128b;
  * @param key 256bit: 32 * 8
  * @param iv 128bit: 16 * 8
  * OUTPUT:
- * @param state 2048bit: 16 * 128
+ * @param state 1536it: 12 * 128
  */
 void HAE_stream_init(DATA128b* state, 
     const uint8_t* key,
@@ -79,7 +95,7 @@ void HAE_stream_init(DATA128b* state,
  * process ad for HAE
  *
  * INPUT:
- * @param state 2048bit: 16 * 128
+ * @param state 1536bit: 12 * 128
  * @param len length of ad (byte)
  * OUTPUT:
  * @param ad a byte array for ad
@@ -92,7 +108,7 @@ void HAE_stream_proc_ad(DATA128b* state,
  * finalize to get tag for HAE
  *
  * INPUT:
- * @param state 2048bit: 16 * 128
+ * @param state 1536bit: 12 * 128
  * @param ad_len length of ad (byte)
  * @param plain_len length of message(byte)
  * OUTPUT:
@@ -107,7 +123,7 @@ void HAE_stream_finalize(DATA128b* state,
  * encryption for HAE
  *
  * INPUT:
- * @param state 2048bit: 16 * 128
+ * @param state 1536bit: 12 * 128
  * @param size length of message(byte)
  * @param src a byte array for message
  * OUTPUT:
@@ -122,7 +138,7 @@ void HAE_stream_encrypt(DATA128b* state,
  * decryption for HAE
  *
  * INPUT:
- * @param state 2048bit: 16 * 128
+ * @param state 1536bit: 12 * 128
  * @param size length of message(byte)
  * @param src a byte array for cipher
  * OUTPUT:
