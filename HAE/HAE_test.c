@@ -24,7 +24,7 @@ int functional_test_work(int len) {
     uint8_t *ad = (uint8_t *) malloc(ad_len);
     memset(ad, 1, ad_len);
 
-    size_t plain_len = len * 16 * 16;
+    size_t plain_len = len * BLOCK_SIZE;
 
     uint8_t *plain = (uint8_t *) malloc(plain_len);
     uint8_t *cipher = (uint8_t *) malloc(plain_len);
@@ -36,21 +36,23 @@ int functional_test_work(int len) {
     //printf("len = %lu %lu\n",  strlen(ad), strlen(plain));
     //HAE(key, iv, plain, cipher, ad, tag1);
 
-    DATA128b state[16];
+    DATA128b state[STATE];
 
-    int rnd_1 = rand() % len;
-    int rnd_2 = rand() % len;
-    //printf("rnd_1/2 = %lu %lu\n", rnd_1, rnd_2);
-
+    int rnd_1, rnd_2; 
+    rnd_1 = rand() % len;
+    rnd_2 = rand() % len;
     HAE_stream_init(state, key, iv);
-    HAE_stream_encrypt(state, cipher, plain, rnd_1 * 16);
-    HAE_stream_encrypt(state, cipher + rnd_1 * 16, plain + rnd_1 * 16, (len-rnd_1) * 16);
+    HAE_stream_proc_ad(state, ad, ad_len);
+    HAE_stream_encrypt(state, cipher, plain, rnd_1 * BLOCK_SIZE);
+    HAE_stream_encrypt(state, cipher + rnd_1 * BLOCK_SIZE, plain + rnd_1 * BLOCK_SIZE, (len-rnd_1) * BLOCK_SIZE);
     HAE_stream_finalize(state, ad_len, plain_len, tag1);
     
     HAE_stream_init(state, key, iv);
-    HAE_stream_decrypt(state, decode, cipher, rnd_2 * 16);
-    HAE_stream_decrypt(state, decode + rnd_2 * 16, cipher + rnd_2 * 16, (len-rnd_2) * 16);
+    HAE_stream_proc_ad(state, ad, ad_len);
+    HAE_stream_decrypt(state, decode, cipher, rnd_2 * BLOCK_SIZE);
+    HAE_stream_decrypt(state, decode + rnd_2 * BLOCK_SIZE, cipher + rnd_2 * BLOCK_SIZE, (len-rnd_2) * BLOCK_SIZE);
     HAE_stream_finalize(state, ad_len, plain_len, tag2);
+    
     /*
     printf("--------functional test----------\n");
     printf("key  = ");
@@ -59,23 +61,26 @@ int functional_test_work(int len) {
     print_data(iv, 16);
 
     printf("msg = ");
-    print_data(plain, len * 16);
+    print_data(plain, plain_len);
     printf("cipher = ");
-    print_data(cipher, len * 16);
+    print_data(cipher, plain_len);
     printf("tag1 = ");
     print_data(tag1, 16);
     printf("decrypt = ");
-    print_data(decode, len * 16);
+    print_data(decode, plain_len);
     printf("tag2 = ");
     print_data(tag2, 16);
     */
+    
 
-    int same_msg = memcmp(plain, decode, len*16);
+    int same_msg = memcmp(plain, decode, plain_len);
     int same_tag = memcmp(tag1, tag2, 16);
     free(ad);
     free(plain);
     free(cipher);
     free(decode);
+    
+    //printf("same %d %d\n", same_msg, same_tag);
     if(!(same_msg | same_tag)) {
         //printf("functional test pass.\n\n");
         return 1;
@@ -84,15 +89,74 @@ int functional_test_work(int len) {
         //printf("functional test failed!\n\n");
         return 0;
     }
+    
+    return 0;
+}
+
+int data_change_test(int len) {
+    uint8_t *key = (uint8_t *) malloc(32);
+    memset(key, 1, 32);
+
+    uint8_t *iv = (uint8_t *) malloc(16);
+    memset(iv, 1, 16);
+
+    size_t ad_len = 48;
+    uint8_t *ad = (uint8_t *) malloc(ad_len);
+    memset(ad, 1, ad_len);
+
+    size_t plain_len = len * BLOCK_SIZE;
+
+    uint8_t *plain = (uint8_t *) malloc(plain_len);
+    uint8_t *cipher = (uint8_t *) malloc(plain_len);
+    uint8_t *decode = (uint8_t *) malloc(plain_len);
+
+    uint8_t tag1[16], tag2[16];
+
+    memset(plain, 0x1, plain_len);
+
+    DATA128b state[STATE];
+    HAE_stream_init(state, key, iv);
+    HAE_stream_proc_ad(state, ad, ad_len);
+    HAE_stream_encrypt(state, cipher, plain, len);
+    HAE_stream_finalize(state, ad_len, plain_len, tag1);
+    
+    printf("--------data change test(Before)----------\n");
+
+    printf("msg = ");
+    print_data(plain, plain_len);
+    printf("cipher = ");
+    print_data(cipher, plain_len);
+    printf("tag = ");
+    print_data(tag1, 16);
+    printf("--------data change test(After)----------\n");
+    plain[len-1]=0x2;
+    HAE_stream_init(state, key, iv);
+    HAE_stream_proc_ad(state, ad, ad_len);
+    HAE_stream_encrypt(state, cipher, plain, len);
+    HAE_stream_finalize(state, ad_len, plain_len, tag1);
+    printf("msg = ");
+    print_data(plain, plain_len);
+    printf("cipher = ");
+    print_data(cipher, plain_len);
+    printf("tag = ");
+    print_data(tag1, 16);
+
+    free(ad);
+    free(plain);
+    free(cipher);
+    free(decode);
+    
+    
     return 0;
 }
 
 void functional_test() {
     printf("--------functional test----------\n");
     int result = 1;
-    int T = 64;
+    int T = 2333;
+    int len = 1024;
     while(T--) {
-        result &= functional_test_work(1024);
+        result &= functional_test_work(len);
     }
     if(result) {
         printf("functional test pass.\n\n");
@@ -102,7 +166,41 @@ void functional_test() {
     }
 }
 
-double speed_test_encode_work(size_t len) {
+double speed_test_ad_work(size_t len) {
+    uint8_t key[32];
+    memset(key, 1, 32);
+
+    uint8_t iv[16];
+    memset(iv, 1, 16);
+
+    size_t ad_len = len;
+    uint8_t *ad = (uint8_t *) malloc(ad_len);
+    memset(ad, 1, ad_len);
+
+    uint8_t tag[16];
+
+
+    DATA128b state[STATE];
+
+    clock_t start, end;
+    HAE_stream_init(state, key, iv);
+    
+    start = clock();
+    for (size_t iter = REPEAT; iter > 0; iter --) {
+        HAE_stream_init(state, key, iv);
+        HAE_stream_proc_ad(state, ad, ad_len);
+        HAE_stream_finalize(state, ad_len, 0, tag);
+    }
+    end = clock();
+
+    double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    double speed = ((double) REPEAT * len) / (cpu_time_used*(125000000));
+
+    return speed;
+}
+
+
+double speed_test_encode_work(size_t len, int AEAD) {
     uint8_t key[32];
     memset(key, 1, 32);
 
@@ -122,23 +220,38 @@ double speed_test_encode_work(size_t len) {
 
     memset(plain, 0x1, plain_len);
 
-    DATA128b state[16];
+    DATA128b state[STATE];
 
     clock_t start, end;
-    
     HAE_stream_init(state, key, iv);
-    start = clock();
-    for (size_t iter = REPEAT; iter > 0; iter --) {
-        HAE_stream_encrypt(state, cipher, plain, plain_len);
+    
+    if(AEAD == 1) {
+        start = clock();
+        for (size_t iter = REPEAT; iter > 0; iter --) {
+            HAE_stream_init(state, key, iv);
+            HAE_stream_proc_ad(state, ad, ad_len);
+            HAE_stream_encrypt(state, cipher, plain, plain_len);
+            HAE_stream_finalize(state, ad_len, plain_len, tag);
+        }
+        end = clock();
     }
-    end = clock();
+    else {
+        start = clock();
+        for (size_t iter = REPEAT; iter > 0; iter --) {
+            HAE_stream_init(state, key, iv);
+            HAE_stream_encrypt(state, cipher, plain, plain_len);
+            //HAE_stream_finalize(state, ad_len, plain_len, tag);
+        }
+        end = clock();
+    }
+
     double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     double speed = ((double) REPEAT * plain_len) / (cpu_time_used*(125000000));
 
     return speed;
 }
 
-double speed_test_decode_work(size_t len) {
+double speed_test_decode_work(size_t len, int AEAD) {
     uint8_t key[32];
     memset(key, 1, 32);
 
@@ -158,16 +271,31 @@ double speed_test_decode_work(size_t len) {
 
     memset(plain, 0x1, plain_len);
 
-    DATA128b state[16];
+    DATA128b state[STATE];
 
     clock_t start, end;
     
     HAE_stream_init(state, key, iv);
-    start = clock();
-    for (size_t iter = REPEAT; iter > 0; iter --) {
-        HAE_stream_decrypt(state, cipher, plain, plain_len);
+    
+    if(AEAD == 1) {
+        start = clock();
+        for (size_t iter = REPEAT; iter > 0; iter --) {
+            HAE_stream_init(state, key, iv);
+            HAE_stream_proc_ad(state, ad, ad_len);
+            HAE_stream_decrypt(state, cipher, plain, plain_len);
+            HAE_stream_finalize(state, ad_len, plain_len, tag);
+        }
+        end = clock();
     }
-    end = clock();
+    else {
+        start = clock();
+        for (size_t iter = REPEAT; iter > 0; iter --) {
+            HAE_stream_init(state, key, iv);
+            HAE_stream_decrypt(state, cipher, plain, plain_len);
+            //HAE_stream_finalize(state, ad_len, plain_len, tag);
+        }
+        end = clock();
+    }
     double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     double speed = ((double) REPEAT * plain_len) / (cpu_time_used*(125000000.0));
 
@@ -175,37 +303,73 @@ double speed_test_decode_work(size_t len) {
 }
 
 void speed_test() {
-    int len_test_case = 10;
-    int test_case[10] = {64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768};
+    int len_test_case = 17;
+    size_t test_case[len_test_case];
     double encrypto_speed[len_test_case];
     double decrypto_speed[len_test_case];
+    test_case[0] = 64;
+    int tmp = 64;
     for (int i = 0; i < len_test_case; i++)
     {
-        encrypto_speed[i] = speed_test_encode_work(test_case[i]);
-        decrypto_speed[i] = speed_test_decode_work(test_case[i]);
+        test_case[i] = tmp;
+        if(tmp <= 2048)
+        {
+            tmp*=2;
+        }
+        else if(tmp < 16384)
+        {
+            tmp+=2048;
+        }
+        else
+        {
+            tmp+=4096;
+        }
     }
-    printf("--------speed test(Gbps)----------\n");
-    printf("message length \t\t");
+    printf("--------speed test Encryption Only(Gbps)----------\n");
     for (int i = 0; i < len_test_case; i++)
     {
-        printf("%d\t", test_case[i]);
+        encrypto_speed[i] = speed_test_encode_work(test_case[i], 0);
+        decrypto_speed[i] = speed_test_decode_work(test_case[i], 0);
+        double ad = speed_test_ad_work(test_case[i]);
+        printf("length: %d, encrypt: %.2f, decrypt: %.2f, AD: %.2f\n", test_case[i], encrypto_speed[i], decrypto_speed[i], ad);
     }
-    printf("\n");
-    printf("encryption speed \t");
+}
+
+void speed_test_AEAD() {
+    int len_test_case = 17;
+    size_t test_case[len_test_case];
+    double encrypto_speed[len_test_case];
+    double decrypto_speed[len_test_case];
+    test_case[0] = 64;
+    int tmp = 64;
     for (int i = 0; i < len_test_case; i++)
     {
-        printf("%.1f\t", encrypto_speed[i]);
+        test_case[i] = tmp;
+        if(tmp <= 2048)
+        {
+            tmp*=2;
+        }
+        else if(tmp < 16384)
+        {
+            tmp+=2048;
+        }
+        else
+        {
+            tmp+=4096;
+        }
     }
-    printf("\n");
-    printf("decryption speed \t");
+    printf("--------speed test AEAD(Gbps)----------\n");
     for (int i = 0; i < len_test_case; i++)
     {
-        printf("%.1f\t", decrypto_speed[i]);
+        encrypto_speed[i] = speed_test_encode_work(test_case[i], 1);
+        decrypto_speed[i] = speed_test_decode_work(test_case[i], 1);
+        printf("length: %d, encrypt: %.2f, decrypt: %.2f\n", test_case[i], encrypto_speed[i], decrypto_speed[i]);
     }
-    printf("\n");
 }
 
 int main() {
+    printf("========HAE4.4========\n");
     functional_test();
     speed_test();
+    speed_test_AEAD();
 }
