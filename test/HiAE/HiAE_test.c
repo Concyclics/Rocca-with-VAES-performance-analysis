@@ -194,8 +194,8 @@ double speed_test_decode_work(size_t len, int AEAD) {
 }
 
 void speed_test() {
-    int len_test_case = 11;
-    size_t test_case[11] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536};
+    int len_test_case = 9;
+    size_t test_case[9] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384};
     double encrypto_speed[len_test_case];
     double decrypto_speed[len_test_case];
     printf("--------speed test Encryption Only(Gbps)----------\n");
@@ -209,8 +209,8 @@ void speed_test() {
 }
 
 void speed_test_AEAD() {
-    const int len_test_case = 11;
-    size_t test_case[11] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536};
+    int len_test_case = 9;
+    size_t test_case[9] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384};
     double encrypto_speed[len_test_case];
     double decrypto_speed[len_test_case];
     printf("--------speed test AEAD(Gbps)----------\n");
