@@ -1,5 +1,11 @@
 #include <stdint.h>
+#if defined(__x86_64__)
+#include <immintrin.h>
+#include <wmmintrin.h>
+#elif defined(__ARM_NEON)
+#include <arm_neon.h>
 #include "sse2neon.h"
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
