@@ -11,7 +11,13 @@
 #include <stdint.h>
 #include "crypto_aead.h"
 #include <time.h>
+#if defined(__x86_64__)
+#include <immintrin.h>
+#include <wmmintrin.h>
+#elif defined(__ARM_NEON)
+#include <arm_neon.h>
 #include "sse2neon.h"
+#endif
 
 double speed_test_encode_work(size_t len, uint8_t AEAD) {
      uint8_t iv[16];
