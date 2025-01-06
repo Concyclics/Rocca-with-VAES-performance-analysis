@@ -247,7 +247,7 @@ void HiAE_stream_encrypt(DATA128b* state, uint8_t *dst, const uint8_t *src, size
     size_t rest = size % UNROLL_BLOCK_SIZE;
     size_t prefix = size - rest;
     DATA128b M[STATE], C[STATE], tmp[STATE], temp;
-    #if defined(__VAES__) && defined(__x86_64__)
+    #if defined(__VAES__) && defined(__x86_64__) && defined(__AVX512F__)
     // asm code optimized for VAES support devices
     
     // xmm0-xmm15 are used for State
@@ -509,7 +509,7 @@ void HiAE_stream_decrypt(DATA128b* state, uint8_t *dst, const uint8_t *src, size
     size_t prefix = size - rest;
     DATA128b M[STATE], C[STATE], tmp[STATE], temp;
 
-    #if defined(__VAES__) && defined(__x86_64__)
+    #if defined(__VAES__) && defined(__x86_64__) && defined(__AVX512F__)
     // asm code optimized for VAES support devices
     
     // xmm0-xmm15 are used for State
