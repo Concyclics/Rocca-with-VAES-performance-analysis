@@ -1,6 +1,6 @@
-./HiAE > HiAE_log_1
-./HiAE > HiAE_log_2
-./HiAE > HiAE_log_3
+./HIAE > HiAE_log_1
+./HIAE > HiAE_log_2
+./HIAE > HiAE_log_3
 ./AEGIS > AEGIS_log_1
 ./AEGIS > AEGIS_log_2
 ./AEGIS > AEGIS_log_3
