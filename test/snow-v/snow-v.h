@@ -3,10 +3,10 @@
 #include <string.h>
 //#include <wmmintrin.h>  //for intrinsics AES-NI
 #include <time.h>
-#if defined(__AES__) && defined(__x86_64__)
+#if defined(__x86_64__)
 #include <immintrin.h>
 #include <wmmintrin.h>
-#elif defined(__ARM_FEATURE_CRYPTO) && defined(__ARM_NEON)
+#elif defined(__ARM_NEON)
 #include <arm_neon.h>
 #include "sse2neon.h"
 #endif
