@@ -1,0 +1,22 @@
+========Rocca-S========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 5.52, decrypt: 5.52
+length: 64, encrypt: 17.04, decrypt: 17.45
+length: 256, encrypt: 47.78, decrypt: 42.74
+length: 512, encrypt: 75.79, decrypt: 60.54
+length: 1024, encrypt: 103.98, decrypt: 74.66
+length: 2048, encrypt: 128.76, decrypt: 85.40
+length: 4096, encrypt: 145.61, decrypt: 91.89
+length: 8192, encrypt: 155.41, decrypt: 95.54
+length: 16384, encrypt: 162.55, decrypt: 97.26
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 2.30, decrypt: 2.25
+length: 64, encrypt: 8.09, decrypt: 7.70
+length: 256, encrypt: 27.50, decrypt: 25.27
+length: 512, encrypt: 47.22, decrypt: 40.25
+length: 1024, encrypt: 74.39, decrypt: 57.75
+length: 2048, encrypt: 103.06, decrypt: 72.70
+length: 4096, encrypt: 127.67, decrypt: 84.06
+length: 8192, encrypt: 145.58, decrypt: 91.15
+length: 16384, encrypt: 156.43, decrypt: 95.12
+m

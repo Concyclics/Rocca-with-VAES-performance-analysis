@@ -1,0 +1,56 @@
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6835032.19k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6714453.62k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6508582.36k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6104421.54k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5448737.10k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4614416.35k
+version: 3.0.12
+built on: Fri Nov  3 11:47:53 2023 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/heyidi/anaconda3/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_89w90cjyml/croot/openssl_1699012041002/work=/usr/local/src/conda/openssl-3.0.12 -fdebug-prefix-map=/Users/heyidi/anaconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/heyidi/anaconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2852089.30k

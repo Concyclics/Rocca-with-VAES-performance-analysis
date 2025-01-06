@@ -1,0 +1,2539 @@
+Cipher,Mode,CPU,Length,Speed
+HiAE,Encryption Only,Apple M1,64,17.44
+HiAE,Encryption Only,Apple M1,256,72.43
+HiAE,Encryption Only,Apple M1,512,100.69
+HiAE,Encryption Only,Apple M1,1024,126.71
+HiAE,Encryption Only,Apple M1,2048,145.61
+HiAE,Encryption Only,Apple M1,4096,145.47
+HiAE,Encryption Only,Apple M1,8192,153.69
+HiAE,Encryption Only,Apple M1,16384,157.71
+HiAE,AEAD,Apple M1,64,10.93
+HiAE,AEAD,Apple M1,256,46.14
+HiAE,AEAD,Apple M1,512,72.47
+HiAE,AEAD,Apple M1,1024,102.28
+HiAE,AEAD,Apple M1,2048,127.9
+HiAE,AEAD,Apple M1,4096,146.46
+HiAE,AEAD,Apple M1,8192,157.05
+HiAE,AEAD,Apple M1,16384,163.04
+HiAE,Encryption Only,Apple M1,64,17.48
+HiAE,Encryption Only,Apple M1,256,71.93
+HiAE,Encryption Only,Apple M1,512,100.58
+HiAE,Encryption Only,Apple M1,1024,127.04
+HiAE,Encryption Only,Apple M1,2048,145.06
+HiAE,Encryption Only,Apple M1,4096,156.11
+HiAE,Encryption Only,Apple M1,8192,163.18
+HiAE,Encryption Only,Apple M1,16384,165.99
+HiAE,AEAD,Apple M1,64,10.14
+HiAE,AEAD,Apple M1,256,43.55
+HiAE,AEAD,Apple M1,512,66.12
+HiAE,AEAD,Apple M1,1024,93.19
+HiAE,AEAD,Apple M1,2048,118.68
+HiAE,AEAD,Apple M1,4096,135.95
+HiAE,AEAD,Apple M1,8192,156.21
+HiAE,AEAD,Apple M1,16384,163.17
+HiAE,Encryption Only,Apple M1,64,15.72
+HiAE,Encryption Only,Apple M1,256,65.63
+HiAE,Encryption Only,Apple M1,512,93.56
+HiAE,Encryption Only,Apple M1,1024,118.46
+HiAE,Encryption Only,Apple M1,2048,134.5
+HiAE,Encryption Only,Apple M1,4096,156.89
+HiAE,Encryption Only,Apple M1,8192,156.29
+HiAE,Encryption Only,Apple M1,16384,166.62
+HiAE,AEAD,Apple M1,64,10.99
+HiAE,AEAD,Apple M1,256,46.06
+HiAE,AEAD,Apple M1,512,72.59
+HiAE,AEAD,Apple M1,1024,102.42
+HiAE,AEAD,Apple M1,2048,128.04
+HiAE,AEAD,Apple M1,4096,146.22
+HiAE,AEAD,Apple M1,8192,152.43
+HiAE,AEAD,Apple M1,16384,163.27
+Rocca,Encryption Only,Apple M1,64,5.37
+Rocca,Encryption Only,Apple M1,256,18.4
+Rocca,Encryption Only,Apple M1,512,35.12
+Rocca,Encryption Only,Apple M1,1024,58.69
+Rocca,Encryption Only,Apple M1,2048,90.22
+Rocca,Encryption Only,Apple M1,4096,123.71
+Rocca,Encryption Only,Apple M1,8192,139.27
+Rocca,Encryption Only,Apple M1,16384,143.29
+Rocca,AEAD,Apple M1,64,17.02
+Rocca,AEAD,Apple M1,256,48.33
+Rocca,AEAD,Apple M1,512,72.96
+Rocca,AEAD,Apple M1,1024,97.37
+Rocca,AEAD,Apple M1,2048,117.21
+Rocca,AEAD,Apple M1,4096,130.74
+Rocca,AEAD,Apple M1,8192,138.78
+Rocca,AEAD,Apple M1,16384,142.65
+Rocca,Encryption Only,Apple M1,64,18.24
+Rocca,Encryption Only,Apple M1,256,50.04
+Rocca,Encryption Only,Apple M1,512,74.92
+Rocca,Encryption Only,Apple M1,1024,100.18
+Rocca,Encryption Only,Apple M1,2048,118.42
+Rocca,Encryption Only,Apple M1,4096,131.12
+Rocca,Encryption Only,Apple M1,8192,139.24
+Rocca,Encryption Only,Apple M1,16384,142.73
+Rocca,AEAD,Apple M1,64,16.78
+Rocca,AEAD,Apple M1,256,48.65
+Rocca,AEAD,Apple M1,512,70.22
+Rocca,AEAD,Apple M1,1024,97.19
+Rocca,AEAD,Apple M1,2048,116.23
+Rocca,AEAD,Apple M1,4096,130.71
+Rocca,AEAD,Apple M1,8192,138.41
+Rocca,AEAD,Apple M1,16384,143.1
+Rocca,Encryption Only,Apple M1,64,17.13
+Rocca,Encryption Only,Apple M1,256,50.98
+Rocca,Encryption Only,Apple M1,512,75.51
+Rocca,Encryption Only,Apple M1,1024,99.29
+Rocca,Encryption Only,Apple M1,2048,118.37
+Rocca,Encryption Only,Apple M1,4096,131.14
+Rocca,Encryption Only,Apple M1,8192,139.32
+Rocca,Encryption Only,Apple M1,16384,140.79
+Rocca,AEAD,Apple M1,64,17.43
+Rocca,AEAD,Apple M1,256,48.65
+Rocca,AEAD,Apple M1,512,72.98
+Rocca,AEAD,Apple M1,1024,97.49
+Rocca,AEAD,Apple M1,2048,117.3
+Rocca,AEAD,Apple M1,4096,130.94
+Rocca,AEAD,Apple M1,8192,138.63
+Rocca,AEAD,Apple M1,16384,143.05
+Rocca-S,Encryption Only,Apple M1,64,4.94
+Rocca-S,Encryption Only,Apple M1,256,17.55
+Rocca-S,Encryption Only,Apple M1,512,31.47
+Rocca-S,Encryption Only,Apple M1,1024,52.79
+Rocca-S,Encryption Only,Apple M1,2048,80.85
+Rocca-S,Encryption Only,Apple M1,4096,107.02
+Rocca-S,Encryption Only,Apple M1,8192,112.55
+Rocca-S,Encryption Only,Apple M1,16384,120.11
+Rocca-S,AEAD,Apple M1,64,12.57
+Rocca-S,AEAD,Apple M1,256,37.72
+Rocca-S,AEAD,Apple M1,512,57.98
+Rocca-S,AEAD,Apple M1,1024,80.08
+Rocca-S,AEAD,Apple M1,2048,98.66
+Rocca-S,AEAD,Apple M1,4096,114.84
+Rocca-S,AEAD,Apple M1,8192,124.65
+Rocca-S,AEAD,Apple M1,16384,130.52
+Rocca-S,Encryption Only,Apple M1,64,16.04
+Rocca-S,Encryption Only,Apple M1,256,44.52
+Rocca-S,Encryption Only,Apple M1,512,65.91
+Rocca-S,Encryption Only,Apple M1,1024,86.34
+Rocca-S,Encryption Only,Apple M1,2048,102.03
+Rocca-S,Encryption Only,Apple M1,4096,110.82
+Rocca-S,Encryption Only,Apple M1,8192,116.91
+Rocca-S,Encryption Only,Apple M1,16384,118.46
+Rocca-S,AEAD,Apple M1,64,12.55
+Rocca-S,AEAD,Apple M1,256,37.61
+Rocca-S,AEAD,Apple M1,512,58.17
+Rocca-S,AEAD,Apple M1,1024,80.15
+Rocca-S,AEAD,Apple M1,2048,92.2
+Rocca-S,AEAD,Apple M1,4096,113.16
+Rocca-S,AEAD,Apple M1,8192,125.57
+Rocca-S,AEAD,Apple M1,16384,130.43
+Rocca-S,Encryption Only,Apple M1,64,16.02
+Rocca-S,Encryption Only,Apple M1,256,44.58
+Rocca-S,Encryption Only,Apple M1,512,65.91
+Rocca-S,Encryption Only,Apple M1,1024,85.94
+Rocca-S,Encryption Only,Apple M1,2048,102.18
+Rocca-S,Encryption Only,Apple M1,4096,108.56
+Rocca-S,Encryption Only,Apple M1,8192,116.83
+Rocca-S,Encryption Only,Apple M1,16384,119.69
+Rocca-S,AEAD,Apple M1,64,12.61
+Rocca-S,AEAD,Apple M1,256,37.62
+Rocca-S,AEAD,Apple M1,512,57.88
+Rocca-S,AEAD,Apple M1,1024,80.12
+Rocca-S,AEAD,Apple M1,2048,99.0
+Rocca-S,AEAD,Apple M1,4096,116.96
+Rocca-S,AEAD,Apple M1,8192,125.59
+Rocca-S,AEAD,Apple M1,16384,127.45
+Aegis,Encryption Only,Apple M1,64,10.89
+Aegis,Encryption Only,Apple M1,256,38.14
+Aegis,Encryption Only,Apple M1,512,62.02
+Aegis,Encryption Only,Apple M1,1024,78.12
+Aegis,Encryption Only,Apple M1,2048,90.95
+Aegis,Encryption Only,Apple M1,4096,98.09
+Aegis,Encryption Only,Apple M1,8192,97.02
+Aegis,Encryption Only,Apple M1,16384,102.55
+Aegis,AEAD,Apple M1,64,9.75
+Aegis,AEAD,Apple M1,256,30.9
+Aegis,AEAD,Apple M1,512,47.23
+Aegis,AEAD,Apple M1,1024,70.06
+Aegis,AEAD,Apple M1,2048,85.29
+Aegis,AEAD,Apple M1,4096,91.36
+Aegis,AEAD,Apple M1,8192,97.22
+Aegis,AEAD,Apple M1,16384,100.48
+Aegis,Encryption Only,Apple M1,64,17.84
+Aegis,Encryption Only,Apple M1,256,45.62
+Aegis,Encryption Only,Apple M1,512,59.83
+Aegis,Encryption Only,Apple M1,1024,74.29
+Aegis,Encryption Only,Apple M1,2048,91.62
+Aegis,Encryption Only,Apple M1,4096,98.38
+Aegis,Encryption Only,Apple M1,8192,99.13
+Aegis,Encryption Only,Apple M1,16384,103.15
+Aegis,AEAD,Apple M1,64,10.32
+Aegis,AEAD,Apple M1,256,30.52
+Aegis,AEAD,Apple M1,512,50.94
+Aegis,AEAD,Apple M1,1024,70.2
+Aegis,AEAD,Apple M1,2048,84.93
+Aegis,AEAD,Apple M1,4096,91.47
+Aegis,AEAD,Apple M1,8192,97.14
+Aegis,AEAD,Apple M1,16384,100.42
+Aegis,Encryption Only,Apple M1,64,17.78
+Aegis,Encryption Only,Apple M1,256,45.51
+Aegis,Encryption Only,Apple M1,512,61.53
+Aegis,Encryption Only,Apple M1,1024,77.3
+Aegis,Encryption Only,Apple M1,2048,92.33
+Aegis,Encryption Only,Apple M1,4096,98.64
+Aegis,Encryption Only,Apple M1,8192,98.96
+Aegis,Encryption Only,Apple M1,16384,102.84
+Aegis,AEAD,Apple M1,64,10.83
+Aegis,AEAD,Apple M1,256,33.64
+Aegis,AEAD,Apple M1,512,49.72
+Aegis,AEAD,Apple M1,1024,69.77
+Aegis,AEAD,Apple M1,2048,84.41
+Aegis,AEAD,Apple M1,4096,91.83
+Aegis,AEAD,Apple M1,8192,97.49
+Aegis,AEAD,Apple M1,16384,100.52
+Snow-V,Encryption Only,Apple M1,64,3.55
+Snow-V,Encryption Only,Apple M1,256,9.81
+Snow-V,Encryption Only,Apple M1,512,16.04
+Snow-V,Encryption Only,Apple M1,1024,22.16
+Snow-V,Encryption Only,Apple M1,2048,24.35
+Snow-V,Encryption Only,Apple M1,4096,24.89
+Snow-V,Encryption Only,Apple M1,8192,26.68
+Snow-V,Encryption Only,Apple M1,16384,26.44
+Snow-V,AEAD,Apple M1,64,8.31
+Snow-V,AEAD,Apple M1,256,9.94
+Snow-V,AEAD,Apple M1,512,10.44
+Snow-V,AEAD,Apple M1,1024,10.56
+Snow-V,AEAD,Apple M1,2048,10.6
+Snow-V,AEAD,Apple M1,4096,10.12
+Snow-V,AEAD,Apple M1,8192,10.39
+Snow-V,AEAD,Apple M1,16384,10.6
+Snow-V,Encryption Only,Apple M1,64,8.73
+Snow-V,Encryption Only,Apple M1,256,17.84
+Snow-V,Encryption Only,Apple M1,512,21.44
+Snow-V,Encryption Only,Apple M1,1024,24.02
+Snow-V,Encryption Only,Apple M1,2048,25.47
+Snow-V,Encryption Only,Apple M1,4096,26.3
+Snow-V,Encryption Only,Apple M1,8192,26.69
+Snow-V,Encryption Only,Apple M1,16384,26.43
+Snow-V,AEAD,Apple M1,64,8.84
+Snow-V,AEAD,Apple M1,256,10.21
+Snow-V,AEAD,Apple M1,512,10.43
+Snow-V,AEAD,Apple M1,1024,9.75
+Snow-V,AEAD,Apple M1,2048,10.62
+Snow-V,AEAD,Apple M1,4096,10.2
+Snow-V,AEAD,Apple M1,8192,10.24
+Snow-V,AEAD,Apple M1,16384,10.39
+Snow-V,Encryption Only,Apple M1,64,8.71
+Snow-V,Encryption Only,Apple M1,256,17.35
+Snow-V,Encryption Only,Apple M1,512,19.85
+Snow-V,Encryption Only,Apple M1,1024,23.04
+Snow-V,Encryption Only,Apple M1,2048,24.6
+Snow-V,Encryption Only,Apple M1,4096,25.43
+Snow-V,Encryption Only,Apple M1,8192,26.66
+Snow-V,Encryption Only,Apple M1,16384,26.8
+Snow-V,AEAD,Apple M1,64,8.53
+Snow-V,AEAD,Apple M1,256,9.79
+Snow-V,AEAD,Apple M1,512,10.01
+Snow-V,AEAD,Apple M1,1024,10.26
+Snow-V,AEAD,Apple M1,2048,10.15
+Snow-V,AEAD,Apple M1,4096,10.56
+Snow-V,AEAD,Apple M1,8192,10.36
+Snow-V,AEAD,Apple M1,16384,10.6
+AES-256-GCM,AEAD,Apple M1,16384,46.50618
+AES-256-GCM,AEAD,Apple M1,8192,45.81578
+AES-256-GCM,AEAD,Apple M1,4096,44.223212
+AES-256-GCM,AEAD,Apple M1,2048,41.633742399999996
+AES-256-GCM,AEAD,Apple M1,1024,37.277466399999994
+AES-256-GCM,AEAD,Apple M1,256,31.033244
+AES-256-GCM,AEAD,Apple M1,64,19.7720656
+AES-256-GCM,AEAD,Apple M1,16384,46.354748
+AES-256-GCM,AEAD,Apple M1,8192,46.0206456
+AES-256-GCM,AEAD,Apple M1,4096,44.219072
+AES-256-GCM,AEAD,Apple M1,2048,42.1793792
+AES-256-GCM,AEAD,Apple M1,1024,37.2565
+AES-256-GCM,AEAD,Apple M1,256,31.1509592
+AES-256-GCM,AEAD,Apple M1,64,20.0751272
+AES-256-GCM,AEAD,Apple M1,16384,46.4098424
+AES-256-GCM,AEAD,Apple M1,8192,45.3437248
+AES-256-GCM,AEAD,Apple M1,4096,44.359919999999995
+AES-256-GCM,AEAD,Apple M1,2048,41.61418
+AES-256-GCM,AEAD,Apple M1,1024,37.149960799999995
+AES-256-GCM,AEAD,Apple M1,256,31.2473416
+AES-256-GCM,AEAD,Apple M1,64,20.181860800000003
+AES-256-CTR,Encryption Only,Apple M1,16384,68.68522320000001
+AES-256-CTR,Encryption Only,Apple M1,8192,69.530768
+AES-256-CTR,Encryption Only,Apple M1,4096,68.1024552
+AES-256-CTR,Encryption Only,Apple M1,2048,66.8734256
+AES-256-CTR,Encryption Only,Apple M1,1024,64.4607256
+AES-256-CTR,Encryption Only,Apple M1,256,50.414335200000004
+AES-256-CTR,Encryption Only,Apple M1,64,27.7249136
+AES-256-CTR,Encryption Only,Apple M1,16384,69.5654584
+AES-256-CTR,Encryption Only,Apple M1,8192,69.4684656
+AES-256-CTR,Encryption Only,Apple M1,4096,68.18165520000001
+AES-256-CTR,Encryption Only,Apple M1,2048,66.88889759999999
+AES-256-CTR,Encryption Only,Apple M1,1024,64.14417920000001
+AES-256-CTR,Encryption Only,Apple M1,256,49.914225599999995
+AES-256-CTR,Encryption Only,Apple M1,64,27.7354752
+AES-256-CTR,Encryption Only,Apple M1,16384,69.7712416
+AES-256-CTR,Encryption Only,Apple M1,8192,69.432508
+AES-256-CTR,Encryption Only,Apple M1,4096,68.33221359999999
+AES-256-CTR,Encryption Only,Apple M1,2048,66.7268488
+AES-256-CTR,Encryption Only,Apple M1,1024,64.719648
+AES-256-CTR,Encryption Only,Apple M1,256,49.9430512
+AES-256-CTR,Encryption Only,Apple M1,64,27.6860064
+HiAE,Encryption Only,Apple M2 Max,64,19.73
+HiAE,Encryption Only,Apple M2 Max,256,81.94
+HiAE,Encryption Only,Apple M2 Max,512,113.22
+HiAE,Encryption Only,Apple M2 Max,1024,139.85
+HiAE,Encryption Only,Apple M2 Max,2048,160.07
+HiAE,Encryption Only,Apple M2 Max,4096,172.32
+HiAE,Encryption Only,Apple M2 Max,8192,178.75
+HiAE,Encryption Only,Apple M2 Max,16384,182.3
+HiAE,AEAD,Apple M2 Max,64,11.3
+HiAE,AEAD,Apple M2 Max,256,50.57
+HiAE,AEAD,Apple M2 Max,512,81.42
+HiAE,AEAD,Apple M2 Max,1024,110.24
+HiAE,AEAD,Apple M2 Max,2048,138.37
+HiAE,AEAD,Apple M2 Max,4096,158.04
+HiAE,AEAD,Apple M2 Max,8192,170.16
+HiAE,AEAD,Apple M2 Max,16384,177.12
+HiAE,Encryption Only,Apple M2 Max,64,19.81
+HiAE,Encryption Only,Apple M2 Max,256,81.94
+HiAE,Encryption Only,Apple M2 Max,512,113.22
+HiAE,Encryption Only,Apple M2 Max,1024,140.36
+HiAE,Encryption Only,Apple M2 Max,2048,160.09
+HiAE,Encryption Only,Apple M2 Max,4096,171.76
+HiAE,Encryption Only,Apple M2 Max,8192,177.45
+HiAE,Encryption Only,Apple M2 Max,16384,181.44
+HiAE,AEAD,Apple M2 Max,64,11.26
+HiAE,AEAD,Apple M2 Max,256,51.39
+HiAE,AEAD,Apple M2 Max,512,81.74
+HiAE,AEAD,Apple M2 Max,1024,109.54
+HiAE,AEAD,Apple M2 Max,2048,137.85
+HiAE,AEAD,Apple M2 Max,4096,156.23
+HiAE,AEAD,Apple M2 Max,8192,170.86
+HiAE,AEAD,Apple M2 Max,16384,176.9
+HiAE,Encryption Only,Apple M2 Max,64,19.8
+HiAE,Encryption Only,Apple M2 Max,256,81.94
+HiAE,Encryption Only,Apple M2 Max,512,113.31
+HiAE,Encryption Only,Apple M2 Max,1024,137.69
+HiAE,Encryption Only,Apple M2 Max,2048,158.91
+HiAE,Encryption Only,Apple M2 Max,4096,172.28
+HiAE,Encryption Only,Apple M2 Max,8192,178.67
+HiAE,Encryption Only,Apple M2 Max,16384,181.84
+HiAE,AEAD,Apple M2 Max,64,11.27
+HiAE,AEAD,Apple M2 Max,256,50.74
+HiAE,AEAD,Apple M2 Max,512,81.25
+HiAE,AEAD,Apple M2 Max,1024,108.61
+HiAE,AEAD,Apple M2 Max,2048,135.81
+HiAE,AEAD,Apple M2 Max,4096,157.42
+HiAE,AEAD,Apple M2 Max,8192,170.21
+HiAE,AEAD,Apple M2 Max,16384,176.79
+Rocca,Encryption Only,Apple M2 Max,64,3.06
+Rocca,Encryption Only,Apple M2 Max,256,19.44
+Rocca,Encryption Only,Apple M2 Max,512,31.92
+Rocca,Encryption Only,Apple M2 Max,1024,59.52
+Rocca,Encryption Only,Apple M2 Max,2048,97.62
+Rocca,Encryption Only,Apple M2 Max,4096,143.22
+Rocca,Encryption Only,Apple M2 Max,8192,152.38
+Rocca,Encryption Only,Apple M2 Max,16384,155.72
+Rocca,AEAD,Apple M2 Max,64,20.09
+Rocca,AEAD,Apple M2 Max,256,50.38
+Rocca,AEAD,Apple M2 Max,512,80.73
+Rocca,AEAD,Apple M2 Max,1024,102.89
+Rocca,AEAD,Apple M2 Max,2048,129.6
+Rocca,AEAD,Apple M2 Max,4096,142.21
+Rocca,AEAD,Apple M2 Max,8192,150.93
+Rocca,AEAD,Apple M2 Max,16384,154.45
+Rocca,Encryption Only,Apple M2 Max,64,21.1
+Rocca,Encryption Only,Apple M2 Max,256,57.43
+Rocca,Encryption Only,Apple M2 Max,512,84.73
+Rocca,Encryption Only,Apple M2 Max,1024,111.11
+Rocca,Encryption Only,Apple M2 Max,2048,129.41
+Rocca,Encryption Only,Apple M2 Max,4096,144.47
+Rocca,Encryption Only,Apple M2 Max,8192,152.46
+Rocca,Encryption Only,Apple M2 Max,16384,155.5
+Rocca,AEAD,Apple M2 Max,64,20.03
+Rocca,AEAD,Apple M2 Max,256,55.39
+Rocca,AEAD,Apple M2 Max,512,82.22
+Rocca,AEAD,Apple M2 Max,1024,107.4
+Rocca,AEAD,Apple M2 Max,2048,129.2
+Rocca,AEAD,Apple M2 Max,4096,142.89
+Rocca,AEAD,Apple M2 Max,8192,143.95
+Rocca,AEAD,Apple M2 Max,16384,153.36
+Rocca,Encryption Only,Apple M2 Max,64,21.12
+Rocca,Encryption Only,Apple M2 Max,256,57.46
+Rocca,Encryption Only,Apple M2 Max,512,84.49
+Rocca,Encryption Only,Apple M2 Max,1024,111.13
+Rocca,Encryption Only,Apple M2 Max,2048,130.96
+Rocca,Encryption Only,Apple M2 Max,4096,144.75
+Rocca,Encryption Only,Apple M2 Max,8192,152.61
+Rocca,Encryption Only,Apple M2 Max,16384,156.96
+Rocca,AEAD,Apple M2 Max,64,20.08
+Rocca,AEAD,Apple M2 Max,256,55.39
+Rocca,AEAD,Apple M2 Max,512,82.34
+Rocca,AEAD,Apple M2 Max,1024,108.77
+Rocca,AEAD,Apple M2 Max,2048,128.98
+Rocca,AEAD,Apple M2 Max,4096,140.8
+Rocca,AEAD,Apple M2 Max,8192,149.17
+Rocca,AEAD,Apple M2 Max,16384,152.84
+Rocca-S,Encryption Only,Apple M2 Max,64,4.1
+Rocca-S,Encryption Only,Apple M2 Max,256,15.0
+Rocca-S,Encryption Only,Apple M2 Max,512,29.51
+Rocca-S,Encryption Only,Apple M2 Max,1024,55.33
+Rocca-S,Encryption Only,Apple M2 Max,2048,87.25
+Rocca-S,Encryption Only,Apple M2 Max,4096,124.14
+Rocca-S,Encryption Only,Apple M2 Max,8192,131.97
+Rocca-S,Encryption Only,Apple M2 Max,16384,134.58
+Rocca-S,AEAD,Apple M2 Max,64,14.03
+Rocca-S,AEAD,Apple M2 Max,256,41.81
+Rocca-S,AEAD,Apple M2 Max,512,65.81
+Rocca-S,AEAD,Apple M2 Max,1024,91.07
+Rocca-S,AEAD,Apple M2 Max,2048,113.23
+Rocca-S,AEAD,Apple M2 Max,4096,127.77
+Rocca-S,AEAD,Apple M2 Max,8192,137.54
+Rocca-S,AEAD,Apple M2 Max,16384,140.14
+Rocca-S,Encryption Only,Apple M2 Max,64,18.54
+Rocca-S,Encryption Only,Apple M2 Max,256,50.44
+Rocca-S,Encryption Only,Apple M2 Max,512,75.77
+Rocca-S,Encryption Only,Apple M2 Max,1024,98.42
+Rocca-S,Encryption Only,Apple M2 Max,2048,115.36
+Rocca-S,Encryption Only,Apple M2 Max,4096,124.51
+Rocca-S,Encryption Only,Apple M2 Max,8192,132.24
+Rocca-S,Encryption Only,Apple M2 Max,16384,136.02
+Rocca-S,AEAD,Apple M2 Max,64,13.8
+Rocca-S,AEAD,Apple M2 Max,256,42.17
+Rocca-S,AEAD,Apple M2 Max,512,65.46
+Rocca-S,AEAD,Apple M2 Max,1024,90.7
+Rocca-S,AEAD,Apple M2 Max,2048,110.87
+Rocca-S,AEAD,Apple M2 Max,4096,126.71
+Rocca-S,AEAD,Apple M2 Max,8192,136.87
+Rocca-S,AEAD,Apple M2 Max,16384,142.68
+Rocca-S,Encryption Only,Apple M2 Max,64,17.91
+Rocca-S,Encryption Only,Apple M2 Max,256,50.14
+Rocca-S,Encryption Only,Apple M2 Max,512,75.68
+Rocca-S,Encryption Only,Apple M2 Max,1024,98.47
+Rocca-S,Encryption Only,Apple M2 Max,2048,116.38
+Rocca-S,Encryption Only,Apple M2 Max,4096,125.55
+Rocca-S,Encryption Only,Apple M2 Max,8192,129.77
+Rocca-S,Encryption Only,Apple M2 Max,16384,135.78
+Rocca-S,AEAD,Apple M2 Max,64,14.16
+Rocca-S,AEAD,Apple M2 Max,256,42.07
+Rocca-S,AEAD,Apple M2 Max,512,65.97
+Rocca-S,AEAD,Apple M2 Max,1024,87.4
+Rocca-S,AEAD,Apple M2 Max,2048,111.91
+Rocca-S,AEAD,Apple M2 Max,4096,128.1
+Rocca-S,AEAD,Apple M2 Max,8192,134.08
+Rocca-S,AEAD,Apple M2 Max,16384,141.17
+Aegis,Encryption Only,Apple M2 Max,64,14.09
+Aegis,Encryption Only,Apple M2 Max,256,42.13
+Aegis,Encryption Only,Apple M2 Max,512,65.99
+Aegis,Encryption Only,Apple M2 Max,1024,89.0
+Aegis,Encryption Only,Apple M2 Max,2048,100.07
+Aegis,Encryption Only,Apple M2 Max,4096,96.84
+Aegis,Encryption Only,Apple M2 Max,8192,113.88
+Aegis,Encryption Only,Apple M2 Max,16384,116.15
+Aegis,AEAD,Apple M2 Max,64,12.65
+Aegis,AEAD,Apple M2 Max,256,38.27
+Aegis,AEAD,Apple M2 Max,512,57.85
+Aegis,AEAD,Apple M2 Max,1024,77.85
+Aegis,AEAD,Apple M2 Max,2048,93.68
+Aegis,AEAD,Apple M2 Max,4096,104.27
+Aegis,AEAD,Apple M2 Max,8192,106.37
+Aegis,AEAD,Apple M2 Max,16384,109.97
+Aegis,Encryption Only,Apple M2 Max,64,20.13
+Aegis,Encryption Only,Apple M2 Max,256,50.19
+Aegis,Encryption Only,Apple M2 Max,512,68.36
+Aegis,Encryption Only,Apple M2 Max,1024,86.84
+Aegis,Encryption Only,Apple M2 Max,2048,100.44
+Aegis,Encryption Only,Apple M2 Max,4096,107.2
+Aegis,Encryption Only,Apple M2 Max,8192,110.06
+Aegis,Encryption Only,Apple M2 Max,16384,114.86
+Aegis,AEAD,Apple M2 Max,64,12.41
+Aegis,AEAD,Apple M2 Max,256,37.98
+Aegis,AEAD,Apple M2 Max,512,57.24
+Aegis,AEAD,Apple M2 Max,1024,76.83
+Aegis,AEAD,Apple M2 Max,2048,93.34
+Aegis,AEAD,Apple M2 Max,4096,103.78
+Aegis,AEAD,Apple M2 Max,8192,110.65
+Aegis,AEAD,Apple M2 Max,16384,114.22
+Aegis,Encryption Only,Apple M2 Max,64,21.48
+Aegis,Encryption Only,Apple M2 Max,256,51.48
+Aegis,Encryption Only,Apple M2 Max,512,71.99
+Aegis,Encryption Only,Apple M2 Max,1024,89.78
+Aegis,Encryption Only,Apple M2 Max,2048,102.22
+Aegis,Encryption Only,Apple M2 Max,4096,105.67
+Aegis,Encryption Only,Apple M2 Max,8192,108.48
+Aegis,Encryption Only,Apple M2 Max,16384,114.96
+Aegis,AEAD,Apple M2 Max,64,12.52
+Aegis,AEAD,Apple M2 Max,256,37.99
+Aegis,AEAD,Apple M2 Max,512,54.95
+Aegis,AEAD,Apple M2 Max,1024,74.3
+Aegis,AEAD,Apple M2 Max,2048,91.88
+Aegis,AEAD,Apple M2 Max,4096,102.32
+Aegis,AEAD,Apple M2 Max,8192,109.48
+Aegis,AEAD,Apple M2 Max,16384,113.19
+Snow-V,Encryption Only,Apple M2 Max,64,3.29
+Snow-V,Encryption Only,Apple M2 Max,256,9.87
+Snow-V,Encryption Only,Apple M2 Max,512,16.77
+Snow-V,Encryption Only,Apple M2 Max,1024,24.55
+Snow-V,Encryption Only,Apple M2 Max,2048,25.91
+Snow-V,Encryption Only,Apple M2 Max,4096,26.77
+Snow-V,Encryption Only,Apple M2 Max,8192,27.01
+Snow-V,Encryption Only,Apple M2 Max,16384,26.43
+Snow-V,AEAD,Apple M2 Max,64,9.75
+Snow-V,AEAD,Apple M2 Max,256,11.2
+Snow-V,AEAD,Apple M2 Max,512,11.44
+Snow-V,AEAD,Apple M2 Max,1024,11.54
+Snow-V,AEAD,Apple M2 Max,2048,11.48
+Snow-V,AEAD,Apple M2 Max,4096,11.62
+Snow-V,AEAD,Apple M2 Max,8192,11.63
+Snow-V,AEAD,Apple M2 Max,16384,11.62
+Snow-V,Encryption Only,Apple M2 Max,64,9.29
+Snow-V,Encryption Only,Apple M2 Max,256,18.39
+Snow-V,Encryption Only,Apple M2 Max,512,22.21
+Snow-V,Encryption Only,Apple M2 Max,1024,24.34
+Snow-V,Encryption Only,Apple M2 Max,2048,25.55
+Snow-V,Encryption Only,Apple M2 Max,4096,26.29
+Snow-V,Encryption Only,Apple M2 Max,8192,27.12
+Snow-V,Encryption Only,Apple M2 Max,16384,26.59
+Snow-V,AEAD,Apple M2 Max,64,9.19
+Snow-V,AEAD,Apple M2 Max,256,11.17
+Snow-V,AEAD,Apple M2 Max,512,11.43
+Snow-V,AEAD,Apple M2 Max,1024,11.56
+Snow-V,AEAD,Apple M2 Max,2048,11.51
+Snow-V,AEAD,Apple M2 Max,4096,11.41
+Snow-V,AEAD,Apple M2 Max,8192,11.62
+Snow-V,AEAD,Apple M2 Max,16384,11.5
+Snow-V,Encryption Only,Apple M2 Max,64,9.32
+Snow-V,Encryption Only,Apple M2 Max,256,18.7
+Snow-V,Encryption Only,Apple M2 Max,512,22.27
+Snow-V,Encryption Only,Apple M2 Max,1024,24.7
+Snow-V,Encryption Only,Apple M2 Max,2048,25.99
+Snow-V,Encryption Only,Apple M2 Max,4096,26.37
+Snow-V,Encryption Only,Apple M2 Max,8192,26.7
+Snow-V,Encryption Only,Apple M2 Max,16384,26.53
+Snow-V,AEAD,Apple M2 Max,64,9.76
+Snow-V,AEAD,Apple M2 Max,256,11.2
+Snow-V,AEAD,Apple M2 Max,512,11.43
+Snow-V,AEAD,Apple M2 Max,1024,11.33
+Snow-V,AEAD,Apple M2 Max,2048,11.51
+Snow-V,AEAD,Apple M2 Max,4096,11.44
+Snow-V,AEAD,Apple M2 Max,8192,11.62
+Snow-V,AEAD,Apple M2 Max,16384,11.58
+AES-256-GCM,AEAD,Apple M2 Max,16384,54.764739999999996
+AES-256-GCM,AEAD,Apple M2 Max,8192,53.740505600000006
+AES-256-GCM,AEAD,Apple M2 Max,4096,51.9962952
+AES-256-GCM,AEAD,Apple M2 Max,2048,48.9369856
+AES-256-GCM,AEAD,Apple M2 Max,1024,43.848555999999995
+AES-256-GCM,AEAD,Apple M2 Max,256,37.2681776
+AES-256-GCM,AEAD,Apple M2 Max,64,22.1632752
+AES-256-GCM,AEAD,Apple M2 Max,16384,54.67425120000001
+AES-256-GCM,AEAD,Apple M2 Max,8192,53.574712
+AES-256-GCM,AEAD,Apple M2 Max,4096,52.0322192
+AES-256-GCM,AEAD,Apple M2 Max,2048,48.838508000000004
+AES-256-GCM,AEAD,Apple M2 Max,1024,43.804503200000006
+AES-256-GCM,AEAD,Apple M2 Max,256,37.2628384
+AES-256-GCM,AEAD,Apple M2 Max,64,22.5987944
+AES-256-GCM,AEAD,Apple M2 Max,16384,54.680256799999995
+AES-256-GCM,AEAD,Apple M2 Max,8192,53.7156288
+AES-256-GCM,AEAD,Apple M2 Max,4096,52.0686584
+AES-256-GCM,AEAD,Apple M2 Max,2048,48.835372
+AES-256-GCM,AEAD,Apple M2 Max,1024,43.5898968
+AES-256-GCM,AEAD,Apple M2 Max,256,36.9153304
+AES-256-GCM,AEAD,Apple M2 Max,64,22.8167144
+AES-256-CTR,Encryption Only,Apple M2 Max,16384,86.5743792
+AES-256-CTR,Encryption Only,Apple M2 Max,8192,85.8468376
+AES-256-CTR,Encryption Only,Apple M2 Max,4096,84.6318312
+AES-256-CTR,Encryption Only,Apple M2 Max,2048,82.8057472
+AES-256-CTR,Encryption Only,Apple M2 Max,1024,78.1638472
+AES-256-CTR,Encryption Only,Apple M2 Max,256,57.8361296
+AES-256-CTR,Encryption Only,Apple M2 Max,64,30.400800800000003
+AES-256-CTR,Encryption Only,Apple M2 Max,16384,87.2035696
+AES-256-CTR,Encryption Only,Apple M2 Max,8192,86.34477199999999
+AES-256-CTR,Encryption Only,Apple M2 Max,4096,83.72343120000001
+AES-256-CTR,Encryption Only,Apple M2 Max,2048,83.20871359999998
+AES-256-CTR,Encryption Only,Apple M2 Max,1024,78.07157040000001
+AES-256-CTR,Encryption Only,Apple M2 Max,256,57.90618
+AES-256-CTR,Encryption Only,Apple M2 Max,64,30.41522
+AES-256-CTR,Encryption Only,Apple M2 Max,16384,86.9265968
+AES-256-CTR,Encryption Only,Apple M2 Max,8192,86.313708
+AES-256-CTR,Encryption Only,Apple M2 Max,4096,84.07078320000001
+AES-256-CTR,Encryption Only,Apple M2 Max,2048,83.3198672
+AES-256-CTR,Encryption Only,Apple M2 Max,1024,78.1482192
+AES-256-CTR,Encryption Only,Apple M2 Max,256,57.838748
+AES-256-CTR,Encryption Only,Apple M2 Max,64,30.4263472
+HiAE,Encryption Only,Apple M3 Pro,64,23.65
+HiAE,Encryption Only,Apple M3 Pro,256,97.4
+HiAE,Encryption Only,Apple M3 Pro,512,133.82
+HiAE,Encryption Only,Apple M3 Pro,1024,166.99
+HiAE,Encryption Only,Apple M3 Pro,2048,189.57
+HiAE,Encryption Only,Apple M3 Pro,4096,200.91
+HiAE,Encryption Only,Apple M3 Pro,8192,207.21
+HiAE,Encryption Only,Apple M3 Pro,16384,209.04
+HiAE,AEAD,Apple M3 Pro,64,14.67
+HiAE,AEAD,Apple M3 Pro,256,62.25
+HiAE,AEAD,Apple M3 Pro,512,97.65
+HiAE,AEAD,Apple M3 Pro,1024,134.86
+HiAE,AEAD,Apple M3 Pro,2048,164.28
+HiAE,AEAD,Apple M3 Pro,4096,185.77
+HiAE,AEAD,Apple M3 Pro,8192,198.99
+HiAE,AEAD,Apple M3 Pro,16384,205.9
+HiAE,Encryption Only,Apple M3 Pro,64,23.55
+HiAE,Encryption Only,Apple M3 Pro,256,94.59
+HiAE,Encryption Only,Apple M3 Pro,512,134.82
+HiAE,Encryption Only,Apple M3 Pro,1024,160.4
+HiAE,Encryption Only,Apple M3 Pro,2048,185.22
+HiAE,Encryption Only,Apple M3 Pro,4096,196.57
+HiAE,Encryption Only,Apple M3 Pro,8192,205.27
+HiAE,Encryption Only,Apple M3 Pro,16384,207.98
+HiAE,AEAD,Apple M3 Pro,64,14.22
+HiAE,AEAD,Apple M3 Pro,256,62.25
+HiAE,AEAD,Apple M3 Pro,512,97.37
+HiAE,AEAD,Apple M3 Pro,1024,131.36
+HiAE,AEAD,Apple M3 Pro,2048,163.91
+HiAE,AEAD,Apple M3 Pro,4096,183.55
+HiAE,AEAD,Apple M3 Pro,8192,197.6
+HiAE,AEAD,Apple M3 Pro,16384,205.36
+HiAE,Encryption Only,Apple M3 Pro,64,22.86
+HiAE,Encryption Only,Apple M3 Pro,256,95.46
+HiAE,Encryption Only,Apple M3 Pro,512,130.69
+HiAE,Encryption Only,Apple M3 Pro,1024,161.08
+HiAE,Encryption Only,Apple M3 Pro,2048,183.73
+HiAE,Encryption Only,Apple M3 Pro,4096,196.1
+HiAE,Encryption Only,Apple M3 Pro,8192,204.36
+HiAE,Encryption Only,Apple M3 Pro,16384,208.3
+HiAE,AEAD,Apple M3 Pro,64,14.61
+HiAE,AEAD,Apple M3 Pro,256,61.85
+HiAE,AEAD,Apple M3 Pro,512,97.26
+HiAE,AEAD,Apple M3 Pro,1024,131.78
+HiAE,AEAD,Apple M3 Pro,2048,162.15
+HiAE,AEAD,Apple M3 Pro,4096,183.19
+HiAE,AEAD,Apple M3 Pro,8192,197.67
+HiAE,AEAD,Apple M3 Pro,16384,204.42
+Rocca,Encryption Only,Apple M3 Pro,64,5.69
+Rocca,Encryption Only,Apple M3 Pro,256,25.11
+Rocca,Encryption Only,Apple M3 Pro,512,43.9
+Rocca,Encryption Only,Apple M3 Pro,1024,77.11
+Rocca,Encryption Only,Apple M3 Pro,2048,113.72
+Rocca,Encryption Only,Apple M3 Pro,4096,160.72
+Rocca,Encryption Only,Apple M3 Pro,8192,193.77
+Rocca,Encryption Only,Apple M3 Pro,16384,195.76
+Rocca,AEAD,Apple M3 Pro,64,24.14
+Rocca,AEAD,Apple M3 Pro,256,65.89
+Rocca,AEAD,Apple M3 Pro,512,98.65
+Rocca,AEAD,Apple M3 Pro,1024,132.2
+Rocca,AEAD,Apple M3 Pro,2048,155.12
+Rocca,AEAD,Apple M3 Pro,4096,177.45
+Rocca,AEAD,Apple M3 Pro,8192,172.45
+Rocca,AEAD,Apple M3 Pro,16384,185.53
+Rocca,Encryption Only,Apple M3 Pro,64,25.5
+Rocca,Encryption Only,Apple M3 Pro,256,67.58
+Rocca,Encryption Only,Apple M3 Pro,512,101.3
+Rocca,Encryption Only,Apple M3 Pro,1024,133.92
+Rocca,Encryption Only,Apple M3 Pro,2048,158.02
+Rocca,Encryption Only,Apple M3 Pro,4096,179.03
+Rocca,Encryption Only,Apple M3 Pro,8192,187.59
+Rocca,Encryption Only,Apple M3 Pro,16384,193.01
+Rocca,AEAD,Apple M3 Pro,64,24.23
+Rocca,AEAD,Apple M3 Pro,256,65.41
+Rocca,AEAD,Apple M3 Pro,512,98.65
+Rocca,AEAD,Apple M3 Pro,1024,127.37
+Rocca,AEAD,Apple M3 Pro,2048,153.13
+Rocca,AEAD,Apple M3 Pro,4096,175.32
+Rocca,AEAD,Apple M3 Pro,8192,186.4
+Rocca,AEAD,Apple M3 Pro,16384,192.28
+Rocca,Encryption Only,Apple M3 Pro,64,25.08
+Rocca,Encryption Only,Apple M3 Pro,256,67.68
+Rocca,Encryption Only,Apple M3 Pro,512,101.95
+Rocca,Encryption Only,Apple M3 Pro,1024,132.56
+Rocca,Encryption Only,Apple M3 Pro,2048,158.02
+Rocca,Encryption Only,Apple M3 Pro,4096,176.75
+Rocca,Encryption Only,Apple M3 Pro,8192,187.5
+Rocca,Encryption Only,Apple M3 Pro,16384,193.17
+Rocca,AEAD,Apple M3 Pro,64,24.37
+Rocca,AEAD,Apple M3 Pro,256,65.22
+Rocca,AEAD,Apple M3 Pro,512,96.01
+Rocca,AEAD,Apple M3 Pro,1024,130.78
+Rocca,AEAD,Apple M3 Pro,2048,155.37
+Rocca,AEAD,Apple M3 Pro,4096,175.59
+Rocca,AEAD,Apple M3 Pro,8192,177.34
+Rocca,AEAD,Apple M3 Pro,16384,190.21
+Rocca-S,Encryption Only,Apple M3 Pro,64,5.21
+Rocca-S,Encryption Only,Apple M3 Pro,256,20.71
+Rocca-S,Encryption Only,Apple M3 Pro,512,42.09
+Rocca-S,Encryption Only,Apple M3 Pro,1024,72.85
+Rocca-S,Encryption Only,Apple M3 Pro,2048,104.67
+Rocca-S,Encryption Only,Apple M3 Pro,4096,143.77
+Rocca-S,Encryption Only,Apple M3 Pro,8192,168.45
+Rocca-S,Encryption Only,Apple M3 Pro,16384,169.65
+Rocca-S,AEAD,Apple M3 Pro,64,17.56
+Rocca-S,AEAD,Apple M3 Pro,256,52.1
+Rocca-S,AEAD,Apple M3 Pro,512,80.56
+Rocca-S,AEAD,Apple M3 Pro,1024,111.06
+Rocca-S,AEAD,Apple M3 Pro,2048,135.95
+Rocca-S,AEAD,Apple M3 Pro,4096,158.11
+Rocca-S,AEAD,Apple M3 Pro,8192,168.4
+Rocca-S,AEAD,Apple M3 Pro,16384,174.67
+Rocca-S,Encryption Only,Apple M3 Pro,64,22.97
+Rocca-S,Encryption Only,Apple M3 Pro,256,61.82
+Rocca-S,Encryption Only,Apple M3 Pro,512,91.34
+Rocca-S,Encryption Only,Apple M3 Pro,1024,119.73
+Rocca-S,Encryption Only,Apple M3 Pro,2048,139.72
+Rocca-S,Encryption Only,Apple M3 Pro,4096,156.66
+Rocca-S,Encryption Only,Apple M3 Pro,8192,157.39
+Rocca-S,Encryption Only,Apple M3 Pro,16384,165.25
+Rocca-S,AEAD,Apple M3 Pro,64,17.68
+Rocca-S,AEAD,Apple M3 Pro,256,51.94
+Rocca-S,AEAD,Apple M3 Pro,512,80.3
+Rocca-S,AEAD,Apple M3 Pro,1024,106.82
+Rocca-S,AEAD,Apple M3 Pro,2048,131.41
+Rocca-S,AEAD,Apple M3 Pro,4096,153.53
+Rocca-S,AEAD,Apple M3 Pro,8192,163.95
+Rocca-S,AEAD,Apple M3 Pro,16384,170.12
+Rocca-S,Encryption Only,Apple M3 Pro,64,22.78
+Rocca-S,Encryption Only,Apple M3 Pro,256,61.82
+Rocca-S,Encryption Only,Apple M3 Pro,512,91.09
+Rocca-S,Encryption Only,Apple M3 Pro,1024,119.04
+Rocca-S,Encryption Only,Apple M3 Pro,2048,134.62
+Rocca-S,Encryption Only,Apple M3 Pro,4096,156.01
+Rocca-S,Encryption Only,Apple M3 Pro,8192,165.82
+Rocca-S,Encryption Only,Apple M3 Pro,16384,169.11
+Rocca-S,AEAD,Apple M3 Pro,64,17.8
+Rocca-S,AEAD,Apple M3 Pro,256,52.41
+Rocca-S,AEAD,Apple M3 Pro,512,81.44
+Rocca-S,AEAD,Apple M3 Pro,1024,111.92
+Rocca-S,AEAD,Apple M3 Pro,2048,135.85
+Rocca-S,AEAD,Apple M3 Pro,4096,157.39
+Rocca-S,AEAD,Apple M3 Pro,8192,168.66
+Rocca-S,AEAD,Apple M3 Pro,16384,167.62
+Aegis,Encryption Only,Apple M3 Pro,64,17.31
+Aegis,Encryption Only,Apple M3 Pro,256,47.83
+Aegis,Encryption Only,Apple M3 Pro,512,77.97
+Aegis,Encryption Only,Apple M3 Pro,1024,108.28
+Aegis,Encryption Only,Apple M3 Pro,2048,126.23
+Aegis,Encryption Only,Apple M3 Pro,4096,140.46
+Aegis,Encryption Only,Apple M3 Pro,8192,144.86
+Aegis,Encryption Only,Apple M3 Pro,16384,146.96
+Aegis,AEAD,Apple M3 Pro,64,14.92
+Aegis,AEAD,Apple M3 Pro,256,45.12
+Aegis,AEAD,Apple M3 Pro,512,68.76
+Aegis,AEAD,Apple M3 Pro,1024,92.2
+Aegis,AEAD,Apple M3 Pro,2048,116.34
+Aegis,AEAD,Apple M3 Pro,4096,130.07
+Aegis,AEAD,Apple M3 Pro,8192,139.77
+Aegis,AEAD,Apple M3 Pro,16384,144.29
+Aegis,Encryption Only,Apple M3 Pro,64,27.57
+Aegis,Encryption Only,Apple M3 Pro,256,61.37
+Aegis,Encryption Only,Apple M3 Pro,512,87.5
+Aegis,Encryption Only,Apple M3 Pro,1024,107.03
+Aegis,Encryption Only,Apple M3 Pro,2048,125.7
+Aegis,Encryption Only,Apple M3 Pro,4096,135.92
+Aegis,Encryption Only,Apple M3 Pro,8192,143.18
+Aegis,Encryption Only,Apple M3 Pro,16384,145.99
+Aegis,AEAD,Apple M3 Pro,64,14.59
+Aegis,AEAD,Apple M3 Pro,256,44.62
+Aegis,AEAD,Apple M3 Pro,512,67.68
+Aegis,AEAD,Apple M3 Pro,1024,92.87
+Aegis,AEAD,Apple M3 Pro,2048,115.27
+Aegis,AEAD,Apple M3 Pro,4096,130.21
+Aegis,AEAD,Apple M3 Pro,8192,138.81
+Aegis,AEAD,Apple M3 Pro,16384,144.2
+Aegis,Encryption Only,Apple M3 Pro,64,27.96
+Aegis,Encryption Only,Apple M3 Pro,256,59.81
+Aegis,Encryption Only,Apple M3 Pro,512,81.64
+Aegis,Encryption Only,Apple M3 Pro,1024,107.78
+Aegis,Encryption Only,Apple M3 Pro,2048,123.99
+Aegis,Encryption Only,Apple M3 Pro,4096,135.36
+Aegis,Encryption Only,Apple M3 Pro,8192,141.9
+Aegis,Encryption Only,Apple M3 Pro,16384,145.34
+Aegis,AEAD,Apple M3 Pro,64,14.25
+Aegis,AEAD,Apple M3 Pro,256,44.01
+Aegis,AEAD,Apple M3 Pro,512,66.79
+Aegis,AEAD,Apple M3 Pro,1024,90.55
+Aegis,AEAD,Apple M3 Pro,2048,111.35
+Aegis,AEAD,Apple M3 Pro,4096,129.3
+Aegis,AEAD,Apple M3 Pro,8192,138.86
+Aegis,AEAD,Apple M3 Pro,16384,143.61
+Snow-V,Encryption Only,Apple M3 Pro,64,4.24
+Snow-V,Encryption Only,Apple M3 Pro,256,14.14
+Snow-V,Encryption Only,Apple M3 Pro,512,25.46
+Snow-V,Encryption Only,Apple M3 Pro,1024,37.72
+Snow-V,Encryption Only,Apple M3 Pro,2048,39.15
+Snow-V,Encryption Only,Apple M3 Pro,4096,40.59
+Snow-V,Encryption Only,Apple M3 Pro,8192,41.06
+Snow-V,Encryption Only,Apple M3 Pro,16384,36.19
+Snow-V,AEAD,Apple M3 Pro,64,11.85
+Snow-V,AEAD,Apple M3 Pro,256,13.34
+Snow-V,AEAD,Apple M3 Pro,512,13.39
+Snow-V,AEAD,Apple M3 Pro,1024,13.49
+Snow-V,AEAD,Apple M3 Pro,2048,13.56
+Snow-V,AEAD,Apple M3 Pro,4096,13.57
+Snow-V,AEAD,Apple M3 Pro,8192,13.57
+Snow-V,AEAD,Apple M3 Pro,16384,13.56
+Snow-V,Encryption Only,Apple M3 Pro,64,11.46
+Snow-V,Encryption Only,Apple M3 Pro,256,26.67
+Snow-V,Encryption Only,Apple M3 Pro,512,35.86
+Snow-V,Encryption Only,Apple M3 Pro,1024,44.31
+Snow-V,Encryption Only,Apple M3 Pro,2048,39.54
+Snow-V,Encryption Only,Apple M3 Pro,4096,40.84
+Snow-V,Encryption Only,Apple M3 Pro,8192,41.47
+Snow-V,Encryption Only,Apple M3 Pro,16384,40.93
+Snow-V,AEAD,Apple M3 Pro,64,11.18
+Snow-V,AEAD,Apple M3 Pro,256,12.72
+Snow-V,AEAD,Apple M3 Pro,512,12.47
+Snow-V,AEAD,Apple M3 Pro,1024,12.35
+Snow-V,AEAD,Apple M3 Pro,2048,12.94
+Snow-V,AEAD,Apple M3 Pro,4096,13.5
+Snow-V,AEAD,Apple M3 Pro,8192,13.56
+Snow-V,AEAD,Apple M3 Pro,16384,13.48
+Snow-V,Encryption Only,Apple M3 Pro,64,10.85
+Snow-V,Encryption Only,Apple M3 Pro,256,21.17
+Snow-V,Encryption Only,Apple M3 Pro,512,28.99
+Snow-V,Encryption Only,Apple M3 Pro,1024,40.03
+Snow-V,Encryption Only,Apple M3 Pro,2048,33.14
+Snow-V,Encryption Only,Apple M3 Pro,4096,32.91
+Snow-V,Encryption Only,Apple M3 Pro,8192,40.38
+Snow-V,Encryption Only,Apple M3 Pro,16384,41.83
+Snow-V,AEAD,Apple M3 Pro,64,11.65
+Snow-V,AEAD,Apple M3 Pro,256,13.34
+Snow-V,AEAD,Apple M3 Pro,512,13.42
+Snow-V,AEAD,Apple M3 Pro,1024,13.53
+Snow-V,AEAD,Apple M3 Pro,2048,13.32
+Snow-V,AEAD,Apple M3 Pro,4096,13.43
+Snow-V,AEAD,Apple M3 Pro,8192,13.58
+Snow-V,AEAD,Apple M3 Pro,16384,13.51
+AES-256-GCM,AEAD,Apple M3 Pro,16384,71.61725840000001
+AES-256-GCM,AEAD,Apple M3 Pro,8192,71.3087128
+AES-256-GCM,AEAD,Apple M3 Pro,4096,70.25298640000001
+AES-256-GCM,AEAD,Apple M3 Pro,2048,68.5767336
+AES-256-GCM,AEAD,Apple M3 Pro,1024,65.1198976
+AES-256-GCM,AEAD,Apple M3 Pro,256,43.0641568
+AES-256-GCM,AEAD,Apple M3 Pro,64,27.763486399999998
+AES-256-GCM,AEAD,Apple M3 Pro,16384,71.498072
+AES-256-GCM,AEAD,Apple M3 Pro,8192,71.035588
+AES-256-GCM,AEAD,Apple M3 Pro,4096,70.4056536
+AES-256-GCM,AEAD,Apple M3 Pro,2048,68.7535216
+AES-256-GCM,AEAD,Apple M3 Pro,1024,65.31232800000001
+AES-256-GCM,AEAD,Apple M3 Pro,256,42.8432552
+AES-256-GCM,AEAD,Apple M3 Pro,64,27.7185776
+AES-256-GCM,AEAD,Apple M3 Pro,16384,71.334352
+AES-256-GCM,AEAD,Apple M3 Pro,8192,71.08676799999999
+AES-256-GCM,AEAD,Apple M3 Pro,4096,70.45836720000001
+AES-256-GCM,AEAD,Apple M3 Pro,2048,68.816268
+AES-256-GCM,AEAD,Apple M3 Pro,1024,65.12955120000001
+AES-256-GCM,AEAD,Apple M3 Pro,256,42.810968
+AES-256-GCM,AEAD,Apple M3 Pro,64,27.716621600000003
+AES-256-CTR,Encryption Only,Apple M3 Pro,16384,106.21737279999999
+AES-256-CTR,Encryption Only,Apple M3 Pro,8192,105.0100144
+AES-256-CTR,Encryption Only,Apple M3 Pro,4096,102.75507759999999
+AES-256-CTR,Encryption Only,Apple M3 Pro,2048,101.6008
+AES-256-CTR,Encryption Only,Apple M3 Pro,1024,95.0378928
+AES-256-CTR,Encryption Only,Apple M3 Pro,256,70.03276240000001
+AES-256-CTR,Encryption Only,Apple M3 Pro,64,37.0238544
+AES-256-CTR,Encryption Only,Apple M3 Pro,16384,106.1580176
+AES-256-CTR,Encryption Only,Apple M3 Pro,8192,104.5391912
+AES-256-CTR,Encryption Only,Apple M3 Pro,4096,102.6836616
+AES-256-CTR,Encryption Only,Apple M3 Pro,2048,100.9853456
+AES-256-CTR,Encryption Only,Apple M3 Pro,1024,94.8742224
+AES-256-CTR,Encryption Only,Apple M3 Pro,256,70.107076
+AES-256-CTR,Encryption Only,Apple M3 Pro,64,37.190555200000006
+AES-256-CTR,Encryption Only,Apple M3 Pro,16384,105.97289119999999
+AES-256-CTR,Encryption Only,Apple M3 Pro,8192,105.182156
+AES-256-CTR,Encryption Only,Apple M3 Pro,4096,102.6732304
+AES-256-CTR,Encryption Only,Apple M3 Pro,2048,101.3725736
+AES-256-CTR,Encryption Only,Apple M3 Pro,1024,95.0669608
+AES-256-CTR,Encryption Only,Apple M3 Pro,256,70.140776
+AES-256-CTR,Encryption Only,Apple M3 Pro,64,37.0768344
+HiAE,Encryption Only,AMD EPYC 9334,64,17.43
+HiAE,Encryption Only,AMD EPYC 9334,256,104.29
+HiAE,Encryption Only,AMD EPYC 9334,512,151.15
+HiAE,Encryption Only,AMD EPYC 9334,1024,198.55
+HiAE,Encryption Only,AMD EPYC 9334,2048,236.04
+HiAE,Encryption Only,AMD EPYC 9334,4096,248.32
+HiAE,Encryption Only,AMD EPYC 9334,8192,260.87
+HiAE,Encryption Only,AMD EPYC 9334,16384,266.02
+HiAE,AEAD,AMD EPYC 9334,64,9.79
+HiAE,AEAD,AMD EPYC 9334,256,49.78
+HiAE,AEAD,AMD EPYC 9334,512,85.46
+HiAE,AEAD,AMD EPYC 9334,1024,131.59
+HiAE,AEAD,AMD EPYC 9334,2048,181.68
+HiAE,AEAD,AMD EPYC 9334,4096,214.34
+HiAE,AEAD,AMD EPYC 9334,8192,240.68
+HiAE,AEAD,AMD EPYC 9334,16384,255.83
+HiAE,Encryption Only,AMD EPYC 9334,64,17.52
+HiAE,Encryption Only,AMD EPYC 9334,256,104.29
+HiAE,Encryption Only,AMD EPYC 9334,512,151.15
+HiAE,Encryption Only,AMD EPYC 9334,1024,198.77
+HiAE,Encryption Only,AMD EPYC 9334,2048,236.04
+HiAE,Encryption Only,AMD EPYC 9334,4096,248.49
+HiAE,Encryption Only,AMD EPYC 9334,8192,261.3
+HiAE,Encryption Only,AMD EPYC 9334,16384,258.66
+HiAE,AEAD,AMD EPYC 9334,64,9.78
+HiAE,AEAD,AMD EPYC 9334,256,50.1
+HiAE,AEAD,AMD EPYC 9334,512,85.35
+HiAE,AEAD,AMD EPYC 9334,1024,131.75
+HiAE,AEAD,AMD EPYC 9334,2048,181.77
+HiAE,AEAD,AMD EPYC 9334,4096,214.66
+HiAE,AEAD,AMD EPYC 9334,8192,241.01
+HiAE,AEAD,AMD EPYC 9334,16384,256.0
+HiAE,Encryption Only,AMD EPYC 9334,64,17.57
+HiAE,Encryption Only,AMD EPYC 9334,256,101.68
+HiAE,Encryption Only,AMD EPYC 9334,512,150.72
+HiAE,Encryption Only,AMD EPYC 9334,1024,198.69
+HiAE,Encryption Only,AMD EPYC 9334,2048,236.72
+HiAE,Encryption Only,AMD EPYC 9334,4096,248.61
+HiAE,Encryption Only,AMD EPYC 9334,8192,261.04
+HiAE,Encryption Only,AMD EPYC 9334,16384,265.15
+HiAE,AEAD,AMD EPYC 9334,64,9.81
+HiAE,AEAD,AMD EPYC 9334,256,49.75
+HiAE,AEAD,AMD EPYC 9334,512,85.22
+HiAE,AEAD,AMD EPYC 9334,1024,131.72
+HiAE,AEAD,AMD EPYC 9334,2048,181.87
+HiAE,AEAD,AMD EPYC 9334,4096,214.45
+HiAE,AEAD,AMD EPYC 9334,8192,224.99
+HiAE,AEAD,AMD EPYC 9334,16384,252.13
+Rocca,Encryption Only,AMD EPYC 9334,64,19.96
+Rocca,Encryption Only,AMD EPYC 9334,256,56.54
+Rocca,Encryption Only,AMD EPYC 9334,512,88.04
+Rocca,Encryption Only,AMD EPYC 9334,1024,123.05
+Rocca,Encryption Only,AMD EPYC 9334,2048,152.91
+Rocca,Encryption Only,AMD EPYC 9334,4096,173.53
+Rocca,Encryption Only,AMD EPYC 9334,8192,186.81
+Rocca,Encryption Only,AMD EPYC 9334,16384,191.99
+Rocca,AEAD,AMD EPYC 9334,64,8.89
+Rocca,AEAD,AMD EPYC 9334,256,31.34
+Rocca,AEAD,AMD EPYC 9334,512,54.28
+Rocca,AEAD,AMD EPYC 9334,1024,85.53
+Rocca,AEAD,AMD EPYC 9334,2048,120.44
+Rocca,AEAD,AMD EPYC 9334,4096,150.94
+Rocca,AEAD,AMD EPYC 9334,8192,172.56
+Rocca,AEAD,AMD EPYC 9334,16384,185.99
+Rocca,Encryption Only,AMD EPYC 9334,64,19.65
+Rocca,Encryption Only,AMD EPYC 9334,256,56.51
+Rocca,Encryption Only,AMD EPYC 9334,512,88.24
+Rocca,Encryption Only,AMD EPYC 9334,1024,122.66
+Rocca,Encryption Only,AMD EPYC 9334,2048,152.48
+Rocca,Encryption Only,AMD EPYC 9334,4096,173.98
+Rocca,Encryption Only,AMD EPYC 9334,8192,186.78
+Rocca,Encryption Only,AMD EPYC 9334,16384,191.94
+Rocca,AEAD,AMD EPYC 9334,64,8.87
+Rocca,AEAD,AMD EPYC 9334,256,31.17
+Rocca,AEAD,AMD EPYC 9334,512,54.11
+Rocca,AEAD,AMD EPYC 9334,1024,85.76
+Rocca,AEAD,AMD EPYC 9334,2048,120.32
+Rocca,AEAD,AMD EPYC 9334,4096,150.99
+Rocca,AEAD,AMD EPYC 9334,8192,172.68
+Rocca,AEAD,AMD EPYC 9334,16384,184.96
+Rocca,Encryption Only,AMD EPYC 9334,64,19.95
+Rocca,Encryption Only,AMD EPYC 9334,256,56.37
+Rocca,Encryption Only,AMD EPYC 9334,512,88.59
+Rocca,Encryption Only,AMD EPYC 9334,1024,122.88
+Rocca,Encryption Only,AMD EPYC 9334,2048,152.82
+Rocca,Encryption Only,AMD EPYC 9334,4096,174.07
+Rocca,Encryption Only,AMD EPYC 9334,8192,186.99
+Rocca,Encryption Only,AMD EPYC 9334,16384,192.23
+Rocca,AEAD,AMD EPYC 9334,64,8.88
+Rocca,AEAD,AMD EPYC 9334,256,31.21
+Rocca,AEAD,AMD EPYC 9334,512,53.85
+Rocca,AEAD,AMD EPYC 9334,1024,85.52
+Rocca,AEAD,AMD EPYC 9334,2048,120.54
+Rocca,AEAD,AMD EPYC 9334,4096,150.67
+Rocca,AEAD,AMD EPYC 9334,8192,172.57
+Rocca,AEAD,AMD EPYC 9334,16384,185.91
+Rocca-S,Encryption Only,AMD EPYC 9334,64,6.78
+Rocca-S,Encryption Only,AMD EPYC 9334,256,19.03
+Rocca-S,Encryption Only,AMD EPYC 9334,512,30.28
+Rocca-S,Encryption Only,AMD EPYC 9334,1024,41.63
+Rocca-S,Encryption Only,AMD EPYC 9334,2048,126.0
+Rocca-S,Encryption Only,AMD EPYC 9334,4096,145.38
+Rocca-S,Encryption Only,AMD EPYC 9334,8192,155.45
+Rocca-S,Encryption Only,AMD EPYC 9334,16384,162.51
+Rocca-S,AEAD,AMD EPYC 9334,64,8.01
+Rocca-S,AEAD,AMD EPYC 9334,256,27.91
+Rocca-S,AEAD,AMD EPYC 9334,512,47.42
+Rocca-S,AEAD,AMD EPYC 9334,1024,74.89
+Rocca-S,AEAD,AMD EPYC 9334,2048,103.03
+Rocca-S,AEAD,AMD EPYC 9334,4096,127.45
+Rocca-S,AEAD,AMD EPYC 9334,8192,145.49
+Rocca-S,AEAD,AMD EPYC 9334,16384,156.98
+Rocca-S,Encryption Only,AMD EPYC 9334,64,17.06
+Rocca-S,Encryption Only,AMD EPYC 9334,256,47.63
+Rocca-S,Encryption Only,AMD EPYC 9334,512,75.59
+Rocca-S,Encryption Only,AMD EPYC 9334,1024,103.07
+Rocca-S,Encryption Only,AMD EPYC 9334,2048,128.58
+Rocca-S,Encryption Only,AMD EPYC 9334,4096,145.75
+Rocca-S,Encryption Only,AMD EPYC 9334,8192,155.4
+Rocca-S,Encryption Only,AMD EPYC 9334,16384,162.23
+Rocca-S,AEAD,AMD EPYC 9334,64,7.98
+Rocca-S,AEAD,AMD EPYC 9334,256,27.87
+Rocca-S,AEAD,AMD EPYC 9334,512,47.96
+Rocca-S,AEAD,AMD EPYC 9334,1024,73.65
+Rocca-S,AEAD,AMD EPYC 9334,2048,103.18
+Rocca-S,AEAD,AMD EPYC 9334,4096,127.96
+Rocca-S,AEAD,AMD EPYC 9334,8192,145.75
+Rocca-S,AEAD,AMD EPYC 9334,16384,156.35
+Rocca-S,Encryption Only,AMD EPYC 9334,64,17.04
+Rocca-S,Encryption Only,AMD EPYC 9334,256,47.78
+Rocca-S,Encryption Only,AMD EPYC 9334,512,75.79
+Rocca-S,Encryption Only,AMD EPYC 9334,1024,103.98
+Rocca-S,Encryption Only,AMD EPYC 9334,2048,128.76
+Rocca-S,Encryption Only,AMD EPYC 9334,4096,145.61
+Rocca-S,Encryption Only,AMD EPYC 9334,8192,155.41
+Rocca-S,Encryption Only,AMD EPYC 9334,16384,162.55
+Rocca-S,AEAD,AMD EPYC 9334,64,8.09
+Rocca-S,AEAD,AMD EPYC 9334,256,27.5
+Rocca-S,AEAD,AMD EPYC 9334,512,47.22
+Rocca-S,AEAD,AMD EPYC 9334,1024,74.39
+Rocca-S,AEAD,AMD EPYC 9334,2048,103.06
+Rocca-S,AEAD,AMD EPYC 9334,4096,127.67
+Rocca-S,AEAD,AMD EPYC 9334,8192,145.58
+Rocca-S,AEAD,AMD EPYC 9334,16384,156.43
+Aegis,Encryption Only,AMD EPYC 9334,64,26.26
+Aegis,Encryption Only,AMD EPYC 9334,256,67.18
+Aegis,Encryption Only,AMD EPYC 9334,512,92.28
+Aegis,Encryption Only,AMD EPYC 9334,1024,112.18
+Aegis,Encryption Only,AMD EPYC 9334,2048,125.22
+Aegis,Encryption Only,AMD EPYC 9334,4096,134.37
+Aegis,Encryption Only,AMD EPYC 9334,8192,138.16
+Aegis,Encryption Only,AMD EPYC 9334,16384,139.69
+Aegis,AEAD,AMD EPYC 9334,64,16.0
+Aegis,AEAD,AMD EPYC 9334,256,48.74
+Aegis,AEAD,AMD EPYC 9334,512,72.65
+Aegis,AEAD,AMD EPYC 9334,1024,96.63
+Aegis,AEAD,AMD EPYC 9334,2048,115.54
+Aegis,AEAD,AMD EPYC 9334,4096,127.63
+Aegis,AEAD,AMD EPYC 9334,8192,135.34
+Aegis,AEAD,AMD EPYC 9334,16384,138.96
+Aegis,Encryption Only,AMD EPYC 9334,64,9.38
+Aegis,Encryption Only,AMD EPYC 9334,256,26.12
+Aegis,Encryption Only,AMD EPYC 9334,512,92.37
+Aegis,Encryption Only,AMD EPYC 9334,1024,112.46
+Aegis,Encryption Only,AMD EPYC 9334,2048,123.08
+Aegis,Encryption Only,AMD EPYC 9334,4096,134.34
+Aegis,Encryption Only,AMD EPYC 9334,8192,138.06
+Aegis,Encryption Only,AMD EPYC 9334,16384,139.76
+Aegis,AEAD,AMD EPYC 9334,64,16.02
+Aegis,AEAD,AMD EPYC 9334,256,48.61
+Aegis,AEAD,AMD EPYC 9334,512,72.81
+Aegis,AEAD,AMD EPYC 9334,1024,96.51
+Aegis,AEAD,AMD EPYC 9334,2048,115.49
+Aegis,AEAD,AMD EPYC 9334,4096,127.8
+Aegis,AEAD,AMD EPYC 9334,8192,135.2
+Aegis,AEAD,AMD EPYC 9334,16384,138.78
+Aegis,Encryption Only,AMD EPYC 9334,64,9.39
+Aegis,Encryption Only,AMD EPYC 9334,256,28.04
+Aegis,Encryption Only,AMD EPYC 9334,512,92.34
+Aegis,Encryption Only,AMD EPYC 9334,1024,112.15
+Aegis,Encryption Only,AMD EPYC 9334,2048,126.1
+Aegis,Encryption Only,AMD EPYC 9334,4096,134.22
+Aegis,Encryption Only,AMD EPYC 9334,8192,138.01
+Aegis,Encryption Only,AMD EPYC 9334,16384,139.55
+Aegis,AEAD,AMD EPYC 9334,64,16.02
+Aegis,AEAD,AMD EPYC 9334,256,48.44
+Aegis,AEAD,AMD EPYC 9334,512,72.81
+Aegis,AEAD,AMD EPYC 9334,1024,96.68
+Aegis,AEAD,AMD EPYC 9334,2048,115.66
+Aegis,AEAD,AMD EPYC 9334,4096,127.75
+Aegis,AEAD,AMD EPYC 9334,8192,135.36
+Aegis,AEAD,AMD EPYC 9334,16384,139.02
+Snow-V,Encryption Only,AMD EPYC 9334,64,1.51
+Snow-V,Encryption Only,AMD EPYC 9334,256,11.61
+Snow-V,Encryption Only,AMD EPYC 9334,512,17.39
+Snow-V,Encryption Only,AMD EPYC 9334,1024,23.17
+Snow-V,Encryption Only,AMD EPYC 9334,2048,27.83
+Snow-V,Encryption Only,AMD EPYC 9334,4096,30.91
+Snow-V,Encryption Only,AMD EPYC 9334,8192,32.7
+Snow-V,Encryption Only,AMD EPYC 9334,16384,33.7
+Snow-V,AEAD,AMD EPYC 9334,64,7.16
+Snow-V,AEAD,AMD EPYC 9334,256,11.66
+Snow-V,AEAD,AMD EPYC 9334,512,13.01
+Snow-V,AEAD,AMD EPYC 9334,1024,13.81
+Snow-V,AEAD,AMD EPYC 9334,2048,14.25
+Snow-V,AEAD,AMD EPYC 9334,4096,14.49
+Snow-V,AEAD,AMD EPYC 9334,8192,14.61
+Snow-V,AEAD,AMD EPYC 9334,16384,14.67
+Snow-V,Encryption Only,AMD EPYC 9334,64,3.87
+Snow-V,Encryption Only,AMD EPYC 9334,256,11.61
+Snow-V,Encryption Only,AMD EPYC 9334,512,17.41
+Snow-V,Encryption Only,AMD EPYC 9334,1024,23.21
+Snow-V,Encryption Only,AMD EPYC 9334,2048,27.83
+Snow-V,Encryption Only,AMD EPYC 9334,4096,26.98
+Snow-V,Encryption Only,AMD EPYC 9334,8192,32.66
+Snow-V,Encryption Only,AMD EPYC 9334,16384,33.66
+Snow-V,AEAD,AMD EPYC 9334,64,7.15
+Snow-V,AEAD,AMD EPYC 9334,256,11.64
+Snow-V,AEAD,AMD EPYC 9334,512,13.02
+Snow-V,AEAD,AMD EPYC 9334,1024,13.8
+Snow-V,AEAD,AMD EPYC 9334,2048,14.26
+Snow-V,AEAD,AMD EPYC 9334,4096,14.49
+Snow-V,AEAD,AMD EPYC 9334,8192,14.61
+Snow-V,AEAD,AMD EPYC 9334,16384,14.67
+Snow-V,Encryption Only,AMD EPYC 9334,64,1.54
+Snow-V,Encryption Only,AMD EPYC 9334,256,11.6
+Snow-V,Encryption Only,AMD EPYC 9334,512,17.41
+Snow-V,Encryption Only,AMD EPYC 9334,1024,23.2
+Snow-V,Encryption Only,AMD EPYC 9334,2048,27.83
+Snow-V,Encryption Only,AMD EPYC 9334,4096,30.91
+Snow-V,Encryption Only,AMD EPYC 9334,8192,32.65
+Snow-V,Encryption Only,AMD EPYC 9334,16384,33.71
+Snow-V,AEAD,AMD EPYC 9334,64,7.16
+Snow-V,AEAD,AMD EPYC 9334,256,11.65
+Snow-V,AEAD,AMD EPYC 9334,512,13.02
+Snow-V,AEAD,AMD EPYC 9334,1024,13.82
+Snow-V,AEAD,AMD EPYC 9334,2048,14.26
+Snow-V,AEAD,AMD EPYC 9334,4096,14.48
+Snow-V,AEAD,AMD EPYC 9334,8192,14.6
+Snow-V,AEAD,AMD EPYC 9334,16384,14.67
+AES-256-GCM,AEAD,AMD EPYC 9334,16384,38.392430399999995
+AES-256-GCM,AEAD,AMD EPYC 9334,8192,37.971033600000005
+AES-256-GCM,AEAD,AMD EPYC 9334,4096,37.4487224
+AES-256-GCM,AEAD,AMD EPYC 9334,2048,35.786882399999996
+AES-256-GCM,AEAD,AMD EPYC 9334,1024,34.104575200000006
+AES-256-GCM,AEAD,AMD EPYC 9334,256,26.2077968
+AES-256-GCM,AEAD,AMD EPYC 9334,64,13.4672408
+AES-256-GCM,AEAD,AMD EPYC 9334,16384,38.507068
+AES-256-GCM,AEAD,AMD EPYC 9334,8192,37.3709424
+AES-256-GCM,AEAD,AMD EPYC 9334,4096,36.8632024
+AES-256-GCM,AEAD,AMD EPYC 9334,2048,35.4299776
+AES-256-GCM,AEAD,AMD EPYC 9334,1024,33.6981384
+AES-256-GCM,AEAD,AMD EPYC 9334,256,26.018008000000002
+AES-256-GCM,AEAD,AMD EPYC 9334,64,13.3177464
+AES-256-GCM,AEAD,AMD EPYC 9334,16384,38.3353264
+AES-256-GCM,AEAD,AMD EPYC 9334,8192,37.3781512
+AES-256-GCM,AEAD,AMD EPYC 9334,4096,37.012167999999996
+AES-256-GCM,AEAD,AMD EPYC 9334,2048,35.3073992
+AES-256-GCM,AEAD,AMD EPYC 9334,1024,33.458159200000004
+AES-256-GCM,AEAD,AMD EPYC 9334,256,25.6995224
+AES-256-GCM,AEAD,AMD EPYC 9334,64,13.6305952
+AES-256-CTR,Encryption Only,AMD EPYC 9334,16384,70.67187440000001
+AES-256-CTR,Encryption Only,AMD EPYC 9334,8192,70.0698192
+AES-256-CTR,Encryption Only,AMD EPYC 9334,4096,68.6859544
+AES-256-CTR,Encryption Only,AMD EPYC 9334,2048,65.3336624
+AES-256-CTR,Encryption Only,AMD EPYC 9334,1024,61.280884
+AES-256-CTR,Encryption Only,AMD EPYC 9334,256,45.784387200000005
+AES-256-CTR,Encryption Only,AMD EPYC 9334,64,22.107776
+AES-256-CTR,Encryption Only,AMD EPYC 9334,16384,70.6684984
+AES-256-CTR,Encryption Only,AMD EPYC 9334,8192,68.7559584
+AES-256-CTR,Encryption Only,AMD EPYC 9334,4096,67.603912
+AES-256-CTR,Encryption Only,AMD EPYC 9334,2048,66.688376
+AES-256-CTR,Encryption Only,AMD EPYC 9334,1024,61.3579728
+AES-256-CTR,Encryption Only,AMD EPYC 9334,256,46.4798664
+AES-256-CTR,Encryption Only,AMD EPYC 9334,64,22.7164424
+AES-256-CTR,Encryption Only,AMD EPYC 9334,16384,70.38679920000001
+AES-256-CTR,Encryption Only,AMD EPYC 9334,8192,68.7444672
+AES-256-CTR,Encryption Only,AMD EPYC 9334,4096,68.8924624
+AES-256-CTR,Encryption Only,AMD EPYC 9334,2048,65.3768616
+AES-256-CTR,Encryption Only,AMD EPYC 9334,1024,61.376252
+AES-256-CTR,Encryption Only,AMD EPYC 9334,256,46.046436
+AES-256-CTR,Encryption Only,AMD EPYC 9334,64,22.7150888
+HiAE,Encryption Only,Intel Xeon Gold 6326,64,17.73
+HiAE,Encryption Only,Intel Xeon Gold 6326,256,97.05
+HiAE,Encryption Only,Intel Xeon Gold 6326,512,135.3
+HiAE,Encryption Only,Intel Xeon Gold 6326,1024,167.72
+HiAE,Encryption Only,Intel Xeon Gold 6326,2048,190.48
+HiAE,Encryption Only,Intel Xeon Gold 6326,4096,190.87
+HiAE,Encryption Only,Intel Xeon Gold 6326,8192,190.35
+HiAE,Encryption Only,Intel Xeon Gold 6326,16384,203.09
+HiAE,AEAD,Intel Xeon Gold 6326,64,11.79
+HiAE,AEAD,Intel Xeon Gold 6326,256,52.55
+HiAE,AEAD,Intel Xeon Gold 6326,512,85.9
+HiAE,AEAD,Intel Xeon Gold 6326,1024,123.96
+HiAE,AEAD,Intel Xeon Gold 6326,2048,158.65
+HiAE,AEAD,Intel Xeon Gold 6326,4096,172.66
+HiAE,AEAD,Intel Xeon Gold 6326,8192,188.85
+HiAE,AEAD,Intel Xeon Gold 6326,16384,197.56
+HiAE,Encryption Only,Intel Xeon Gold 6326,64,18.64
+HiAE,Encryption Only,Intel Xeon Gold 6326,256,97.54
+HiAE,Encryption Only,Intel Xeon Gold 6326,512,133.22
+HiAE,Encryption Only,Intel Xeon Gold 6326,1024,164.68
+HiAE,Encryption Only,Intel Xeon Gold 6326,2048,190.72
+HiAE,Encryption Only,Intel Xeon Gold 6326,4096,191.19
+HiAE,Encryption Only,Intel Xeon Gold 6326,8192,191.82
+HiAE,Encryption Only,Intel Xeon Gold 6326,16384,203.67
+HiAE,AEAD,Intel Xeon Gold 6326,64,11.57
+HiAE,AEAD,Intel Xeon Gold 6326,256,53.05
+HiAE,AEAD,Intel Xeon Gold 6326,512,79.89
+HiAE,AEAD,Intel Xeon Gold 6326,1024,123.08
+HiAE,AEAD,Intel Xeon Gold 6326,2048,158.63
+HiAE,AEAD,Intel Xeon Gold 6326,4096,173.24
+HiAE,AEAD,Intel Xeon Gold 6326,8192,189.04
+HiAE,AEAD,Intel Xeon Gold 6326,16384,197.05
+HiAE,Encryption Only,Intel Xeon Gold 6326,64,18.53
+HiAE,Encryption Only,Intel Xeon Gold 6326,256,96.84
+HiAE,Encryption Only,Intel Xeon Gold 6326,512,133.75
+HiAE,Encryption Only,Intel Xeon Gold 6326,1024,167.67
+HiAE,Encryption Only,Intel Xeon Gold 6326,2048,190.18
+HiAE,Encryption Only,Intel Xeon Gold 6326,4096,191.14
+HiAE,Encryption Only,Intel Xeon Gold 6326,8192,190.56
+HiAE,Encryption Only,Intel Xeon Gold 6326,16384,202.99
+HiAE,AEAD,Intel Xeon Gold 6326,64,11.47
+HiAE,AEAD,Intel Xeon Gold 6326,256,52.84
+HiAE,AEAD,Intel Xeon Gold 6326,512,85.95
+HiAE,AEAD,Intel Xeon Gold 6326,1024,123.59
+HiAE,AEAD,Intel Xeon Gold 6326,2048,158.72
+HiAE,AEAD,Intel Xeon Gold 6326,4096,173.0
+HiAE,AEAD,Intel Xeon Gold 6326,8192,188.48
+HiAE,AEAD,Intel Xeon Gold 6326,16384,190.31
+Rocca,Encryption Only,Intel Xeon Gold 6326,64,16.53
+Rocca,Encryption Only,Intel Xeon Gold 6326,256,51.15
+Rocca,Encryption Only,Intel Xeon Gold 6326,512,78.44
+Rocca,Encryption Only,Intel Xeon Gold 6326,1024,106.56
+Rocca,Encryption Only,Intel Xeon Gold 6326,2048,102.17
+Rocca,Encryption Only,Intel Xeon Gold 6326,4096,132.04
+Rocca,Encryption Only,Intel Xeon Gold 6326,8192,154.09
+Rocca,Encryption Only,Intel Xeon Gold 6326,16384,160.2
+Rocca,AEAD,Intel Xeon Gold 6326,64,8.56
+Rocca,AEAD,Intel Xeon Gold 6326,256,29.76
+Rocca,AEAD,Intel Xeon Gold 6326,512,50.51
+Rocca,AEAD,Intel Xeon Gold 6326,1024,77.52
+Rocca,AEAD,Intel Xeon Gold 6326,2048,106.15
+Rocca,AEAD,Intel Xeon Gold 6326,4096,128.18
+Rocca,AEAD,Intel Xeon Gold 6326,8192,145.16
+Rocca,AEAD,Intel Xeon Gold 6326,16384,155.2
+Rocca,Encryption Only,Intel Xeon Gold 6326,64,3.77
+Rocca,Encryption Only,Intel Xeon Gold 6326,256,12.0
+Rocca,Encryption Only,Intel Xeon Gold 6326,512,26.66
+Rocca,Encryption Only,Intel Xeon Gold 6326,1024,51.91
+Rocca,Encryption Only,Intel Xeon Gold 6326,2048,89.41
+Rocca,Encryption Only,Intel Xeon Gold 6326,4096,132.8
+Rocca,Encryption Only,Intel Xeon Gold 6326,8192,154.13
+Rocca,Encryption Only,Intel Xeon Gold 6326,16384,160.13
+Rocca,AEAD,Intel Xeon Gold 6326,64,8.55
+Rocca,AEAD,Intel Xeon Gold 6326,256,29.71
+Rocca,AEAD,Intel Xeon Gold 6326,512,50.64
+Rocca,AEAD,Intel Xeon Gold 6326,1024,77.1
+Rocca,AEAD,Intel Xeon Gold 6326,2048,106.1
+Rocca,AEAD,Intel Xeon Gold 6326,4096,128.1
+Rocca,AEAD,Intel Xeon Gold 6326,8192,145.17
+Rocca,AEAD,Intel Xeon Gold 6326,16384,155.25
+Rocca,Encryption Only,Intel Xeon Gold 6326,64,16.54
+Rocca,Encryption Only,Intel Xeon Gold 6326,256,51.27
+Rocca,Encryption Only,Intel Xeon Gold 6326,512,78.35
+Rocca,Encryption Only,Intel Xeon Gold 6326,1024,106.42
+Rocca,Encryption Only,Intel Xeon Gold 6326,2048,129.99
+Rocca,Encryption Only,Intel Xeon Gold 6326,4096,146.03
+Rocca,Encryption Only,Intel Xeon Gold 6326,8192,154.11
+Rocca,Encryption Only,Intel Xeon Gold 6326,16384,160.23
+Rocca,AEAD,Intel Xeon Gold 6326,64,8.54
+Rocca,AEAD,Intel Xeon Gold 6326,256,29.71
+Rocca,AEAD,Intel Xeon Gold 6326,512,50.53
+Rocca,AEAD,Intel Xeon Gold 6326,1024,77.54
+Rocca,AEAD,Intel Xeon Gold 6326,2048,106.04
+Rocca,AEAD,Intel Xeon Gold 6326,4096,128.19
+Rocca,AEAD,Intel Xeon Gold 6326,8192,145.17
+Rocca,AEAD,Intel Xeon Gold 6326,16384,155.25
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,64,3.65
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,256,11.76
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,512,25.18
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,1024,49.26
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,2048,84.99
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,4096,126.65
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,8192,140.22
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,16384,145.06
+Rocca-S,AEAD,Intel Xeon Gold 6326,64,8.45
+Rocca-S,AEAD,Intel Xeon Gold 6326,256,28.83
+Rocca-S,AEAD,Intel Xeon Gold 6326,512,48.38
+Rocca-S,AEAD,Intel Xeon Gold 6326,1024,73.48
+Rocca-S,AEAD,Intel Xeon Gold 6326,2048,98.56
+Rocca-S,AEAD,Intel Xeon Gold 6326,4096,115.94
+Rocca-S,AEAD,Intel Xeon Gold 6326,8192,132.42
+Rocca-S,AEAD,Intel Xeon Gold 6326,16384,140.85
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,64,16.42
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,256,50.74
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,512,73.91
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,1024,98.85
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,2048,119.68
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,4096,125.68
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,8192,140.51
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,16384,145.48
+Rocca-S,AEAD,Intel Xeon Gold 6326,64,8.51
+Rocca-S,AEAD,Intel Xeon Gold 6326,256,28.98
+Rocca-S,AEAD,Intel Xeon Gold 6326,512,48.55
+Rocca-S,AEAD,Intel Xeon Gold 6326,1024,73.12
+Rocca-S,AEAD,Intel Xeon Gold 6326,2048,98.41
+Rocca-S,AEAD,Intel Xeon Gold 6326,4096,118.88
+Rocca-S,AEAD,Intel Xeon Gold 6326,8192,132.57
+Rocca-S,AEAD,Intel Xeon Gold 6326,16384,140.84
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,64,3.73
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,256,12.67
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,512,28.12
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,1024,52.14
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,2048,87.63
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,4096,128.41
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,8192,140.08
+Rocca-S,Encryption Only,Intel Xeon Gold 6326,16384,145.18
+Rocca-S,AEAD,Intel Xeon Gold 6326,64,8.65
+Rocca-S,AEAD,Intel Xeon Gold 6326,256,29.32
+Rocca-S,AEAD,Intel Xeon Gold 6326,512,48.42
+Rocca-S,AEAD,Intel Xeon Gold 6326,1024,73.2
+Rocca-S,AEAD,Intel Xeon Gold 6326,2048,98.47
+Rocca-S,AEAD,Intel Xeon Gold 6326,4096,118.63
+Rocca-S,AEAD,Intel Xeon Gold 6326,8192,132.61
+Rocca-S,AEAD,Intel Xeon Gold 6326,16384,140.92
+Aegis,Encryption Only,Intel Xeon Gold 6326,64,9.36
+Aegis,Encryption Only,Intel Xeon Gold 6326,256,39.46
+Aegis,Encryption Only,Intel Xeon Gold 6326,512,69.27
+Aegis,Encryption Only,Intel Xeon Gold 6326,1024,93.22
+Aegis,Encryption Only,Intel Xeon Gold 6326,2048,105.24
+Aegis,Encryption Only,Intel Xeon Gold 6326,4096,111.45
+Aegis,Encryption Only,Intel Xeon Gold 6326,8192,115.25
+Aegis,Encryption Only,Intel Xeon Gold 6326,16384,117.97
+Aegis,AEAD,Intel Xeon Gold 6326,64,13.29
+Aegis,AEAD,Intel Xeon Gold 6326,256,39.96
+Aegis,AEAD,Intel Xeon Gold 6326,512,60.15
+Aegis,AEAD,Intel Xeon Gold 6326,1024,80.31
+Aegis,AEAD,Intel Xeon Gold 6326,2048,95.22
+Aegis,AEAD,Intel Xeon Gold 6326,4096,107.31
+Aegis,AEAD,Intel Xeon Gold 6326,8192,113.14
+Aegis,AEAD,Intel Xeon Gold 6326,16384,116.83
+Aegis,Encryption Only,Intel Xeon Gold 6326,64,21.54
+Aegis,Encryption Only,Intel Xeon Gold 6326,256,55.53
+Aegis,Encryption Only,Intel Xeon Gold 6326,512,74.96
+Aegis,Encryption Only,Intel Xeon Gold 6326,1024,93.06
+Aegis,Encryption Only,Intel Xeon Gold 6326,2048,105.27
+Aegis,Encryption Only,Intel Xeon Gold 6326,4096,111.48
+Aegis,Encryption Only,Intel Xeon Gold 6326,8192,115.25
+Aegis,Encryption Only,Intel Xeon Gold 6326,16384,117.97
+Aegis,AEAD,Intel Xeon Gold 6326,64,13.26
+Aegis,AEAD,Intel Xeon Gold 6326,256,39.91
+Aegis,AEAD,Intel Xeon Gold 6326,512,60.24
+Aegis,AEAD,Intel Xeon Gold 6326,1024,80.33
+Aegis,AEAD,Intel Xeon Gold 6326,2048,95.66
+Aegis,AEAD,Intel Xeon Gold 6326,4096,107.26
+Aegis,AEAD,Intel Xeon Gold 6326,8192,113.14
+Aegis,AEAD,Intel Xeon Gold 6326,16384,116.83
+Aegis,Encryption Only,Intel Xeon Gold 6326,64,9.54
+Aegis,Encryption Only,Intel Xeon Gold 6326,256,39.8
+Aegis,Encryption Only,Intel Xeon Gold 6326,512,67.75
+Aegis,Encryption Only,Intel Xeon Gold 6326,1024,93.19
+Aegis,Encryption Only,Intel Xeon Gold 6326,2048,105.26
+Aegis,Encryption Only,Intel Xeon Gold 6326,4096,111.47
+Aegis,Encryption Only,Intel Xeon Gold 6326,8192,115.25
+Aegis,Encryption Only,Intel Xeon Gold 6326,16384,117.98
+Aegis,AEAD,Intel Xeon Gold 6326,64,13.33
+Aegis,AEAD,Intel Xeon Gold 6326,256,39.89
+Aegis,AEAD,Intel Xeon Gold 6326,512,60.27
+Aegis,AEAD,Intel Xeon Gold 6326,1024,80.48
+Aegis,AEAD,Intel Xeon Gold 6326,2048,95.8
+Aegis,AEAD,Intel Xeon Gold 6326,4096,107.34
+Aegis,AEAD,Intel Xeon Gold 6326,8192,113.07
+Aegis,AEAD,Intel Xeon Gold 6326,16384,116.85
+Snow-V,Encryption Only,Intel Xeon Gold 6326,64,4.93
+Snow-V,Encryption Only,Intel Xeon Gold 6326,256,15.07
+Snow-V,Encryption Only,Intel Xeon Gold 6326,512,22.9
+Snow-V,Encryption Only,Intel Xeon Gold 6326,1024,30.97
+Snow-V,Encryption Only,Intel Xeon Gold 6326,2048,37.16
+Snow-V,Encryption Only,Intel Xeon Gold 6326,4096,40.4
+Snow-V,Encryption Only,Intel Xeon Gold 6326,8192,42.88
+Snow-V,Encryption Only,Intel Xeon Gold 6326,16384,44.06
+Snow-V,AEAD,Intel Xeon Gold 6326,64,4.99
+Snow-V,AEAD,Intel Xeon Gold 6326,256,9.88
+Snow-V,AEAD,Intel Xeon Gold 6326,512,11.8
+Snow-V,AEAD,Intel Xeon Gold 6326,1024,12.89
+Snow-V,AEAD,Intel Xeon Gold 6326,2048,13.83
+Snow-V,AEAD,Intel Xeon Gold 6326,4096,14.22
+Snow-V,AEAD,Intel Xeon Gold 6326,8192,14.41
+Snow-V,AEAD,Intel Xeon Gold 6326,16384,14.52
+Snow-V,Encryption Only,Intel Xeon Gold 6326,64,1.93
+Snow-V,Encryption Only,Intel Xeon Gold 6326,256,9.09
+Snow-V,Encryption Only,Intel Xeon Gold 6326,512,18.82
+Snow-V,Encryption Only,Intel Xeon Gold 6326,1024,30.81
+Snow-V,Encryption Only,Intel Xeon Gold 6326,2048,37.14
+Snow-V,Encryption Only,Intel Xeon Gold 6326,4096,40.4
+Snow-V,Encryption Only,Intel Xeon Gold 6326,8192,42.89
+Snow-V,Encryption Only,Intel Xeon Gold 6326,16384,44.1
+Snow-V,AEAD,Intel Xeon Gold 6326,64,7.25
+Snow-V,AEAD,Intel Xeon Gold 6326,256,11.69
+Snow-V,AEAD,Intel Xeon Gold 6326,512,13.02
+Snow-V,AEAD,Intel Xeon Gold 6326,1024,13.8
+Snow-V,AEAD,Intel Xeon Gold 6326,2048,14.2
+Snow-V,AEAD,Intel Xeon Gold 6326,4096,14.36
+Snow-V,AEAD,Intel Xeon Gold 6326,8192,14.53
+Snow-V,AEAD,Intel Xeon Gold 6326,16384,14.62
+Snow-V,Encryption Only,Intel Xeon Gold 6326,64,1.93
+Snow-V,Encryption Only,Intel Xeon Gold 6326,256,9.13
+Snow-V,Encryption Only,Intel Xeon Gold 6326,512,18.79
+Snow-V,Encryption Only,Intel Xeon Gold 6326,1024,30.81
+Snow-V,Encryption Only,Intel Xeon Gold 6326,2048,37.14
+Snow-V,Encryption Only,Intel Xeon Gold 6326,4096,40.42
+Snow-V,Encryption Only,Intel Xeon Gold 6326,8192,29.98
+Snow-V,Encryption Only,Intel Xeon Gold 6326,16384,44.24
+Snow-V,AEAD,Intel Xeon Gold 6326,64,7.24
+Snow-V,AEAD,Intel Xeon Gold 6326,256,11.68
+Snow-V,AEAD,Intel Xeon Gold 6326,512,13.02
+Snow-V,AEAD,Intel Xeon Gold 6326,1024,13.81
+Snow-V,AEAD,Intel Xeon Gold 6326,2048,14.24
+Snow-V,AEAD,Intel Xeon Gold 6326,4096,14.46
+Snow-V,AEAD,Intel Xeon Gold 6326,8192,14.57
+Snow-V,AEAD,Intel Xeon Gold 6326,16384,14.62
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,16384,43.2833384
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,8192,43.6660904
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,4096,42.004597600000004
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,2048,39.603568
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,1024,37.3705792
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,256,27.118678399999997
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,64,12.4442392
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,16384,44.1763752
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,8192,42.7213448
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,4096,40.487736
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,2048,39.588663999999994
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,1024,37.577898399999995
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,256,26.697040800000003
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,64,11.789714400000001
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,16384,44.259344
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,8192,42.87878
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,4096,41.922112
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,2048,40.4462192
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,1024,37.1547504
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,256,26.867549600000004
+AES-256-GCM,AEAD,Intel Xeon Gold 6326,64,12.6860352
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,16384,62.725272
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,8192,62.097609600000006
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,4096,61.085012799999994
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,2048,59.092292799999996
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,1024,54.877784
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,256,41.30392
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,64,20.0386744
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,16384,62.519596
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,8192,62.186476799999994
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,4096,59.8032272
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,2048,57.930634399999995
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,1024,54.86528320000001
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,256,41.314277600000004
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,64,19.6057208
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,16384,62.52414
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,8192,60.821252799999996
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,4096,59.976026399999995
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,2048,59.00246479999999
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,1024,54.7747672
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,256,41.3788424
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6326,64,19.6543912
+HiAE,Encryption Only,Intel Xeon Gold 6230,64,16.9
+HiAE,Encryption Only,Intel Xeon Gold 6230,256,69.72
+HiAE,Encryption Only,Intel Xeon Gold 6230,512,96.14
+HiAE,Encryption Only,Intel Xeon Gold 6230,1024,117.5
+HiAE,Encryption Only,Intel Xeon Gold 6230,2048,125.78
+HiAE,Encryption Only,Intel Xeon Gold 6230,4096,116.47
+HiAE,Encryption Only,Intel Xeon Gold 6230,8192,121.4
+HiAE,Encryption Only,Intel Xeon Gold 6230,16384,122.36
+HiAE,AEAD,Intel Xeon Gold 6230,64,9.7
+HiAE,AEAD,Intel Xeon Gold 6230,256,39.74
+HiAE,AEAD,Intel Xeon Gold 6230,512,63.04
+HiAE,AEAD,Intel Xeon Gold 6230,1024,89.49
+HiAE,AEAD,Intel Xeon Gold 6230,2048,108.6
+HiAE,AEAD,Intel Xeon Gold 6230,4096,107.62
+HiAE,AEAD,Intel Xeon Gold 6230,8192,115.24
+HiAE,AEAD,Intel Xeon Gold 6230,16384,115.81
+HiAE,Encryption Only,Intel Xeon Gold 6230,64,16.93
+HiAE,Encryption Only,Intel Xeon Gold 6230,256,69.65
+HiAE,Encryption Only,Intel Xeon Gold 6230,512,85.19
+HiAE,Encryption Only,Intel Xeon Gold 6230,1024,116.61
+HiAE,Encryption Only,Intel Xeon Gold 6230,2048,132.2
+HiAE,Encryption Only,Intel Xeon Gold 6230,4096,118.03
+HiAE,Encryption Only,Intel Xeon Gold 6230,8192,120.02
+HiAE,Encryption Only,Intel Xeon Gold 6230,16384,118.65
+HiAE,AEAD,Intel Xeon Gold 6230,64,9.68
+HiAE,AEAD,Intel Xeon Gold 6230,256,40.67
+HiAE,AEAD,Intel Xeon Gold 6230,512,62.21
+HiAE,AEAD,Intel Xeon Gold 6230,1024,88.93
+HiAE,AEAD,Intel Xeon Gold 6230,2048,113.65
+HiAE,AEAD,Intel Xeon Gold 6230,4096,105.5
+HiAE,AEAD,Intel Xeon Gold 6230,8192,113.03
+HiAE,AEAD,Intel Xeon Gold 6230,16384,115.31
+HiAE,Encryption Only,Intel Xeon Gold 6230,64,16.91
+HiAE,Encryption Only,Intel Xeon Gold 6230,256,62.87
+HiAE,Encryption Only,Intel Xeon Gold 6230,512,96.08
+HiAE,Encryption Only,Intel Xeon Gold 6230,1024,117.81
+HiAE,Encryption Only,Intel Xeon Gold 6230,2048,129.09
+HiAE,Encryption Only,Intel Xeon Gold 6230,4096,119.95
+HiAE,Encryption Only,Intel Xeon Gold 6230,8192,120.4
+HiAE,Encryption Only,Intel Xeon Gold 6230,16384,127.16
+HiAE,AEAD,Intel Xeon Gold 6230,64,9.35
+HiAE,AEAD,Intel Xeon Gold 6230,256,38.81
+HiAE,AEAD,Intel Xeon Gold 6230,512,63.09
+HiAE,AEAD,Intel Xeon Gold 6230,1024,89.39
+HiAE,AEAD,Intel Xeon Gold 6230,2048,111.93
+HiAE,AEAD,Intel Xeon Gold 6230,4096,110.18
+HiAE,AEAD,Intel Xeon Gold 6230,8192,116.33
+HiAE,AEAD,Intel Xeon Gold 6230,16384,117.5
+Rocca,Encryption Only,Intel Xeon Gold 6230,64,15.14
+Rocca,Encryption Only,Intel Xeon Gold 6230,256,45.54
+Rocca,Encryption Only,Intel Xeon Gold 6230,512,71.45
+Rocca,Encryption Only,Intel Xeon Gold 6230,1024,100.41
+Rocca,Encryption Only,Intel Xeon Gold 6230,2048,121.11
+Rocca,Encryption Only,Intel Xeon Gold 6230,4096,137.62
+Rocca,Encryption Only,Intel Xeon Gold 6230,8192,148.49
+Rocca,Encryption Only,Intel Xeon Gold 6230,16384,153.82
+Rocca,AEAD,Intel Xeon Gold 6230,64,7.83
+Rocca,AEAD,Intel Xeon Gold 6230,256,26.77
+Rocca,AEAD,Intel Xeon Gold 6230,512,45.87
+Rocca,AEAD,Intel Xeon Gold 6230,1024,72.49
+Rocca,AEAD,Intel Xeon Gold 6230,2048,100.41
+Rocca,AEAD,Intel Xeon Gold 6230,4096,121.92
+Rocca,AEAD,Intel Xeon Gold 6230,8192,138.48
+Rocca,AEAD,Intel Xeon Gold 6230,16384,148.98
+Rocca,Encryption Only,Intel Xeon Gold 6230,64,15.56
+Rocca,Encryption Only,Intel Xeon Gold 6230,256,46.95
+Rocca,Encryption Only,Intel Xeon Gold 6230,512,73.24
+Rocca,Encryption Only,Intel Xeon Gold 6230,1024,101.11
+Rocca,Encryption Only,Intel Xeon Gold 6230,2048,120.6
+Rocca,Encryption Only,Intel Xeon Gold 6230,4096,137.74
+Rocca,Encryption Only,Intel Xeon Gold 6230,8192,148.6
+Rocca,Encryption Only,Intel Xeon Gold 6230,16384,154.05
+Rocca,AEAD,Intel Xeon Gold 6230,64,7.87
+Rocca,AEAD,Intel Xeon Gold 6230,256,27.23
+Rocca,AEAD,Intel Xeon Gold 6230,512,46.69
+Rocca,AEAD,Intel Xeon Gold 6230,1024,71.86
+Rocca,AEAD,Intel Xeon Gold 6230,2048,100.59
+Rocca,AEAD,Intel Xeon Gold 6230,4096,121.99
+Rocca,AEAD,Intel Xeon Gold 6230,8192,139.1
+Rocca,AEAD,Intel Xeon Gold 6230,16384,149.06
+Rocca,Encryption Only,Intel Xeon Gold 6230,64,14.77
+Rocca,Encryption Only,Intel Xeon Gold 6230,256,44.68
+Rocca,Encryption Only,Intel Xeon Gold 6230,512,73.08
+Rocca,Encryption Only,Intel Xeon Gold 6230,1024,101.01
+Rocca,Encryption Only,Intel Xeon Gold 6230,2048,121.19
+Rocca,Encryption Only,Intel Xeon Gold 6230,4096,137.7
+Rocca,Encryption Only,Intel Xeon Gold 6230,8192,148.58
+Rocca,Encryption Only,Intel Xeon Gold 6230,16384,153.9
+Rocca,AEAD,Intel Xeon Gold 6230,64,7.87
+Rocca,AEAD,Intel Xeon Gold 6230,256,27.23
+Rocca,AEAD,Intel Xeon Gold 6230,512,46.71
+Rocca,AEAD,Intel Xeon Gold 6230,1024,72.71
+Rocca,AEAD,Intel Xeon Gold 6230,2048,100.61
+Rocca,AEAD,Intel Xeon Gold 6230,4096,121.99
+Rocca,AEAD,Intel Xeon Gold 6230,8192,138.91
+Rocca,AEAD,Intel Xeon Gold 6230,16384,149.03
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,64,4.87
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,256,24.0
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,512,51.29
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,1024,79.42
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,2048,96.03
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,4096,96.4
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,8192,114.23
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,16384,118.2
+Rocca-S,AEAD,Intel Xeon Gold 6230,64,6.45
+Rocca-S,AEAD,Intel Xeon Gold 6230,256,22.18
+Rocca-S,AEAD,Intel Xeon Gold 6230,512,37.56
+Rocca-S,AEAD,Intel Xeon Gold 6230,1024,57.51
+Rocca-S,AEAD,Intel Xeon Gold 6230,2048,78.32
+Rocca-S,AEAD,Intel Xeon Gold 6230,4096,85.4
+Rocca-S,AEAD,Intel Xeon Gold 6230,8192,107.36
+Rocca-S,AEAD,Intel Xeon Gold 6230,16384,114.49
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,64,5.12
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,256,25.58
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,512,53.07
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,1024,79.09
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,2048,95.72
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,4096,106.42
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,8192,114.03
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,16384,95.37
+Rocca-S,AEAD,Intel Xeon Gold 6230,64,6.43
+Rocca-S,AEAD,Intel Xeon Gold 6230,256,22.16
+Rocca-S,AEAD,Intel Xeon Gold 6230,512,37.53
+Rocca-S,AEAD,Intel Xeon Gold 6230,1024,57.46
+Rocca-S,AEAD,Intel Xeon Gold 6230,2048,78.28
+Rocca-S,AEAD,Intel Xeon Gold 6230,4096,95.37
+Rocca-S,AEAD,Intel Xeon Gold 6230,8192,106.89
+Rocca-S,AEAD,Intel Xeon Gold 6230,16384,93.15
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,64,5.26
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,256,25.38
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,512,51.62
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,1024,79.43
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,2048,96.0
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,4096,106.93
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,8192,114.03
+Rocca-S,Encryption Only,Intel Xeon Gold 6230,16384,117.7
+Rocca-S,AEAD,Intel Xeon Gold 6230,64,6.46
+Rocca-S,AEAD,Intel Xeon Gold 6230,256,22.16
+Rocca-S,AEAD,Intel Xeon Gold 6230,512,37.55
+Rocca-S,AEAD,Intel Xeon Gold 6230,1024,57.5
+Rocca-S,AEAD,Intel Xeon Gold 6230,2048,78.32
+Rocca-S,AEAD,Intel Xeon Gold 6230,4096,94.78
+Rocca-S,AEAD,Intel Xeon Gold 6230,8192,107.14
+Rocca-S,AEAD,Intel Xeon Gold 6230,16384,114.23
+Aegis,Encryption Only,Intel Xeon Gold 6230,64,16.22
+Aegis,Encryption Only,Intel Xeon Gold 6230,256,46.27
+Aegis,Encryption Only,Intel Xeon Gold 6230,512,67.58
+Aegis,Encryption Only,Intel Xeon Gold 6230,1024,87.61
+Aegis,Encryption Only,Intel Xeon Gold 6230,2048,102.77
+Aegis,Encryption Only,Intel Xeon Gold 6230,4096,110.76
+Aegis,Encryption Only,Intel Xeon Gold 6230,8192,116.87
+Aegis,Encryption Only,Intel Xeon Gold 6230,16384,119.65
+Aegis,AEAD,Intel Xeon Gold 6230,64,11.14
+Aegis,AEAD,Intel Xeon Gold 6230,256,35.36
+Aegis,AEAD,Intel Xeon Gold 6230,512,53.95
+Aegis,AEAD,Intel Xeon Gold 6230,1024,72.78
+Aegis,AEAD,Intel Xeon Gold 6230,2048,93.21
+Aegis,AEAD,Intel Xeon Gold 6230,4096,105.64
+Aegis,AEAD,Intel Xeon Gold 6230,8192,113.97
+Aegis,AEAD,Intel Xeon Gold 6230,16384,118.74
+Aegis,Encryption Only,Intel Xeon Gold 6230,64,16.16
+Aegis,Encryption Only,Intel Xeon Gold 6230,256,46.25
+Aegis,Encryption Only,Intel Xeon Gold 6230,512,67.6
+Aegis,Encryption Only,Intel Xeon Gold 6230,1024,87.6
+Aegis,Encryption Only,Intel Xeon Gold 6230,2048,102.8
+Aegis,Encryption Only,Intel Xeon Gold 6230,4096,110.73
+Aegis,Encryption Only,Intel Xeon Gold 6230,8192,117.12
+Aegis,Encryption Only,Intel Xeon Gold 6230,16384,119.67
+Aegis,AEAD,Intel Xeon Gold 6230,64,11.14
+Aegis,AEAD,Intel Xeon Gold 6230,256,35.34
+Aegis,AEAD,Intel Xeon Gold 6230,512,55.07
+Aegis,AEAD,Intel Xeon Gold 6230,1024,73.57
+Aegis,AEAD,Intel Xeon Gold 6230,2048,94.49
+Aegis,AEAD,Intel Xeon Gold 6230,4096,105.93
+Aegis,AEAD,Intel Xeon Gold 6230,8192,114.35
+Aegis,AEAD,Intel Xeon Gold 6230,16384,118.93
+Aegis,Encryption Only,Intel Xeon Gold 6230,64,16.22
+Aegis,Encryption Only,Intel Xeon Gold 6230,256,46.27
+Aegis,Encryption Only,Intel Xeon Gold 6230,512,67.6
+Aegis,Encryption Only,Intel Xeon Gold 6230,1024,87.6
+Aegis,Encryption Only,Intel Xeon Gold 6230,2048,102.79
+Aegis,Encryption Only,Intel Xeon Gold 6230,4096,110.72
+Aegis,Encryption Only,Intel Xeon Gold 6230,8192,117.16
+Aegis,Encryption Only,Intel Xeon Gold 6230,16384,119.83
+Aegis,AEAD,Intel Xeon Gold 6230,64,11.15
+Aegis,AEAD,Intel Xeon Gold 6230,256,35.35
+Aegis,AEAD,Intel Xeon Gold 6230,512,55.07
+Aegis,AEAD,Intel Xeon Gold 6230,1024,73.43
+Aegis,AEAD,Intel Xeon Gold 6230,2048,94.44
+Aegis,AEAD,Intel Xeon Gold 6230,4096,105.97
+Aegis,AEAD,Intel Xeon Gold 6230,8192,114.39
+Aegis,AEAD,Intel Xeon Gold 6230,16384,118.78
+Snow-V,Encryption Only,Intel Xeon Gold 6230,64,4.83
+Snow-V,Encryption Only,Intel Xeon Gold 6230,256,14.25
+Snow-V,Encryption Only,Intel Xeon Gold 6230,512,21.0
+Snow-V,Encryption Only,Intel Xeon Gold 6230,1024,27.44
+Snow-V,Encryption Only,Intel Xeon Gold 6230,2048,32.51
+Snow-V,Encryption Only,Intel Xeon Gold 6230,4096,34.33
+Snow-V,Encryption Only,Intel Xeon Gold 6230,8192,36.18
+Snow-V,Encryption Only,Intel Xeon Gold 6230,16384,37.09
+Snow-V,AEAD,Intel Xeon Gold 6230,64,7.68
+Snow-V,AEAD,Intel Xeon Gold 6230,256,12.85
+Snow-V,AEAD,Intel Xeon Gold 6230,512,14.49
+Snow-V,AEAD,Intel Xeon Gold 6230,1024,15.42
+Snow-V,AEAD,Intel Xeon Gold 6230,2048,15.93
+Snow-V,AEAD,Intel Xeon Gold 6230,4096,16.26
+Snow-V,AEAD,Intel Xeon Gold 6230,8192,16.39
+Snow-V,AEAD,Intel Xeon Gold 6230,16384,16.5
+Snow-V,Encryption Only,Intel Xeon Gold 6230,64,4.83
+Snow-V,Encryption Only,Intel Xeon Gold 6230,256,14.1
+Snow-V,Encryption Only,Intel Xeon Gold 6230,512,20.99
+Snow-V,Encryption Only,Intel Xeon Gold 6230,1024,27.43
+Snow-V,Encryption Only,Intel Xeon Gold 6230,2048,32.52
+Snow-V,Encryption Only,Intel Xeon Gold 6230,4096,34.48
+Snow-V,Encryption Only,Intel Xeon Gold 6230,8192,36.2
+Snow-V,Encryption Only,Intel Xeon Gold 6230,16384,37.05
+Snow-V,AEAD,Intel Xeon Gold 6230,64,7.57
+Snow-V,AEAD,Intel Xeon Gold 6230,256,12.54
+Snow-V,AEAD,Intel Xeon Gold 6230,512,14.09
+Snow-V,AEAD,Intel Xeon Gold 6230,1024,14.96
+Snow-V,AEAD,Intel Xeon Gold 6230,2048,15.49
+Snow-V,AEAD,Intel Xeon Gold 6230,4096,15.75
+Snow-V,AEAD,Intel Xeon Gold 6230,8192,15.91
+Snow-V,AEAD,Intel Xeon Gold 6230,16384,15.95
+Snow-V,Encryption Only,Intel Xeon Gold 6230,64,4.84
+Snow-V,Encryption Only,Intel Xeon Gold 6230,256,14.24
+Snow-V,Encryption Only,Intel Xeon Gold 6230,512,21.0
+Snow-V,Encryption Only,Intel Xeon Gold 6230,1024,27.44
+Snow-V,Encryption Only,Intel Xeon Gold 6230,2048,32.5
+Snow-V,Encryption Only,Intel Xeon Gold 6230,4096,34.37
+Snow-V,Encryption Only,Intel Xeon Gold 6230,8192,36.24
+Snow-V,Encryption Only,Intel Xeon Gold 6230,16384,37.09
+Snow-V,AEAD,Intel Xeon Gold 6230,64,7.67
+Snow-V,AEAD,Intel Xeon Gold 6230,256,12.67
+Snow-V,AEAD,Intel Xeon Gold 6230,512,14.39
+Snow-V,AEAD,Intel Xeon Gold 6230,1024,15.36
+Snow-V,AEAD,Intel Xeon Gold 6230,2048,15.93
+Snow-V,AEAD,Intel Xeon Gold 6230,4096,16.23
+Snow-V,AEAD,Intel Xeon Gold 6230,8192,16.38
+Snow-V,AEAD,Intel Xeon Gold 6230,16384,16.45
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,16384,34.7929744
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,8192,34.2704776
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,4096,33.491811999999996
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,2048,31.441608
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,1024,28.609748800000002
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,256,18.5256408
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,64,10.0961096
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,16384,34.93977520000001
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,8192,34.41360879999999
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,4096,33.602005600000005
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,2048,31.3648248
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,1024,28.7109352
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,256,18.4422096
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,64,10.0737976
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,16384,34.7643136
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,8192,34.5255264
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,4096,33.4615672
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,2048,31.3700456
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,1024,28.5005656
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,256,18.570743200000003
+AES-256-GCM,AEAD,Intel Xeon Gold 6230,64,10.056379999999999
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,16384,35.3242096
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,8192,35.1239536
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,4096,34.820390399999994
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,2048,34.1649976
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,1024,33.24571039999999
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,256,28.3475032
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,64,16.8151512
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,16384,35.1580104
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,8192,34.98018879999999
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,4096,34.97453120000001
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,2048,34.4303368
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,1024,33.392737600000004
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,256,28.2328112
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,64,16.849389600000002
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,16384,35.3214136
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,8192,34.98008
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,4096,34.9749464
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,2048,34.544464
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,1024,33.3958752
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,256,27.8158784
+AES-256-CTR,Encryption Only,Intel Xeon Gold 6230,64,16.773945599999998
+HiAE,Encryption Only,Intel Xeon Silver 4108,64,12.3
+HiAE,Encryption Only,Intel Xeon Silver 4108,256,53.6
+HiAE,Encryption Only,Intel Xeon Silver 4108,512,73.67
+HiAE,Encryption Only,Intel Xeon Silver 4108,1024,83.76
+HiAE,Encryption Only,Intel Xeon Silver 4108,2048,98.37
+HiAE,Encryption Only,Intel Xeon Silver 4108,4096,87.5
+HiAE,Encryption Only,Intel Xeon Silver 4108,8192,89.5
+HiAE,Encryption Only,Intel Xeon Silver 4108,16384,89.03
+HiAE,AEAD,Intel Xeon Silver 4108,64,7.46
+HiAE,AEAD,Intel Xeon Silver 4108,256,30.11
+HiAE,AEAD,Intel Xeon Silver 4108,512,50.55
+HiAE,AEAD,Intel Xeon Silver 4108,1024,67.99
+HiAE,AEAD,Intel Xeon Silver 4108,2048,86.92
+HiAE,AEAD,Intel Xeon Silver 4108,4096,80.17
+HiAE,AEAD,Intel Xeon Silver 4108,8192,84.44
+HiAE,AEAD,Intel Xeon Silver 4108,16384,86.29
+HiAE,Encryption Only,Intel Xeon Silver 4108,64,11.67
+HiAE,Encryption Only,Intel Xeon Silver 4108,256,50.76
+HiAE,Encryption Only,Intel Xeon Silver 4108,512,66.28
+HiAE,Encryption Only,Intel Xeon Silver 4108,1024,88.37
+HiAE,Encryption Only,Intel Xeon Silver 4108,2048,99.73
+HiAE,Encryption Only,Intel Xeon Silver 4108,4096,89.75
+HiAE,Encryption Only,Intel Xeon Silver 4108,8192,89.97
+HiAE,Encryption Only,Intel Xeon Silver 4108,16384,90.26
+HiAE,AEAD,Intel Xeon Silver 4108,64,6.87
+HiAE,AEAD,Intel Xeon Silver 4108,256,28.32
+HiAE,AEAD,Intel Xeon Silver 4108,512,46.04
+HiAE,AEAD,Intel Xeon Silver 4108,1024,66.87
+HiAE,AEAD,Intel Xeon Silver 4108,2048,80.88
+HiAE,AEAD,Intel Xeon Silver 4108,4096,84.23
+HiAE,AEAD,Intel Xeon Silver 4108,8192,86.65
+HiAE,AEAD,Intel Xeon Silver 4108,16384,88.45
+HiAE,Encryption Only,Intel Xeon Silver 4108,64,13.01
+HiAE,Encryption Only,Intel Xeon Silver 4108,256,44.5
+HiAE,Encryption Only,Intel Xeon Silver 4108,512,73.42
+HiAE,Encryption Only,Intel Xeon Silver 4108,1024,88.46
+HiAE,Encryption Only,Intel Xeon Silver 4108,2048,93.64
+HiAE,Encryption Only,Intel Xeon Silver 4108,4096,89.68
+HiAE,Encryption Only,Intel Xeon Silver 4108,8192,91.81
+HiAE,Encryption Only,Intel Xeon Silver 4108,16384,90.33
+HiAE,AEAD,Intel Xeon Silver 4108,64,7.23
+HiAE,AEAD,Intel Xeon Silver 4108,256,28.98
+HiAE,AEAD,Intel Xeon Silver 4108,512,47.21
+HiAE,AEAD,Intel Xeon Silver 4108,1024,67.69
+HiAE,AEAD,Intel Xeon Silver 4108,2048,84.36
+HiAE,AEAD,Intel Xeon Silver 4108,4096,80.35
+HiAE,AEAD,Intel Xeon Silver 4108,8192,85.47
+HiAE,AEAD,Intel Xeon Silver 4108,16384,86.07
+Rocca,Encryption Only,Intel Xeon Silver 4108,64,5.81
+Rocca,Encryption Only,Intel Xeon Silver 4108,256,25.39
+Rocca,Encryption Only,Intel Xeon Silver 4108,512,54.64
+Rocca,Encryption Only,Intel Xeon Silver 4108,1024,76.02
+Rocca,Encryption Only,Intel Xeon Silver 4108,2048,89.89
+Rocca,Encryption Only,Intel Xeon Silver 4108,4096,105.88
+Rocca,Encryption Only,Intel Xeon Silver 4108,8192,114.25
+Rocca,Encryption Only,Intel Xeon Silver 4108,16384,80.35
+Rocca,AEAD,Intel Xeon Silver 4108,64,6.02
+Rocca,AEAD,Intel Xeon Silver 4108,256,20.51
+Rocca,AEAD,Intel Xeon Silver 4108,512,35.99
+Rocca,AEAD,Intel Xeon Silver 4108,1024,55.84
+Rocca,AEAD,Intel Xeon Silver 4108,2048,77.35
+Rocca,AEAD,Intel Xeon Silver 4108,4096,92.87
+Rocca,AEAD,Intel Xeon Silver 4108,8192,104.66
+Rocca,AEAD,Intel Xeon Silver 4108,16384,79.05
+Rocca,Encryption Only,Intel Xeon Silver 4108,64,11.42
+Rocca,Encryption Only,Intel Xeon Silver 4108,256,35.08
+Rocca,Encryption Only,Intel Xeon Silver 4108,512,54.65
+Rocca,Encryption Only,Intel Xeon Silver 4108,1024,74.62
+Rocca,Encryption Only,Intel Xeon Silver 4108,2048,91.32
+Rocca,Encryption Only,Intel Xeon Silver 4108,4096,101.44
+Rocca,Encryption Only,Intel Xeon Silver 4108,8192,113.7
+Rocca,Encryption Only,Intel Xeon Silver 4108,16384,117.23
+Rocca,AEAD,Intel Xeon Silver 4108,64,5.96
+Rocca,AEAD,Intel Xeon Silver 4108,256,20.6
+Rocca,AEAD,Intel Xeon Silver 4108,512,34.13
+Rocca,AEAD,Intel Xeon Silver 4108,1024,53.18
+Rocca,AEAD,Intel Xeon Silver 4108,2048,74.77
+Rocca,AEAD,Intel Xeon Silver 4108,4096,90.49
+Rocca,AEAD,Intel Xeon Silver 4108,8192,106.2
+Rocca,AEAD,Intel Xeon Silver 4108,16384,114.08
+Rocca,Encryption Only,Intel Xeon Silver 4108,64,5.67
+Rocca,Encryption Only,Intel Xeon Silver 4108,256,25.53
+Rocca,Encryption Only,Intel Xeon Silver 4108,512,54.32
+Rocca,Encryption Only,Intel Xeon Silver 4108,1024,76.34
+Rocca,Encryption Only,Intel Xeon Silver 4108,2048,89.81
+Rocca,Encryption Only,Intel Xeon Silver 4108,4096,104.43
+Rocca,Encryption Only,Intel Xeon Silver 4108,8192,114.17
+Rocca,Encryption Only,Intel Xeon Silver 4108,16384,116.95
+Rocca,AEAD,Intel Xeon Silver 4108,64,6.05
+Rocca,AEAD,Intel Xeon Silver 4108,256,20.49
+Rocca,AEAD,Intel Xeon Silver 4108,512,35.32
+Rocca,AEAD,Intel Xeon Silver 4108,1024,55.92
+Rocca,AEAD,Intel Xeon Silver 4108,2048,77.39
+Rocca,AEAD,Intel Xeon Silver 4108,4096,93.25
+Rocca,AEAD,Intel Xeon Silver 4108,8192,103.39
+Rocca,AEAD,Intel Xeon Silver 4108,16384,113.49
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,64,9.29
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,256,27.49
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,512,43.46
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,1024,59.32
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,2048,72.39
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,4096,80.21
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,8192,85.74
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,16384,89.51
+Rocca-S,AEAD,Intel Xeon Silver 4108,64,4.85
+Rocca-S,AEAD,Intel Xeon Silver 4108,256,16.99
+Rocca-S,AEAD,Intel Xeon Silver 4108,512,28.88
+Rocca-S,AEAD,Intel Xeon Silver 4108,1024,44.18
+Rocca-S,AEAD,Intel Xeon Silver 4108,2048,60.23
+Rocca-S,AEAD,Intel Xeon Silver 4108,4096,73.1
+Rocca-S,AEAD,Intel Xeon Silver 4108,8192,80.31
+Rocca-S,AEAD,Intel Xeon Silver 4108,16384,87.31
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,64,9.24
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,256,28.82
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,512,43.32
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,1024,56.42
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,2048,70.87
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,4096,81.64
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,8192,87.87
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,16384,90.32
+Rocca-S,AEAD,Intel Xeon Silver 4108,64,4.97
+Rocca-S,AEAD,Intel Xeon Silver 4108,256,16.76
+Rocca-S,AEAD,Intel Xeon Silver 4108,512,28.3
+Rocca-S,AEAD,Intel Xeon Silver 4108,1024,42.78
+Rocca-S,AEAD,Intel Xeon Silver 4108,2048,59.85
+Rocca-S,AEAD,Intel Xeon Silver 4108,4096,72.92
+Rocca-S,AEAD,Intel Xeon Silver 4108,8192,82.54
+Rocca-S,AEAD,Intel Xeon Silver 4108,16384,87.15
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,64,9.6
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,256,29.69
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,512,45.12
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,1024,60.05
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,2048,73.88
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,4096,81.81
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,8192,87.66
+Rocca-S,Encryption Only,Intel Xeon Silver 4108,16384,88.65
+Rocca-S,AEAD,Intel Xeon Silver 4108,64,4.96
+Rocca-S,AEAD,Intel Xeon Silver 4108,256,17.05
+Rocca-S,AEAD,Intel Xeon Silver 4108,512,28.86
+Rocca-S,AEAD,Intel Xeon Silver 4108,1024,41.22
+Rocca-S,AEAD,Intel Xeon Silver 4108,2048,60.23
+Rocca-S,AEAD,Intel Xeon Silver 4108,4096,72.62
+Rocca-S,AEAD,Intel Xeon Silver 4108,8192,82.33
+Rocca-S,AEAD,Intel Xeon Silver 4108,16384,87.36
+Aegis,Encryption Only,Intel Xeon Silver 4108,64,12.45
+Aegis,Encryption Only,Intel Xeon Silver 4108,256,35.62
+Aegis,Encryption Only,Intel Xeon Silver 4108,512,52.0
+Aegis,Encryption Only,Intel Xeon Silver 4108,1024,67.37
+Aegis,Encryption Only,Intel Xeon Silver 4108,2048,78.24
+Aegis,Encryption Only,Intel Xeon Silver 4108,4096,84.26
+Aegis,Encryption Only,Intel Xeon Silver 4108,8192,89.62
+Aegis,Encryption Only,Intel Xeon Silver 4108,16384,92.01
+Aegis,AEAD,Intel Xeon Silver 4108,64,8.27
+Aegis,AEAD,Intel Xeon Silver 4108,256,26.49
+Aegis,AEAD,Intel Xeon Silver 4108,512,41.22
+Aegis,AEAD,Intel Xeon Silver 4108,1024,56.08
+Aegis,AEAD,Intel Xeon Silver 4108,2048,71.41
+Aegis,AEAD,Intel Xeon Silver 4108,4096,81.25
+Aegis,AEAD,Intel Xeon Silver 4108,8192,86.0
+Aegis,AEAD,Intel Xeon Silver 4108,16384,90.74
+Aegis,Encryption Only,Intel Xeon Silver 4108,64,12.08
+Aegis,Encryption Only,Intel Xeon Silver 4108,256,35.6
+Aegis,Encryption Only,Intel Xeon Silver 4108,512,52.01
+Aegis,Encryption Only,Intel Xeon Silver 4108,1024,67.34
+Aegis,Encryption Only,Intel Xeon Silver 4108,2048,77.48
+Aegis,Encryption Only,Intel Xeon Silver 4108,4096,81.72
+Aegis,Encryption Only,Intel Xeon Silver 4108,8192,89.0
+Aegis,Encryption Only,Intel Xeon Silver 4108,16384,91.74
+Aegis,AEAD,Intel Xeon Silver 4108,64,8.27
+Aegis,AEAD,Intel Xeon Silver 4108,256,26.47
+Aegis,AEAD,Intel Xeon Silver 4108,512,40.62
+Aegis,AEAD,Intel Xeon Silver 4108,1024,54.92
+Aegis,AEAD,Intel Xeon Silver 4108,2048,72.12
+Aegis,AEAD,Intel Xeon Silver 4108,4096,78.44
+Aegis,AEAD,Intel Xeon Silver 4108,8192,87.26
+Aegis,AEAD,Intel Xeon Silver 4108,16384,89.82
+Aegis,Encryption Only,Intel Xeon Silver 4108,64,11.74
+Aegis,Encryption Only,Intel Xeon Silver 4108,256,34.33
+Aegis,Encryption Only,Intel Xeon Silver 4108,512,51.99
+Aegis,Encryption Only,Intel Xeon Silver 4108,1024,67.35
+Aegis,Encryption Only,Intel Xeon Silver 4108,2048,79.04
+Aegis,Encryption Only,Intel Xeon Silver 4108,4096,85.19
+Aegis,Encryption Only,Intel Xeon Silver 4108,8192,88.66
+Aegis,Encryption Only,Intel Xeon Silver 4108,16384,90.09
+Aegis,AEAD,Intel Xeon Silver 4108,64,8.18
+Aegis,AEAD,Intel Xeon Silver 4108,256,26.49
+Aegis,AEAD,Intel Xeon Silver 4108,512,41.48
+Aegis,AEAD,Intel Xeon Silver 4108,1024,56.05
+Aegis,AEAD,Intel Xeon Silver 4108,2048,72.09
+Aegis,AEAD,Intel Xeon Silver 4108,4096,79.9
+Aegis,AEAD,Intel Xeon Silver 4108,8192,86.88
+Aegis,AEAD,Intel Xeon Silver 4108,16384,90.56
+Snow-V,Encryption Only,Intel Xeon Silver 4108,64,3.66
+Snow-V,Encryption Only,Intel Xeon Silver 4108,256,10.58
+Snow-V,Encryption Only,Intel Xeon Silver 4108,512,15.12
+Snow-V,Encryption Only,Intel Xeon Silver 4108,1024,20.86
+Snow-V,Encryption Only,Intel Xeon Silver 4108,2048,24.75
+Snow-V,Encryption Only,Intel Xeon Silver 4108,4096,26.03
+Snow-V,Encryption Only,Intel Xeon Silver 4108,8192,27.45
+Snow-V,Encryption Only,Intel Xeon Silver 4108,16384,28.14
+Snow-V,AEAD,Intel Xeon Silver 4108,64,5.76
+Snow-V,AEAD,Intel Xeon Silver 4108,256,9.69
+Snow-V,AEAD,Intel Xeon Silver 4108,512,10.66
+Snow-V,AEAD,Intel Xeon Silver 4108,1024,11.82
+Snow-V,AEAD,Intel Xeon Silver 4108,2048,12.08
+Snow-V,AEAD,Intel Xeon Silver 4108,4096,12.14
+Snow-V,AEAD,Intel Xeon Silver 4108,8192,12.36
+Snow-V,AEAD,Intel Xeon Silver 4108,16384,12.47
+Snow-V,Encryption Only,Intel Xeon Silver 4108,64,3.52
+Snow-V,Encryption Only,Intel Xeon Silver 4108,256,10.5
+Snow-V,Encryption Only,Intel Xeon Silver 4108,512,15.5
+Snow-V,Encryption Only,Intel Xeon Silver 4108,1024,20.98
+Snow-V,Encryption Only,Intel Xeon Silver 4108,2048,24.99
+Snow-V,Encryption Only,Intel Xeon Silver 4108,4096,25.98
+Snow-V,Encryption Only,Intel Xeon Silver 4108,8192,27.35
+Snow-V,Encryption Only,Intel Xeon Silver 4108,16384,28.3
+Snow-V,AEAD,Intel Xeon Silver 4108,64,5.88
+Snow-V,AEAD,Intel Xeon Silver 4108,256,9.86
+Snow-V,AEAD,Intel Xeon Silver 4108,512,10.77
+Snow-V,AEAD,Intel Xeon Silver 4108,1024,11.58
+Snow-V,AEAD,Intel Xeon Silver 4108,2048,12.03
+Snow-V,AEAD,Intel Xeon Silver 4108,4096,12.41
+Snow-V,AEAD,Intel Xeon Silver 4108,8192,12.45
+Snow-V,AEAD,Intel Xeon Silver 4108,16384,12.5
+Snow-V,Encryption Only,Intel Xeon Silver 4108,64,3.66
+Snow-V,Encryption Only,Intel Xeon Silver 4108,256,10.49
+Snow-V,Encryption Only,Intel Xeon Silver 4108,512,16.14
+Snow-V,Encryption Only,Intel Xeon Silver 4108,1024,20.76
+Snow-V,Encryption Only,Intel Xeon Silver 4108,2048,24.83
+Snow-V,Encryption Only,Intel Xeon Silver 4108,4096,26.24
+Snow-V,Encryption Only,Intel Xeon Silver 4108,8192,27.56
+Snow-V,Encryption Only,Intel Xeon Silver 4108,16384,28.31
+Snow-V,AEAD,Intel Xeon Silver 4108,64,5.88
+Snow-V,AEAD,Intel Xeon Silver 4108,256,9.88
+Snow-V,AEAD,Intel Xeon Silver 4108,512,11.0
+Snow-V,AEAD,Intel Xeon Silver 4108,1024,11.57
+Snow-V,AEAD,Intel Xeon Silver 4108,2048,12.03
+Snow-V,AEAD,Intel Xeon Silver 4108,4096,12.48
+Snow-V,AEAD,Intel Xeon Silver 4108,8192,12.51
+Snow-V,AEAD,Intel Xeon Silver 4108,16384,12.58
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,16384,26.4671936
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,8192,26.1583544
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,4096,25.4514096
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,2048,23.881498399999998
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,1024,21.6302248
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,256,14.0621888
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,64,7.6647544000000005
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,16384,26.5455312
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,8192,26.0809168
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,4096,25.3068352
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,2048,23.859467199999997
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,1024,21.721830399999998
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,256,14.0934328
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,64,7.5143952
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,16384,26.4641816
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,8192,26.113474399999998
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,4096,25.418148000000002
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,2048,23.945352
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,1024,21.658872
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,256,14.055417599999998
+AES-256-GCM,AEAD,Intel Xeon Silver 4108,64,7.660320799999999
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,16384,26.7381632
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,8192,26.7361096
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,4096,26.452655999999998
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,2048,26.160075199999998
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,1024,25.305605600000003
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,256,21.305297600000003
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,64,12.794489599999999
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,16384,26.741265600000002
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,8192,26.6686296
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,4096,26.609643199999997
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,2048,26.0130792
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,1024,24.9181952
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,256,21.338941600000002
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,64,12.739231199999999
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,16384,26.800248
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,8192,26.740288
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,4096,26.480912800000002
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,2048,25.9225952
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,1024,25.153256000000003
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,256,21.455998399999995
+AES-256-CTR,Encryption Only,Intel Xeon Silver 4108,64,12.7657968
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,64,8.26
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,256,32.65
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,512,49.24
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,1024,60.05
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,2048,67.56
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,4096,68.72
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,8192,71.4
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,16384,67.41
+HiAE,AEAD,Intel Xeon E5-2620 v3,64,4.71
+HiAE,AEAD,Intel Xeon E5-2620 v3,256,19.91
+HiAE,AEAD,Intel Xeon E5-2620 v3,512,31.48
+HiAE,AEAD,Intel Xeon E5-2620 v3,1024,44.14
+HiAE,AEAD,Intel Xeon E5-2620 v3,2048,55.98
+HiAE,AEAD,Intel Xeon E5-2620 v3,4096,62.64
+HiAE,AEAD,Intel Xeon E5-2620 v3,8192,68.03
+HiAE,AEAD,Intel Xeon E5-2620 v3,16384,66.1
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,64,8.25
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,256,35.62
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,512,48.91
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,1024,57.57
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,2048,68.17
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,4096,69.05
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,8192,71.28
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,16384,65.62
+HiAE,AEAD,Intel Xeon E5-2620 v3,64,4.89
+HiAE,AEAD,Intel Xeon E5-2620 v3,256,19.36
+HiAE,AEAD,Intel Xeon E5-2620 v3,512,31.55
+HiAE,AEAD,Intel Xeon E5-2620 v3,1024,43.24
+HiAE,AEAD,Intel Xeon E5-2620 v3,2048,56.94
+HiAE,AEAD,Intel Xeon E5-2620 v3,4096,62.91
+HiAE,AEAD,Intel Xeon E5-2620 v3,8192,67.44
+HiAE,AEAD,Intel Xeon E5-2620 v3,16384,65.74
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,64,7.98
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,256,35.62
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,512,49.25
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,1024,58.65
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,2048,67.02
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,4096,69.28
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,8192,71.44
+HiAE,Encryption Only,Intel Xeon E5-2620 v3,16384,67.68
+HiAE,AEAD,Intel Xeon E5-2620 v3,64,4.88
+HiAE,AEAD,Intel Xeon E5-2620 v3,256,19.07
+HiAE,AEAD,Intel Xeon E5-2620 v3,512,31.47
+HiAE,AEAD,Intel Xeon E5-2620 v3,1024,44.25
+HiAE,AEAD,Intel Xeon E5-2620 v3,2048,57.11
+HiAE,AEAD,Intel Xeon E5-2620 v3,4096,62.22
+HiAE,AEAD,Intel Xeon E5-2620 v3,8192,67.6
+HiAE,AEAD,Intel Xeon E5-2620 v3,16384,66.67
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,64,7.2
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,256,23.07
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,512,36.3
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,1024,50.85
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,2048,62.66
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,4096,71.81
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,8192,77.55
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,16384,80.46
+Rocca,AEAD,Intel Xeon E5-2620 v3,64,3.85
+Rocca,AEAD,Intel Xeon E5-2620 v3,256,13.58
+Rocca,AEAD,Intel Xeon E5-2620 v3,512,23.14
+Rocca,AEAD,Intel Xeon E5-2620 v3,1024,36.17
+Rocca,AEAD,Intel Xeon E5-2620 v3,2048,50.6
+Rocca,AEAD,Intel Xeon E5-2620 v3,4096,63.24
+Rocca,AEAD,Intel Xeon E5-2620 v3,8192,72.23
+Rocca,AEAD,Intel Xeon E5-2620 v3,16384,77.66
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,64,7.19
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,256,23.08
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,512,36.28
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,1024,50.87
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,2048,62.69
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,4096,71.81
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,8192,77.49
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,16384,80.43
+Rocca,AEAD,Intel Xeon E5-2620 v3,64,3.86
+Rocca,AEAD,Intel Xeon E5-2620 v3,256,13.57
+Rocca,AEAD,Intel Xeon E5-2620 v3,512,23.37
+Rocca,AEAD,Intel Xeon E5-2620 v3,1024,36.55
+Rocca,AEAD,Intel Xeon E5-2620 v3,2048,50.63
+Rocca,AEAD,Intel Xeon E5-2620 v3,4096,63.24
+Rocca,AEAD,Intel Xeon E5-2620 v3,8192,72.24
+Rocca,AEAD,Intel Xeon E5-2620 v3,16384,77.66
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,64,7.34
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,256,23.08
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,512,36.28
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,1024,50.88
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,2048,62.69
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,4096,71.81
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,8192,77.49
+Rocca,Encryption Only,Intel Xeon E5-2620 v3,16384,80.58
+Rocca,AEAD,Intel Xeon E5-2620 v3,64,3.86
+Rocca,AEAD,Intel Xeon E5-2620 v3,256,13.57
+Rocca,AEAD,Intel Xeon E5-2620 v3,512,23.37
+Rocca,AEAD,Intel Xeon E5-2620 v3,1024,36.54
+Rocca,AEAD,Intel Xeon E5-2620 v3,2048,50.63
+Rocca,AEAD,Intel Xeon E5-2620 v3,4096,63.23
+Rocca,AEAD,Intel Xeon E5-2620 v3,8192,72.21
+Rocca,AEAD,Intel Xeon E5-2620 v3,16384,77.67
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,64,5.55
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,256,17.46
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,512,26.74
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,1024,36.26
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,2048,44.88
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,4096,50.52
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,8192,53.88
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,16384,55.8
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,64,3.04
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,256,10.16
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,512,17.17
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,1024,26.29
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,2048,36.09
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,4096,44.43
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,8192,50.25
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,16384,53.71
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,64,5.55
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,256,17.46
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,512,26.75
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,1024,36.27
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,2048,44.61
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,4096,50.52
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,8192,53.94
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,16384,55.82
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,64,3.04
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,256,10.16
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,512,17.17
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,1024,26.3
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,2048,36.09
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,4096,44.44
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,8192,50.26
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,16384,53.69
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,64,5.55
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,256,17.45
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,512,26.74
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,1024,36.27
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,2048,44.86
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,4096,50.48
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,8192,53.93
+Rocca-S,Encryption Only,Intel Xeon E5-2620 v3,16384,55.83
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,64,3.04
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,256,10.16
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,512,17.11
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,1024,26.28
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,2048,36.08
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,4096,44.44
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,8192,50.26
+Rocca-S,AEAD,Intel Xeon E5-2620 v3,16384,53.73
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,64,8.72
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,256,24.4
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,512,34.95
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,1024,44.55
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,2048,50.54
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,4096,56.23
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,8192,59.17
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,16384,60.73
+Aegis,AEAD,Intel Xeon E5-2620 v3,64,5.58
+Aegis,AEAD,Intel Xeon E5-2620 v3,256,17.58
+Aegis,AEAD,Intel Xeon E5-2620 v3,512,27.36
+Aegis,AEAD,Intel Xeon E5-2620 v3,1024,37.89
+Aegis,AEAD,Intel Xeon E5-2620 v3,2048,46.87
+Aegis,AEAD,Intel Xeon E5-2620 v3,4096,53.47
+Aegis,AEAD,Intel Xeon E5-2620 v3,8192,57.76
+Aegis,AEAD,Intel Xeon E5-2620 v3,16384,60.1
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,64,8.71
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,256,24.39
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,512,34.96
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,1024,44.52
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,2048,50.55
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,4096,56.28
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,8192,59.16
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,16384,60.73
+Aegis,AEAD,Intel Xeon E5-2620 v3,64,5.59
+Aegis,AEAD,Intel Xeon E5-2620 v3,256,17.57
+Aegis,AEAD,Intel Xeon E5-2620 v3,512,27.38
+Aegis,AEAD,Intel Xeon E5-2620 v3,1024,37.86
+Aegis,AEAD,Intel Xeon E5-2620 v3,2048,46.65
+Aegis,AEAD,Intel Xeon E5-2620 v3,4096,53.6
+Aegis,AEAD,Intel Xeon E5-2620 v3,8192,57.71
+Aegis,AEAD,Intel Xeon E5-2620 v3,16384,60.14
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,64,8.72
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,256,24.39
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,512,34.95
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,1024,44.56
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,2048,50.54
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,4096,56.33
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,8192,59.18
+Aegis,Encryption Only,Intel Xeon E5-2620 v3,16384,60.73
+Aegis,AEAD,Intel Xeon E5-2620 v3,64,5.59
+Aegis,AEAD,Intel Xeon E5-2620 v3,256,17.59
+Aegis,AEAD,Intel Xeon E5-2620 v3,512,27.37
+Aegis,AEAD,Intel Xeon E5-2620 v3,1024,37.87
+Aegis,AEAD,Intel Xeon E5-2620 v3,2048,46.83
+Aegis,AEAD,Intel Xeon E5-2620 v3,4096,53.43
+Aegis,AEAD,Intel Xeon E5-2620 v3,8192,57.77
+Aegis,AEAD,Intel Xeon E5-2620 v3,16384,60.08
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,64,2.61
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,256,7.86
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,512,11.82
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,1024,15.64
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,2048,18.79
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,4096,20.8
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,8192,22.08
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,16384,22.66
+Snow-V,AEAD,Intel Xeon E5-2620 v3,64,4.0
+Snow-V,AEAD,Intel Xeon E5-2620 v3,256,6.7
+Snow-V,AEAD,Intel Xeon E5-2620 v3,512,7.52
+Snow-V,AEAD,Intel Xeon E5-2620 v3,1024,8.05
+Snow-V,AEAD,Intel Xeon E5-2620 v3,2048,8.33
+Snow-V,AEAD,Intel Xeon E5-2620 v3,4096,8.48
+Snow-V,AEAD,Intel Xeon E5-2620 v3,8192,8.55
+Snow-V,AEAD,Intel Xeon E5-2620 v3,16384,8.59
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,64,2.61
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,256,7.85
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,512,11.78
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,1024,15.55
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,2048,18.73
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,4096,20.7
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,8192,22.02
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,16384,22.53
+Snow-V,AEAD,Intel Xeon E5-2620 v3,64,4.0
+Snow-V,AEAD,Intel Xeon E5-2620 v3,256,6.7
+Snow-V,AEAD,Intel Xeon E5-2620 v3,512,7.54
+Snow-V,AEAD,Intel Xeon E5-2620 v3,1024,8.05
+Snow-V,AEAD,Intel Xeon E5-2620 v3,2048,8.33
+Snow-V,AEAD,Intel Xeon E5-2620 v3,4096,8.48
+Snow-V,AEAD,Intel Xeon E5-2620 v3,8192,8.55
+Snow-V,AEAD,Intel Xeon E5-2620 v3,16384,8.59
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,64,2.58
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,256,7.86
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,512,11.83
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,1024,15.57
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,2048,18.8
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,4096,20.84
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,8192,22.11
+Snow-V,Encryption Only,Intel Xeon E5-2620 v3,16384,22.63
+Snow-V,AEAD,Intel Xeon E5-2620 v3,64,4.0
+Snow-V,AEAD,Intel Xeon E5-2620 v3,256,6.7
+Snow-V,AEAD,Intel Xeon E5-2620 v3,512,7.52
+Snow-V,AEAD,Intel Xeon E5-2620 v3,1024,8.03
+Snow-V,AEAD,Intel Xeon E5-2620 v3,2048,8.33
+Snow-V,AEAD,Intel Xeon E5-2620 v3,4096,8.48
+Snow-V,AEAD,Intel Xeon E5-2620 v3,8192,8.55
+Snow-V,AEAD,Intel Xeon E5-2620 v3,16384,8.59
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,16384,14.767139199999999
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,8192,14.620164
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,4096,14.349052
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,2048,13.526476800000001
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,1024,12.4386616
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,256,10.368295199999999
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,64,4.9128952
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,16384,14.8686496
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,8192,14.6126424
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,4096,14.3029584
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,2048,13.5901888
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,1024,12.7480784
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,256,10.5294624
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,64,4.923165599999999
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,16384,14.71838
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,8192,14.563038400000002
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,4096,14.3418736
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,2048,13.6355152
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,1024,12.733352
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,256,10.365828800000001
+AES-256-GCM,AEAD,Intel Xeon E5-2620 v3,64,4.923896
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,16384,21.805251199999997
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,8192,21.6105832
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,4096,21.4288192
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,2048,21.012337600000002
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,1024,20.209712800000002
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,256,16.3838088
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,64,8.2196352
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,16384,21.734752
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,8192,21.5953128
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,4096,21.427322399999998
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,2048,21.058853600000003
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,1024,20.2155672
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,256,15.9111736
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,64,8.2470304
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,16384,21.734752
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,8192,21.6102768
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,4096,21.4247232
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,2048,20.911188
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,1024,20.26786
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,256,16.4526136
+AES-256-CTR,Encryption Only,Intel Xeon E5-2620 v3,64,8.2200568
+HiAE,Encryption Only,AMD EPYC 7763,64,12.9
+HiAE,Encryption Only,AMD EPYC 7763,256,57.93
+HiAE,Encryption Only,AMD EPYC 7763,512,70.62
+HiAE,Encryption Only,AMD EPYC 7763,1024,78.93
+HiAE,Encryption Only,AMD EPYC 7763,2048,83.77
+HiAE,Encryption Only,AMD EPYC 7763,4096,86.49
+HiAE,Encryption Only,AMD EPYC 7763,8192,88.03
+HiAE,Encryption Only,AMD EPYC 7763,16384,85.48
+HiAE,AEAD,AMD EPYC 7763,64,6.38
+HiAE,AEAD,AMD EPYC 7763,256,28.82
+HiAE,AEAD,AMD EPYC 7763,512,43.34
+HiAE,AEAD,AMD EPYC 7763,1024,58.43
+HiAE,AEAD,AMD EPYC 7763,2048,70.5
+HiAE,AEAD,AMD EPYC 7763,4096,78.81
+HiAE,AEAD,AMD EPYC 7763,8192,83.91
+HiAE,AEAD,AMD EPYC 7763,16384,83.75
+HiAE,Encryption Only,AMD EPYC 7763,64,12.78
+HiAE,Encryption Only,AMD EPYC 7763,256,57.95
+HiAE,Encryption Only,AMD EPYC 7763,512,70.75
+HiAE,Encryption Only,AMD EPYC 7763,1024,79.02
+HiAE,Encryption Only,AMD EPYC 7763,2048,83.93
+HiAE,Encryption Only,AMD EPYC 7763,4096,86.62
+HiAE,Encryption Only,AMD EPYC 7763,8192,88.0
+HiAE,Encryption Only,AMD EPYC 7763,16384,85.31
+HiAE,AEAD,AMD EPYC 7763,64,6.25
+HiAE,AEAD,AMD EPYC 7763,256,28.8
+HiAE,AEAD,AMD EPYC 7763,512,43.35
+HiAE,AEAD,AMD EPYC 7763,1024,58.39
+HiAE,AEAD,AMD EPYC 7763,2048,70.68
+HiAE,AEAD,AMD EPYC 7763,4096,78.99
+HiAE,AEAD,AMD EPYC 7763,8192,83.9
+HiAE,AEAD,AMD EPYC 7763,16384,83.75
+HiAE,Encryption Only,AMD EPYC 7763,64,12.85
+HiAE,Encryption Only,AMD EPYC 7763,256,58.05
+HiAE,Encryption Only,AMD EPYC 7763,512,70.75
+HiAE,Encryption Only,AMD EPYC 7763,1024,79.06
+HiAE,Encryption Only,AMD EPYC 7763,2048,83.91
+HiAE,Encryption Only,AMD EPYC 7763,4096,86.42
+HiAE,Encryption Only,AMD EPYC 7763,8192,87.96
+HiAE,Encryption Only,AMD EPYC 7763,16384,75.22
+HiAE,AEAD,AMD EPYC 7763,64,6.34
+HiAE,AEAD,AMD EPYC 7763,256,28.79
+HiAE,AEAD,AMD EPYC 7763,512,43.34
+HiAE,AEAD,AMD EPYC 7763,1024,58.39
+HiAE,AEAD,AMD EPYC 7763,2048,70.64
+HiAE,AEAD,AMD EPYC 7763,4096,78.9
+HiAE,AEAD,AMD EPYC 7763,8192,83.84
+HiAE,AEAD,AMD EPYC 7763,16384,83.72
+Rocca,Encryption Only,AMD EPYC 7763,64,12.02
+Rocca,Encryption Only,AMD EPYC 7763,256,35.47
+Rocca,Encryption Only,AMD EPYC 7763,512,54.96
+Rocca,Encryption Only,AMD EPYC 7763,1024,77.19
+Rocca,Encryption Only,AMD EPYC 7763,2048,96.02
+Rocca,Encryption Only,AMD EPYC 7763,4096,107.37
+Rocca,Encryption Only,AMD EPYC 7763,8192,116.35
+Rocca,Encryption Only,AMD EPYC 7763,16384,121.35
+Rocca,AEAD,AMD EPYC 7763,64,5.57
+Rocca,AEAD,AMD EPYC 7763,256,19.69
+Rocca,AEAD,AMD EPYC 7763,512,34.2
+Rocca,AEAD,AMD EPYC 7763,1024,54.13
+Rocca,AEAD,AMD EPYC 7763,2048,75.99
+Rocca,AEAD,AMD EPYC 7763,4096,94.51
+Rocca,AEAD,AMD EPYC 7763,8192,108.77
+Rocca,AEAD,AMD EPYC 7763,16384,116.9
+Rocca,Encryption Only,AMD EPYC 7763,64,11.95
+Rocca,Encryption Only,AMD EPYC 7763,256,35.54
+Rocca,Encryption Only,AMD EPYC 7763,512,54.76
+Rocca,Encryption Only,AMD EPYC 7763,1024,77.13
+Rocca,Encryption Only,AMD EPYC 7763,2048,96.0
+Rocca,Encryption Only,AMD EPYC 7763,4096,107.16
+Rocca,Encryption Only,AMD EPYC 7763,8192,116.39
+Rocca,Encryption Only,AMD EPYC 7763,16384,120.96
+Rocca,AEAD,AMD EPYC 7763,64,5.57
+Rocca,AEAD,AMD EPYC 7763,256,19.67
+Rocca,AEAD,AMD EPYC 7763,512,34.2
+Rocca,AEAD,AMD EPYC 7763,1024,54.15
+Rocca,AEAD,AMD EPYC 7763,2048,75.95
+Rocca,AEAD,AMD EPYC 7763,4096,95.04
+Rocca,AEAD,AMD EPYC 7763,8192,108.82
+Rocca,AEAD,AMD EPYC 7763,16384,116.6
+Rocca,Encryption Only,AMD EPYC 7763,64,7.36
+Rocca,Encryption Only,AMD EPYC 7763,256,21.69
+Rocca,Encryption Only,AMD EPYC 7763,512,33.58
+Rocca,Encryption Only,AMD EPYC 7763,1024,63.65
+Rocca,Encryption Only,AMD EPYC 7763,2048,96.06
+Rocca,Encryption Only,AMD EPYC 7763,4096,107.44
+Rocca,Encryption Only,AMD EPYC 7763,8192,116.34
+Rocca,Encryption Only,AMD EPYC 7763,16384,119.8
+Rocca,AEAD,AMD EPYC 7763,64,5.56
+Rocca,AEAD,AMD EPYC 7763,256,19.68
+Rocca,AEAD,AMD EPYC 7763,512,34.23
+Rocca,AEAD,AMD EPYC 7763,1024,54.15
+Rocca,AEAD,AMD EPYC 7763,2048,75.97
+Rocca,AEAD,AMD EPYC 7763,4096,95.19
+Rocca,AEAD,AMD EPYC 7763,8192,108.78
+Rocca,AEAD,AMD EPYC 7763,16384,115.18
+Rocca-S,Encryption Only,AMD EPYC 7763,64,10.62
+Rocca-S,Encryption Only,AMD EPYC 7763,256,30.12
+Rocca-S,Encryption Only,AMD EPYC 7763,512,47.53
+Rocca-S,Encryption Only,AMD EPYC 7763,1024,65.6
+Rocca-S,Encryption Only,AMD EPYC 7763,2048,80.79
+Rocca-S,Encryption Only,AMD EPYC 7763,4096,91.4
+Rocca-S,Encryption Only,AMD EPYC 7763,8192,98.17
+Rocca-S,Encryption Only,AMD EPYC 7763,16384,101.6
+Rocca-S,AEAD,AMD EPYC 7763,64,4.99
+Rocca-S,AEAD,AMD EPYC 7763,256,17.37
+Rocca-S,AEAD,AMD EPYC 7763,512,29.86
+Rocca-S,AEAD,AMD EPYC 7763,1024,46.38
+Rocca-S,AEAD,AMD EPYC 7763,2048,64.47
+Rocca-S,AEAD,AMD EPYC 7763,4096,80.3
+Rocca-S,AEAD,AMD EPYC 7763,8192,91.22
+Rocca-S,AEAD,AMD EPYC 7763,16384,97.76
+Rocca-S,Encryption Only,AMD EPYC 7763,64,10.82
+Rocca-S,Encryption Only,AMD EPYC 7763,256,30.09
+Rocca-S,Encryption Only,AMD EPYC 7763,512,47.47
+Rocca-S,Encryption Only,AMD EPYC 7763,1024,65.63
+Rocca-S,Encryption Only,AMD EPYC 7763,2048,80.84
+Rocca-S,Encryption Only,AMD EPYC 7763,4096,91.51
+Rocca-S,Encryption Only,AMD EPYC 7763,8192,98.1
+Rocca-S,Encryption Only,AMD EPYC 7763,16384,101.48
+Rocca-S,AEAD,AMD EPYC 7763,64,5.0
+Rocca-S,AEAD,AMD EPYC 7763,256,17.35
+Rocca-S,AEAD,AMD EPYC 7763,512,29.82
+Rocca-S,AEAD,AMD EPYC 7763,1024,46.51
+Rocca-S,AEAD,AMD EPYC 7763,2048,64.58
+Rocca-S,AEAD,AMD EPYC 7763,4096,80.18
+Rocca-S,AEAD,AMD EPYC 7763,8192,91.3
+Rocca-S,AEAD,AMD EPYC 7763,16384,97.85
+Rocca-S,Encryption Only,AMD EPYC 7763,64,10.85
+Rocca-S,Encryption Only,AMD EPYC 7763,256,30.1
+Rocca-S,Encryption Only,AMD EPYC 7763,512,47.52
+Rocca-S,Encryption Only,AMD EPYC 7763,1024,65.6
+Rocca-S,Encryption Only,AMD EPYC 7763,2048,80.74
+Rocca-S,Encryption Only,AMD EPYC 7763,4096,91.47
+Rocca-S,Encryption Only,AMD EPYC 7763,8192,98.15
+Rocca-S,Encryption Only,AMD EPYC 7763,16384,101.62
+Rocca-S,AEAD,AMD EPYC 7763,64,5.0
+Rocca-S,AEAD,AMD EPYC 7763,256,17.37
+Rocca-S,AEAD,AMD EPYC 7763,512,29.84
+Rocca-S,AEAD,AMD EPYC 7763,1024,46.43
+Rocca-S,AEAD,AMD EPYC 7763,2048,64.55
+Rocca-S,AEAD,AMD EPYC 7763,4096,80.3
+Rocca-S,AEAD,AMD EPYC 7763,8192,91.28
+Rocca-S,AEAD,AMD EPYC 7763,16384,97.83
+Aegis,Encryption Only,AMD EPYC 7763,64,16.21
+Aegis,Encryption Only,AMD EPYC 7763,256,41.4
+Aegis,Encryption Only,AMD EPYC 7763,512,57.38
+Aegis,Encryption Only,AMD EPYC 7763,1024,70.86
+Aegis,Encryption Only,AMD EPYC 7763,2048,79.92
+Aegis,Encryption Only,AMD EPYC 7763,4096,84.03
+Aegis,Encryption Only,AMD EPYC 7763,8192,87.52
+Aegis,Encryption Only,AMD EPYC 7763,16384,88.63
+Aegis,AEAD,AMD EPYC 7763,64,10.03
+Aegis,AEAD,AMD EPYC 7763,256,30.79
+Aegis,AEAD,AMD EPYC 7763,512,46.08
+Aegis,AEAD,AMD EPYC 7763,1024,61.34
+Aegis,AEAD,AMD EPYC 7763,2048,73.07
+Aegis,AEAD,AMD EPYC 7763,4096,81.1
+Aegis,AEAD,AMD EPYC 7763,8192,85.93
+Aegis,AEAD,AMD EPYC 7763,16384,88.39
+Aegis,Encryption Only,AMD EPYC 7763,64,16.22
+Aegis,Encryption Only,AMD EPYC 7763,256,41.49
+Aegis,Encryption Only,AMD EPYC 7763,512,57.94
+Aegis,Encryption Only,AMD EPYC 7763,1024,70.95
+Aegis,Encryption Only,AMD EPYC 7763,2048,79.85
+Aegis,Encryption Only,AMD EPYC 7763,4096,84.28
+Aegis,Encryption Only,AMD EPYC 7763,8192,87.6
+Aegis,Encryption Only,AMD EPYC 7763,16384,88.69
+Aegis,AEAD,AMD EPYC 7763,64,10.07
+Aegis,AEAD,AMD EPYC 7763,256,30.8
+Aegis,AEAD,AMD EPYC 7763,512,46.1
+Aegis,AEAD,AMD EPYC 7763,1024,60.4
+Aegis,AEAD,AMD EPYC 7763,2048,73.38
+Aegis,AEAD,AMD EPYC 7763,4096,81.18
+Aegis,AEAD,AMD EPYC 7763,8192,85.72
+Aegis,AEAD,AMD EPYC 7763,16384,88.39
+Aegis,Encryption Only,AMD EPYC 7763,64,16.27
+Aegis,Encryption Only,AMD EPYC 7763,256,41.46
+Aegis,Encryption Only,AMD EPYC 7763,512,58.03
+Aegis,Encryption Only,AMD EPYC 7763,1024,71.0
+Aegis,Encryption Only,AMD EPYC 7763,2048,79.92
+Aegis,Encryption Only,AMD EPYC 7763,4096,84.42
+Aegis,Encryption Only,AMD EPYC 7763,8192,87.68
+Aegis,Encryption Only,AMD EPYC 7763,16384,88.97
+Aegis,AEAD,AMD EPYC 7763,64,10.04
+Aegis,AEAD,AMD EPYC 7763,256,30.82
+Aegis,AEAD,AMD EPYC 7763,512,46.16
+Aegis,AEAD,AMD EPYC 7763,1024,61.35
+Aegis,AEAD,AMD EPYC 7763,2048,73.39
+Aegis,AEAD,AMD EPYC 7763,4096,81.14
+Aegis,AEAD,AMD EPYC 7763,8192,85.94
+Aegis,AEAD,AMD EPYC 7763,16384,88.4
+Snow-V,Encryption Only,AMD EPYC 7763,64,2.52
+Snow-V,Encryption Only,AMD EPYC 7763,256,7.58
+Snow-V,Encryption Only,AMD EPYC 7763,512,11.47
+Snow-V,Encryption Only,AMD EPYC 7763,1024,15.45
+Snow-V,Encryption Only,AMD EPYC 7763,2048,18.7
+Snow-V,Encryption Only,AMD EPYC 7763,4096,20.89
+Snow-V,Encryption Only,AMD EPYC 7763,8192,22.23
+Snow-V,Encryption Only,AMD EPYC 7763,16384,22.58
+Snow-V,AEAD,AMD EPYC 7763,64,4.9
+Snow-V,AEAD,AMD EPYC 7763,256,8.18
+Snow-V,AEAD,AMD EPYC 7763,512,9.25
+Snow-V,AEAD,AMD EPYC 7763,1024,9.93
+Snow-V,AEAD,AMD EPYC 7763,2048,10.3
+Snow-V,AEAD,AMD EPYC 7763,4096,10.49
+Snow-V,AEAD,AMD EPYC 7763,8192,10.59
+Snow-V,AEAD,AMD EPYC 7763,16384,10.65
+Snow-V,Encryption Only,AMD EPYC 7763,64,2.52
+Snow-V,Encryption Only,AMD EPYC 7763,256,7.57
+Snow-V,Encryption Only,AMD EPYC 7763,512,11.46
+Snow-V,Encryption Only,AMD EPYC 7763,1024,15.45
+Snow-V,Encryption Only,AMD EPYC 7763,2048,18.68
+Snow-V,Encryption Only,AMD EPYC 7763,4096,20.91
+Snow-V,Encryption Only,AMD EPYC 7763,8192,22.23
+Snow-V,Encryption Only,AMD EPYC 7763,16384,22.91
+Snow-V,AEAD,AMD EPYC 7763,64,4.89
+Snow-V,AEAD,AMD EPYC 7763,256,8.18
+Snow-V,AEAD,AMD EPYC 7763,512,9.27
+Snow-V,AEAD,AMD EPYC 7763,1024,9.94
+Snow-V,AEAD,AMD EPYC 7763,2048,10.3
+Snow-V,AEAD,AMD EPYC 7763,4096,10.48
+Snow-V,AEAD,AMD EPYC 7763,8192,10.59
+Snow-V,AEAD,AMD EPYC 7763,16384,10.64
+Snow-V,Encryption Only,AMD EPYC 7763,64,2.52
+Snow-V,Encryption Only,AMD EPYC 7763,256,7.57
+Snow-V,Encryption Only,AMD EPYC 7763,512,11.47
+Snow-V,Encryption Only,AMD EPYC 7763,1024,15.45
+Snow-V,Encryption Only,AMD EPYC 7763,2048,18.7
+Snow-V,Encryption Only,AMD EPYC 7763,4096,20.83
+Snow-V,Encryption Only,AMD EPYC 7763,8192,22.21
+Snow-V,Encryption Only,AMD EPYC 7763,16384,22.9
+Snow-V,AEAD,AMD EPYC 7763,64,4.89
+Snow-V,AEAD,AMD EPYC 7763,256,8.18
+Snow-V,AEAD,AMD EPYC 7763,512,9.27
+Snow-V,AEAD,AMD EPYC 7763,1024,9.94
+Snow-V,AEAD,AMD EPYC 7763,2048,10.29
+Snow-V,AEAD,AMD EPYC 7763,4096,10.49
+Snow-V,AEAD,AMD EPYC 7763,8192,10.59
+Snow-V,AEAD,AMD EPYC 7763,16384,10.64
+AES-256-GCM,AEAD,AMD EPYC 7763,16384,24.069450399999997
+AES-256-GCM,AEAD,AMD EPYC 7763,8192,23.856567199999997
+AES-256-GCM,AEAD,AMD EPYC 7763,4096,23.5403448
+AES-256-GCM,AEAD,AMD EPYC 7763,2048,22.3974904
+AES-256-GCM,AEAD,AMD EPYC 7763,1024,20.9923888
+AES-256-GCM,AEAD,AMD EPYC 7763,256,16.0945616
+AES-256-GCM,AEAD,AMD EPYC 7763,64,7.8769295999999995
+AES-256-GCM,AEAD,AMD EPYC 7763,16384,24.0699744
+AES-256-GCM,AEAD,AMD EPYC 7763,8192,23.7729216
+AES-256-GCM,AEAD,AMD EPYC 7763,4096,23.566767199999997
+AES-256-GCM,AEAD,AMD EPYC 7763,2048,22.3584088
+AES-256-GCM,AEAD,AMD EPYC 7763,1024,21.0068712
+AES-256-GCM,AEAD,AMD EPYC 7763,256,16.2673336
+AES-256-GCM,AEAD,AMD EPYC 7763,64,7.8745655999999995
+AES-256-GCM,AEAD,AMD EPYC 7763,16384,24.0723776
+AES-256-GCM,AEAD,AMD EPYC 7763,8192,23.8814056
+AES-256-GCM,AEAD,AMD EPYC 7763,4096,23.432888
+AES-256-GCM,AEAD,AMD EPYC 7763,2048,22.3095248
+AES-256-GCM,AEAD,AMD EPYC 7763,1024,21.0991696
+AES-256-GCM,AEAD,AMD EPYC 7763,256,16.369104800000002
+AES-256-GCM,AEAD,AMD EPYC 7763,64,7.9250024
+AES-256-CTR,Encryption Only,AMD EPYC 7763,16384,43.0060336
+AES-256-CTR,Encryption Only,AMD EPYC 7763,8192,43.2103176
+AES-256-CTR,Encryption Only,AMD EPYC 7763,4096,42.398296
+AES-256-CTR,Encryption Only,AMD EPYC 7763,2048,41.135548799999995
+AES-256-CTR,Encryption Only,AMD EPYC 7763,1024,38.9153096
+AES-256-CTR,Encryption Only,AMD EPYC 7763,256,23.090106399999996
+AES-256-CTR,Encryption Only,AMD EPYC 7763,64,12.152237600000001
+AES-256-CTR,Encryption Only,AMD EPYC 7763,16384,43.3246
+AES-256-CTR,Encryption Only,AMD EPYC 7763,8192,43.02903679999999
+AES-256-CTR,Encryption Only,AMD EPYC 7763,4096,42.57258
+AES-256-CTR,Encryption Only,AMD EPYC 7763,2048,41.0851624
+AES-256-CTR,Encryption Only,AMD EPYC 7763,1024,38.961976
+AES-256-CTR,Encryption Only,AMD EPYC 7763,256,29.377197600000002
+AES-256-CTR,Encryption Only,AMD EPYC 7763,64,12.186468000000001
+AES-256-CTR,Encryption Only,AMD EPYC 7763,16384,43.345684799999994
+AES-256-CTR,Encryption Only,AMD EPYC 7763,8192,43.2097472
+AES-256-CTR,Encryption Only,AMD EPYC 7763,4096,42.272544
+AES-256-CTR,Encryption Only,AMD EPYC 7763,2048,41.2704136
+AES-256-CTR,Encryption Only,AMD EPYC 7763,1024,38.903728
+AES-256-CTR,Encryption Only,AMD EPYC 7763,256,29.7504016
+AES-256-CTR,Encryption Only,AMD EPYC 7763,64,12.1393136
