@@ -4,8 +4,8 @@ options: bn(64,64)
 compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -O2 -ffile-prefix-map=/build/openssl-aGUoHt/openssl-3.0.2=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_TLS_SECURITY_LEVEL=2 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
-type          16384 bytes
-AES-256-GCM    1845892.44k
+type           8192 bytes
+AES-256-GCM    1820513.62k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -13,7 +13,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    1827520.51k
+AES-256-GCM    1825988.58k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -21,7 +21,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    1793631.55k
+AES-256-GCM    1789947.90k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -29,7 +29,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    1690809.69k
+AES-256-GCM    1709301.21k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -37,7 +37,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    1554832.73k
+AES-256-GCM    1599252.03k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -45,7 +45,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    1296036.90k
+AES-256-GCM    1316065.79k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -53,4 +53,4 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM     614111.96k
+AES-256-GCM     586291.65k

@@ -5,7 +5,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    2716844.03k
+AES-256-CTR    2716658.35k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -13,7 +13,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    2699414.19k
+AES-256-CTR    2700749.48k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -21,7 +21,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    2678415.36k
+AES-256-CTR    2678110.89k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -29,7 +29,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    2632356.73k
+AES-256-CTR    2626036.39k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -37,7 +37,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    2526945.96k
+AES-256-CTR    2522086.40k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -45,7 +45,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    1988896.77k
+AES-256-CTR    2054676.74k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -53,4 +53,4 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3f7ffebffff:0x37ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    1030878.80k
+AES-256-CTR    1031546.69k

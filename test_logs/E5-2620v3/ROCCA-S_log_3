@@ -2,21 +2,21 @@
 --------speed test Encryption Only(Gbps)----------
 length: 16, encrypt: 1.65, decrypt: 1.65
 length: 64, encrypt: 5.55, decrypt: 5.44
-length: 256, encrypt: 17.45, decrypt: 15.49
-length: 512, encrypt: 26.74, decrypt: 22.04
-length: 1024, encrypt: 36.27, decrypt: 28.09
-length: 2048, encrypt: 44.86, decrypt: 32.42
-length: 4096, encrypt: 50.48, decrypt: 35.10
-length: 8192, encrypt: 53.93, decrypt: 36.62
-length: 16384, encrypt: 55.83, decrypt: 37.43
+length: 256, encrypt: 17.45, decrypt: 15.50
+length: 512, encrypt: 26.73, decrypt: 22.05
+length: 1024, encrypt: 36.27, decrypt: 28.05
+length: 2048, encrypt: 44.94, decrypt: 32.38
+length: 4096, encrypt: 50.51, decrypt: 35.10
+length: 8192, encrypt: 53.87, decrypt: 36.61
+length: 16384, encrypt: 55.81, decrypt: 37.42
 --------speed test AEAD(Gbps)----------
-length: 16, encrypt: 0.77, decrypt: 0.77
+length: 16, encrypt: 0.77, decrypt: 0.76
 length: 64, encrypt: 3.04, decrypt: 2.96
-length: 256, encrypt: 10.16, decrypt: 9.79
-length: 512, encrypt: 17.11, decrypt: 15.59
-length: 1024, encrypt: 26.28, decrypt: 22.16
-length: 2048, encrypt: 36.08, decrypt: 28.07
-length: 4096, encrypt: 44.44, decrypt: 32.38
-length: 8192, encrypt: 50.26, decrypt: 35.08
-length: 16384, encrypt: 53.73, decrypt: 36.60
+length: 256, encrypt: 10.15, decrypt: 9.78
+length: 512, encrypt: 17.17, decrypt: 15.58
+length: 1024, encrypt: 26.27, decrypt: 22.15
+length: 2048, encrypt: 36.08, decrypt: 28.06
+length: 4096, encrypt: 44.44, decrypt: 32.37
+length: 8192, encrypt: 50.25, decrypt: 35.07
+length: 16384, encrypt: 53.72, decrypt: 36.59
 m

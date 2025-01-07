@@ -5,7 +5,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    7814949.55k
+AES-256-CTR    7805512.36k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -13,7 +13,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    7773309.61k
+AES-256-CTR    7754771.11k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -21,7 +21,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    7475403.43k
+AES-256-CTR    7483172.18k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -29,7 +29,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    7241329.32k
+AES-256-CTR    7410469.55k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -37,7 +37,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    6858160.47k
+AES-256-CTR    6726424.58k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -45,7 +45,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    5164284.76k
+AES-256-CTR    5288837.63k
 version: 3.0.2
 built on: Tue Aug 20 17:27:32 2024 UTC
 options: bn(64,64)
@@ -53,4 +53,4 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -Wa,--noexecstack -g -
 CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x40417f5ef3bfb7ef
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2450715.14k
+AES-256-CTR    2302433.51k

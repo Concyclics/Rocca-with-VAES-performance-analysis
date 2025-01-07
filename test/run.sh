@@ -1,4 +1,4 @@
-for i in {1..50} 
+for i in {1..10} 
 do
     ./HIAE_run > HiAE_log_$i
     ./AEGIS_run > AEGIS_log_$i

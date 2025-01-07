@@ -1,22 +1,22 @@
 ========Rocca-S========
 --------speed test Encryption Only(Gbps)----------
-length: 16, encrypt: 2.20, decrypt: 2.21
-length: 64, encrypt: 6.78, decrypt: 6.97
-length: 256, encrypt: 19.03, decrypt: 17.08
-length: 512, encrypt: 30.28, decrypt: 24.14
-length: 1024, encrypt: 41.63, decrypt: 31.39
-length: 2048, encrypt: 126.00, decrypt: 85.37
-length: 4096, encrypt: 145.38, decrypt: 91.96
-length: 8192, encrypt: 155.45, decrypt: 95.55
-length: 16384, encrypt: 162.51, decrypt: 97.47
+length: 16, encrypt: 5.54, decrypt: 5.54
+length: 64, encrypt: 16.92, decrypt: 17.48
+length: 256, encrypt: 47.66, decrypt: 43.05
+length: 512, encrypt: 75.79, decrypt: 60.49
+length: 1024, encrypt: 104.13, decrypt: 74.63
+length: 2048, encrypt: 128.70, decrypt: 85.44
+length: 4096, encrypt: 144.92, decrypt: 91.89
+length: 8192, encrypt: 155.42, decrypt: 95.55
+length: 16384, encrypt: 162.52, decrypt: 97.46
 --------speed test AEAD(Gbps)----------
-length: 16, encrypt: 2.29, decrypt: 2.25
-length: 64, encrypt: 8.01, decrypt: 7.70
-length: 256, encrypt: 27.91, decrypt: 25.31
-length: 512, encrypt: 47.42, decrypt: 40.32
-length: 1024, encrypt: 74.89, decrypt: 57.40
-length: 2048, encrypt: 103.03, decrypt: 73.29
-length: 4096, encrypt: 127.45, decrypt: 84.12
-length: 8192, encrypt: 145.49, decrypt: 91.12
-length: 16384, encrypt: 156.98, decrypt: 95.16
+length: 16, encrypt: 2.28, decrypt: 2.32
+length: 64, encrypt: 8.02, decrypt: 7.69
+length: 256, encrypt: 27.79, decrypt: 25.21
+length: 512, encrypt: 47.59, decrypt: 40.72
+length: 1024, encrypt: 73.86, decrypt: 57.44
+length: 2048, encrypt: 102.98, decrypt: 72.66
+length: 4096, encrypt: 127.74, decrypt: 84.13
+length: 8192, encrypt: 145.67, decrypt: 91.12
+length: 16384, encrypt: 156.99, decrypt: 95.17
 m

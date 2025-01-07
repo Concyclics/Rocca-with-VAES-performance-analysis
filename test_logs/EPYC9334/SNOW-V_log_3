@@ -1,21 +1,21 @@
 ========SNOW-V========
 --------speed test Encryption Only(Gbps)----------
 length: 16, encrypt: 0.42, decrypt: 0.42
-length: 64, encrypt: 1.54, decrypt: 1.65
-length: 256, encrypt: 11.60, decrypt: 11.61
-length: 512, encrypt: 17.41, decrypt: 17.40
-length: 1024, encrypt: 23.20, decrypt: 23.18
-length: 2048, encrypt: 27.83, decrypt: 27.81
-length: 4096, encrypt: 30.91, decrypt: 30.88
-length: 8192, encrypt: 32.65, decrypt: 32.66
-length: 16384, encrypt: 33.71, decrypt: 33.69
+length: 64, encrypt: 1.55, decrypt: 1.69
+length: 256, encrypt: 11.58, decrypt: 11.60
+length: 512, encrypt: 17.41, decrypt: 17.39
+length: 1024, encrypt: 23.21, decrypt: 23.18
+length: 2048, encrypt: 27.83, decrypt: 27.66
+length: 4096, encrypt: 30.90, decrypt: 30.89
+length: 8192, encrypt: 32.70, decrypt: 32.70
+length: 16384, encrypt: 33.70, decrypt: 33.69
 --------speed test Encryption Only(GCM)----------
 length: 16, encrypt: 2.81, decrypt: 2.82
-length: 64, encrypt: 7.16, decrypt: 7.19
-length: 256, encrypt: 11.65, decrypt: 11.67
-length: 512, encrypt: 13.02, decrypt: 13.03
-length: 1024, encrypt: 13.82, decrypt: 13.82
+length: 64, encrypt: 7.18, decrypt: 7.19
+length: 256, encrypt: 11.64, decrypt: 11.67
+length: 512, encrypt: 13.01, decrypt: 13.02
+length: 1024, encrypt: 13.81, decrypt: 13.82
 length: 2048, encrypt: 14.26, decrypt: 14.26
-length: 4096, encrypt: 14.48, decrypt: 14.49
-length: 8192, encrypt: 14.60, decrypt: 14.62
+length: 4096, encrypt: 14.49, decrypt: 14.48
+length: 8192, encrypt: 14.61, decrypt: 14.61
 length: 16384, encrypt: 14.67, decrypt: 14.67

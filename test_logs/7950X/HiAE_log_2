@@ -3,23 +3,23 @@
 functional test pass.
 
 --------speed test Encryption Only(Gbps)----------
-length: 16, encrypt: 10.18, decrypt: 12.00, AD: 6.33
-length: 64, encrypt: 24.05, decrypt: 21.77, AD: 16.34
-length: 256, encrypt: 127.83, decrypt: 116.11, AD: 75.02
-length: 512, encrypt: 181.62, decrypt: 146.93, AD: 148.31
-length: 1024, encrypt: 250.17, decrypt: 164.08, AD: 172.35
-length: 2048, encrypt: 296.61, decrypt: 186.03, AD: 260.49
-length: 4096, encrypt: 329.32, decrypt: 187.21, AD: 329.02
-length: 8192, encrypt: 338.45, decrypt: 190.57, AD: 362.69
-length: 16384, encrypt: 339.28, decrypt: 196.29, AD: 386.13
+length: 16, encrypt: 7.28, decrypt: 7.28, AD: 4.92
+length: 64, encrypt: 22.05, decrypt: 23.01, AD: 16.59
+length: 256, encrypt: 141.58, decrypt: 116.51, AD: 85.76
+length: 512, encrypt: 206.97, decrypt: 142.03, AD: 146.45
+length: 1024, encrypt: 270.33, decrypt: 168.35, AD: 219.31
+length: 2048, encrypt: 318.24, decrypt: 183.70, AD: 289.26
+length: 4096, encrypt: 335.18, decrypt: 193.71, AD: 317.49
+length: 8192, encrypt: 351.27, decrypt: 197.81, AD: 371.79
+length: 16384, encrypt: 357.78, decrypt: 201.58, AD: 364.85
 --------speed test AEAD(Gbps)----------
-length: 16, encrypt: 3.55, decrypt: 3.69
-length: 64, encrypt: 11.96, decrypt: 11.23
-length: 256, encrypt: 57.95, decrypt: 51.94
-length: 512, encrypt: 91.55, decrypt: 84.28
-length: 1024, encrypt: 144.55, decrypt: 106.52
-length: 2048, encrypt: 218.28, decrypt: 139.90
-length: 4096, encrypt: 271.63, decrypt: 161.90
-length: 8192, encrypt: 287.58, decrypt: 174.10
-length: 16384, encrypt: 336.77, decrypt: 185.21
+length: 16, encrypt: 3.81, decrypt: 3.88
+length: 64, encrypt: 12.21, decrypt: 12.08
+length: 256, encrypt: 59.89, decrypt: 51.50
+length: 512, encrypt: 103.72, decrypt: 82.85
+length: 1024, encrypt: 156.66, decrypt: 116.94
+length: 2048, encrypt: 222.03, decrypt: 149.84
+length: 4096, encrypt: 279.84, decrypt: 172.31
+length: 8192, encrypt: 315.90, decrypt: 187.32
+length: 16384, encrypt: 329.44, decrypt: 194.28
 0

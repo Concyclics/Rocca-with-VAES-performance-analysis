@@ -5,7 +5,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR   12215085.74k
+AES-256-CTR   12053282.82k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -13,7 +13,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR   11936120.83k
+AES-256-CTR   11991793.66k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -21,7 +21,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR   11972434.60k
+AES-256-CTR   11760895.32k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -29,7 +29,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR   11607401.65k
+AES-256-CTR   11447082.30k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -37,7 +37,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR   10861252.61k
+AES-256-CTR   10910052.86k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -45,7 +45,7 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    8025299.63k
+AES-256-CTR    8104910.68k
 version: 3.0.15
 built on: Thu Sep  5 14:09:19 2024 UTC
 options: bn(64,64)
@@ -53,4 +53,4 @@ compiler: /croot/openssl_1725545306763/_build_env/bin/x86_64-conda-linux-gnu-cc 
 CPUINFO: OPENSSL_ia32cap=0xfed83203078bffff:0x405fc6f1bf07a9
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    3854470.64k
+AES-256-CTR    3751033.11k
