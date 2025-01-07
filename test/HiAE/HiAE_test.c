@@ -6,6 +6,8 @@
 #include <time.h>
 #define REPEAT 65536
 
+uint8_t res = 0;
+
 void print_data(const uint8_t *data, size_t len) {
     for (size_t i = 0; i < len; ++i) {
         printf("%02x", data[i]);
@@ -102,6 +104,7 @@ double speed_test_ad_work(size_t len) {
         HiAE_stream_init(state, key, iv);
         HiAE_stream_proc_ad(state, ad, ad_len);
         HiAE_stream_finalize(state, ad_len, 0, tag);
+        res ^= tag[0];
     }
     end = clock();
 
@@ -135,6 +138,7 @@ double speed_test_encode_work(size_t len, int AEAD) {
             HiAE_stream_proc_ad(state, ad, ad_len);
             HiAE_stream_encrypt(state, cipher, plain, plain_len);
             HiAE_stream_finalize(state, ad_len, plain_len, tag);
+            res ^= tag[0];
         }
         end = clock();
     }
@@ -143,6 +147,7 @@ double speed_test_encode_work(size_t len, int AEAD) {
         for (size_t iter = REPEAT; iter > 0; iter --) {
             HiAE_stream_init(state, key, iv);
             HiAE_stream_encrypt(state, cipher, plain, plain_len);
+            res ^= cipher[plain_len-1];
         }
         end = clock();
     }
@@ -176,6 +181,7 @@ double speed_test_decode_work(size_t len, int AEAD) {
             HiAE_stream_proc_ad(state, ad, ad_len);
             HiAE_stream_decrypt(state, cipher, plain, plain_len);
             HiAE_stream_finalize(state, ad_len, plain_len, tag);
+            res ^= tag[0];
         }
         end = clock();
     }
@@ -184,6 +190,7 @@ double speed_test_decode_work(size_t len, int AEAD) {
         for (size_t iter = REPEAT; iter > 0; iter --) {
             HiAE_stream_init(state, key, iv);
             HiAE_stream_decrypt(state, cipher, plain, plain_len);
+            res ^= cipher[plain_len-1];
         }
         end = clock();
     }
@@ -227,4 +234,5 @@ int main() {
     functional_test();
     speed_test();
     speed_test_AEAD();
+    printf("%d\n", res);
 }
