@@ -1,0 +1,24 @@
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 16.98, decrypt: 16.98, AD: 8.56
+length: 64, encrypt: 33.19, decrypt: 30.12, AD: 23.40
+length: 256, encrypt: 139.52, decrypt: 120.59, AD: 106.35
+length: 512, encrypt: 176.95, decrypt: 128.93, AD: 152.69
+length: 1024, encrypt: 173.69, decrypt: 143.97, AD: 233.12
+length: 2048, encrypt: 213.55, decrypt: 151.02, AD: 274.12
+length: 4096, encrypt: 210.81, decrypt: 148.71, AD: 243.53
+length: 8192, encrypt: 201.84, decrypt: 150.12, AD: 308.77
+length: 16384, encrypt: 217.36, decrypt: 153.06, AD: 308.88
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 5.72, decrypt: 5.88
+length: 64, encrypt: 17.99, decrypt: 18.15
+length: 256, encrypt: 75.62, decrypt: 66.48
+length: 512, encrypt: 114.62, decrypt: 93.34
+length: 1024, encrypt: 144.59, decrypt: 115.53
+length: 2048, encrypt: 166.70, decrypt: 136.54
+length: 4096, encrypt: 182.44, decrypt: 140.30
+length: 8192, encrypt: 186.04, decrypt: 144.49
+length: 16384, encrypt: 213.17, decrypt: 156.91

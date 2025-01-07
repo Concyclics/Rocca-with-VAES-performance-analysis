@@ -1,0 +1,21 @@
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 10.32, decrypt: 0.76
+length: 64, encrypt: 35.66, decrypt: 3.10
+length: 256, encrypt: 84.25, decrypt: 11.08
+length: 512, encrypt: 112.69, decrypt: 20.68
+length: 1024, encrypt: 143.55, decrypt: 36.17
+length: 2048, encrypt: 119.34, decrypt: 62.18
+length: 4096, encrypt: 171.03, decrypt: 90.84
+length: 8192, encrypt: 175.87, decrypt: 114.76
+length: 16384, encrypt: 180.34, decrypt: 125.35
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 4.18, decrypt: 0.66
+length: 64, encrypt: 20.71, decrypt: 2.61
+length: 256, encrypt: 59.52, decrypt: 9.76
+length: 512, encrypt: 92.28, decrypt: 19.29
+length: 1024, encrypt: 120.59, decrypt: 34.89
+length: 2048, encrypt: 141.26, decrypt: 56.78
+length: 4096, encrypt: 152.53, decrypt: 81.59
+length: 8192, encrypt: 157.95, decrypt: 100.32
+length: 16384, encrypt: 152.60, decrypt: 122.45

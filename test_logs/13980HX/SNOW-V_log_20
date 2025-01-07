@@ -1,0 +1,21 @@
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 1.84, decrypt: 1.96
+length: 64, encrypt: 7.14, decrypt: 7.18
+length: 256, encrypt: 19.91, decrypt: 20.06
+length: 512, encrypt: 32.38, decrypt: 31.33
+length: 1024, encrypt: 43.59, decrypt: 43.03
+length: 2048, encrypt: 48.21, decrypt: 47.81
+length: 4096, encrypt: 53.82, decrypt: 57.41
+length: 8192, encrypt: 58.97, decrypt: 57.90
+length: 16384, encrypt: 61.71, decrypt: 61.21
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 4.70, decrypt: 4.28
+length: 64, encrypt: 11.30, decrypt: 11.14
+length: 256, encrypt: 17.38, decrypt: 17.45
+length: 512, encrypt: 19.07, decrypt: 18.96
+length: 1024, encrypt: 19.76, decrypt: 19.96
+length: 2048, encrypt: 20.61, decrypt: 19.90
+length: 4096, encrypt: 20.95, decrypt: 20.75
+length: 8192, encrypt: 20.71, decrypt: 20.75
+length: 16384, encrypt: 19.76, decrypt: 19.41
