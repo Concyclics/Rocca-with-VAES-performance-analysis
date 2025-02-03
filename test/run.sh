@@ -11,7 +11,7 @@ done
 for i in {1..3}
 do
     openssl speed -bytes 16384 -evp aes-256-ctr > AES-256-CTR_log_$i
-    openssl speed -bytes 8192 -evp aes-256-gcm > AES-256-GCM_log_$i
+    openssl speed -bytes 16384 -evp aes-256-gcm > AES-256-GCM_log_$i
     for len in 8192 4096 2048 1024 256 64
     do
         openssl speed -bytes $len -evp aes-256-ctr >> AES-256-CTR_log_$i
