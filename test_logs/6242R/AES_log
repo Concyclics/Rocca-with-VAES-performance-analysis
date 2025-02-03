@@ -1,0 +1,1131 @@
+Openssl AES
+Round 1
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4531038.89k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4480499.71k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4496654.34k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4412025.51k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4480598.02k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4309125.80k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4421348.01k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4072810.50k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4284752.90k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3720030.55k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3603371.35k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2433778.01k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2029217.51k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1336911.51k
+Round 2
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4545227.43k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4479385.60k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4495591.51k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4419283.63k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4486911.32k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4315660.29k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4414255.10k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4072712.87k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4299762.69k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3711471.27k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3664555.26k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2423984.64k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2169062.87k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1313353.88k
+Round 3
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4538651.99k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4491684.52k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4509425.66k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4427481.09k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4496647.51k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4311931.56k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4398684.16k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4085221.38k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4298402.47k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3729420.63k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3655913.73k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2380206.59k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2161878.93k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1337531.35k
+Round 4
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4548629.85k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4479156.22k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4519728.47k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4416735.91k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4495432.36k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4310033.75k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4418863.10k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4073463.81k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4256264.87k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3703832.58k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3627277.40k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2325626.45k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2123266.37k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1334963.43k
+Round 5
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4493705.22k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4468118.87k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4492012.20k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4411684.18k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4463878.14k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4292930.22k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4403662.85k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4049263.27k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4289331.20k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3694432.94k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3637810.52k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2422862.08k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2157743.30k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1327370.09k
+Round 6
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4506391.89k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4475852.12k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4488743.59k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4409054.55k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4472128.85k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4292537.00k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4412056.23k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4077136.55k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4290529.28k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3696826.37k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3645768.87k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2430835.20k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2172310.53k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1347364.16k
+Round 7
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4538182.31k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4480243.03k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4512336.55k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4423483.39k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4493540.01k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4301093.55k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4410305.19k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    3996481.54k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4277736.11k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3636313.77k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3636738.65k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2400362.84k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2141799.94k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1336241.05k
+Round 8
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4541601.11k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4476589.40k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4507282.09k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4422243.67k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4476418.73k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4320893.61k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4427406.68k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4068762.97k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4299422.04k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3658819.24k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3644596.48k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2413918.04k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2159893.91k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1348692.63k
+Round 9
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4535975.94k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4476299.95k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4516181.33k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4432338.94k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4518714.03k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4315133.27k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4412816.04k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4070616.41k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4297317.72k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3717093.38k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3459456.09k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2450891.43k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2154569.22k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1334493.42k
+Round 10
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    4515829.08k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    4490641.41k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    4521910.27k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    4423215.79k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    4477463.21k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    4254861.99k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    4429846.53k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    4079572.99k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    4294218.07k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    3717729.96k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    3553108.99k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    2428702.38k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    2154750.06k
+version: 3.0.10
+built on: Thu Aug 24 18:15:26 2023 UTC
+options: bn(64,64)
+compiler: /croot/openssl_1692900866455/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chenhan/anaconda3/include -fdebug-prefix-map=/croot/openssl_1692900866455/work=/usr/local/src/conda/openssl-3.0.10 -fdebug-prefix-map=/home/chenhan/anaconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/chenhan/anaconda3/include
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0x818d39ef7eb
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    1331841.41k
