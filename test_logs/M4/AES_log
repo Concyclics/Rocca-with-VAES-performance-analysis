@@ -1,0 +1,1131 @@
+Openssl AES
+Round 1
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14534775.81k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8582055.05k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14762603.19k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8628370.58k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14599457.45k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8387155.16k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14368654.60k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8168681.76k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13740927.74k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7974148.81k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10518563.51k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    6040896.56k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5391772.16k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4219816.93k
+Round 2
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14703233.29k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8514300.59k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14574735.15k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8281616.10k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   13749234.72k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8172567.97k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   13898566.38k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7794613.53k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13566243.10k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    8027513.75k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10488310.67k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5940611.17k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5410245.22k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4175971.06k
+Round 3
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14641778.36k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8594301.67k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14736858.20k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8522087.95k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   13616934.63k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8185839.51k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14176885.62k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8054331.79k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13676164.54k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7906991.29k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10143204.43k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5914410.46k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5418606.54k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4203258.71k
+Round 4
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14581798.88k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8595698.47k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14783841.25k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8496570.81k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14516769.22k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8207363.42k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14260678.18k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7968992.71k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13313760.86k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    8073738.27k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10505140.91k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5941743.27k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5456058.03k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4246772.10k
+Round 5
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14821534.60k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8535599.88k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14742394.20k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8542270.06k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14501745.53k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8182118.74k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   13625081.83k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8073250.13k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13564003.98k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    8037328.61k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10417655.01k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    6004149.77k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5382364.59k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4270950.74k
+Round 6
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14822632.29k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8559230.98k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14606738.70k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8483430.40k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14464303.10k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8182573.68k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14195208.93k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8166818.47k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13583273.41k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    8122877.26k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10457986.15k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5971787.85k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5418959.71k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4247204.94k
+Round 7
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14881740.63k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8558149.41k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14818363.59k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8504489.06k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14512671.40k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8163464.07k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14376301.76k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8064959.40k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13697065.44k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7950462.37k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10355714.51k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5981968.64k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5503837.85k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4233016.59k
+Round 8
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14802160.42k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8441703.27k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14779721.46k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8452904.13k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14476943.50k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8305572.29k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14278941.35k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8132726.42k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13643212.46k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7958303.41k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10492454.70k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5952481.45k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5373770.08k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4223771.52k
+Round 9
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14581715.72k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8589443.07k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14759269.72k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8566777.15k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14475076.95k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8236238.17k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14246103.80k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    8309074.60k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13659460.27k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7914571.78k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10472576.00k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5933304.29k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5394719.08k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4204819.22k
+Round 10
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   14856055.47k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8598197.59k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   14781079.55k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8514451.41k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   14535979.32k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8393191.42k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   14376192.68k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7923571.37k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   13693760.17k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7869869.53k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR   10456533.76k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    6009158.04k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    5429450.75k
+version: 3.4.0
+built on: Tue Oct 22 12:26:59 2024 UTC
+options: bn(64,64)
+compiler: clang -fPIC -arch arm64 -O3 -Wall -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x87d
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    4237705.09k

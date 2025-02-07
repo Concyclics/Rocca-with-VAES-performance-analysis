@@ -1,0 +1,1131 @@
+Openssl AES
+Round 1
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8446113.75k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6541238.95k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8588469.32k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6600239.44k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8579606.83k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6441068.96k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8365005.46k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6042988.09k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7793472.44k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5815444.92k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6436238.51k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4477654.99k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3258561.10k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2333857.32k
+Round 2
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8659802.46k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6589566.28k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8619467.49k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6512926.19k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8190692.13k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6297677.53k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8195202.27k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6059671.32k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7899374.61k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5816680.03k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6334910.86k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4451210.03k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3374789.56k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2308161.91k
+Round 3
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8509388.96k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6486508.30k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8509420.62k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6428078.34k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8454305.75k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6354288.64k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8268032.33k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6149293.49k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7938251.17k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5823138.92k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6400338.20k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4458593.90k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3292653.92k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2300144.88k
+Round 4
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8498952.45k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6504977.17k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8488064.00k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6326793.78k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8325718.75k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6364430.23k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8228787.20k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6051775.67k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7900524.94k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5781452.64k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6376307.32k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4463115.77k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3315746.19k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2346708.05k
+Round 5
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8547548.55k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6427232.47k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8506114.47k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6441027.17k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8320046.96k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6339473.14k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8233805.50k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6129314.52k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7987113.57k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5813122.11k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6457118.46k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4473528.39k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3302381.17k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2313479.89k
+Round 6
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8553248.64k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6470845.15k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8508870.07k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6485702.48k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8476833.75k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6352424.38k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8158802.12k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6003653.95k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7880250.70k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5836616.40k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6440088.97k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4497378.82k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3300342.78k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2287188.09k
+Round 7
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8501490.98k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6432494.44k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8447933.39k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6329356.43k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8373484.11k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6348991.65k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8182985.04k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6085933.25k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7903621.56k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5801262.19k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6356610.74k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4344710.46k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3215844.55k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2276711.72k
+Round 8
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8610813.27k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6490321.59k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8424569.77k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6330112.54k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8335862.44k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6396447.51k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8209541.40k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    5838450.30k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7906716.42k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5824655.11k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6430542.68k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4430739.81k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3292726.10k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2297662.22k
+Round 9
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8579492.52k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6450429.95k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8466363.29k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6448860.18k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8386051.94k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6347316.51k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8215277.62k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6077514.41k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7819501.50k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5835270.28k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6455937.73k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4369642.10k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3318192.19k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2305191.13k
+Round 10
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR    8611655.87k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    6410022.05k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR    8471086.66k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    6475302.52k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR    8383458.56k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    6342162.48k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR    8233127.09k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    6090478.93k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    7912848.29k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    5778841.27k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    6447269.03k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    4441556.39k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    3294303.51k
+version: 3.4.0
+built on: Tue Nov 12 02:02:43 2024 UTC
+options: bn(64,64)
+compiler: /home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/_build_env/bin/x86_64-conda-linux-gnu-cc -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/fenvy/miniconda3/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/openssl_split_1731376803166/work=/usr/local/src/conda/openssl_split-3.4.0 -fdebug-prefix-map=/home/fenvy/miniconda3=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/fenvy/miniconda3/include
+CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2306362.56k
