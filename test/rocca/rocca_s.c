@@ -315,8 +315,8 @@ double speed_test_decode_work(size_t len, int AEAD) {
 }
 
 void speed_test() {
-    int len_test_case = 9;
-    size_t test_case[9] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384};
+    int len_test_case = 8;
+    size_t test_case[8] = {64, 256, 512, 1024, 2048, 4096, 8192, 16384};
     double encrypto_speed[len_test_case];
     double decrypto_speed[len_test_case];
     printf("--------speed test Encryption Only(Gbps)----------\n");
@@ -329,8 +329,8 @@ void speed_test() {
 }
 
 void speed_test_AEAD() {
-    int len_test_case = 9;
-    size_t test_case[9] = {16, 64, 256, 512, 1024, 2048, 4096, 8192, 16384};
+    int len_test_case = 8;
+    size_t test_case[8] = {64, 256, 512, 1024, 2048, 4096, 8192, 16384};
     double encrypto_speed[len_test_case];
     double decrypto_speed[len_test_case];
     printf("--------speed test AEAD(Gbps)----------\n");
@@ -346,8 +346,8 @@ int main(int argc, char *argv[])
 {
 
     printf("========Rocca-S========\n");
-    speed_test();
     speed_test_AEAD();
+    speed_test();
     printf("%c", res);
 
     return 0;
