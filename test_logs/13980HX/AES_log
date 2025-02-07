@@ -1,0 +1,1131 @@
+Openssl AES
+Round 1
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10772914.68k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8237524.11k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10833783.47k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8188678.62k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10661446.36k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8079655.36k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10421091.96k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7700830.39k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    9992389.83k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7352362.49k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8108017.20k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5384427.45k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4203108.29k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2683394.66k
+Round 2
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10817958.18k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8245301.12k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10808589.11k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8183450.12k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10691875.47k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8074341.35k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10415664.07k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7792791.86k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10010021.36k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7355804.37k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8068881.21k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5338449.15k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4088784.41k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2672900.85k
+Round 3
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10886977.23k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8285349.52k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10783890.09k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8248927.41k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10679552.35k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8021117.92k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10440928.17k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7861372.69k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10017419.67k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7303962.47k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8000452.85k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5404525.06k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4142835.68k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2702558.74k
+Round 4
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10807694.45k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8227580.68k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10771100.73k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8139562.84k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10662664.01k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8120613.96k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10440884.42k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7663674.51k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    9982878.82k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7364141.63k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8003763.46k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5407304.36k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4116009.30k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2711014.86k
+Round 5
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10826736.67k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8275809.18k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10821144.38k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8232216.03k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10706025.88k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8067827.11k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10436464.50k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7781545.97k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    9881854.96k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7153626.73k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    7949636.27k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5420707.61k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4162540.17k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2711088.35k
+Round 6
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10862229.77k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8314456.47k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10841373.61k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8196703.43k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10637190.79k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8002600.40k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10482685.90k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7677126.53k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR    9945878.29k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7323782.10k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8038966.08k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5364251.25k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4126285.41k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2736104.88k
+Round 7
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10958756.05k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8302552.99k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10818313.40k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8295985.46k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10803116.41k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8134669.93k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10530346.49k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7842177.22k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10151444.55k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7443278.37k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8141445.14k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5438148.44k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4219902.06k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2727225.23k
+Round 8
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10947548.35k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8374880.11k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10943350.07k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8247574.64k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10807950.80k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8191035.91k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10556694.64k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7858751.26k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10184529.15k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7428240.89k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8123975.58k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5495409.72k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4175316.66k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2752035.74k
+Round 9
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   11012316.13k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8366701.37k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10892233.67k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8270294.90k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10699083.58k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8131515.73k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10582447.19k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7878015.13k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10167110.70k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7399464.05k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    8098687.39k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5473605.98k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4238503.80k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2722357.76k
+Round 10
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-CTR   10940966.79k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+AES-256-GCM    8352881.93k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-CTR   10944868.66k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+AES-256-GCM    8311399.79k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-CTR   10821175.19k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+AES-256-GCM    8200586.38k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-CTR   10422584.74k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+AES-256-GCM    7898584.24k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-CTR   10115794.80k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+AES-256-GCM    7414703.97k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-CTR    7790921.75k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+AES-256-GCM    5480983.68k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-CTR    4124760.84k
+version: 3.0.13
+built on: Tue Aug 20 17:05:36 2024 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-WgbqpY/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.4 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0xfffa32234f8bffff:0x184007a4219c27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+AES-256-GCM    2745106.44k

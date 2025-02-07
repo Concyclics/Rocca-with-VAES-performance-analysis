@@ -228,6 +228,7 @@ double speed_test_encode_work(size_t len, int AEAD) {
             stream_proc_ad( & ctx, ad, ad_len);
             stream_enc( & ctx, ciphertext, message, message_len);
             stream_finalize( & ctx, tag);
+            res ^= tag[15];
         }
         end = clock();
         res ^= ciphertext[message_len-1];
@@ -238,6 +239,7 @@ double speed_test_encode_work(size_t len, int AEAD) {
         {
             stream_init( & ctx, key, nonce);
             stream_enc( & ctx, ciphertext, message, message_len);
+            res ^= ciphertext[message_len-1];
         }
         end = clock();
         res ^= ciphertext[message_len-1];
@@ -287,6 +289,7 @@ double speed_test_decode_work(size_t len, int AEAD) {
             stream_proc_ad( & ctx, ad, ad_len);
             stream_dec( & ctx, ciphertext, message, message_len);
             stream_finalize( & ctx, tag);
+            res ^= tag[15];
         }
         end = clock();
         res ^= ciphertext[message_len-1];
@@ -297,6 +300,7 @@ double speed_test_decode_work(size_t len, int AEAD) {
         {
             stream_init( & ctx, key, nonce);
             stream_dec( & ctx, ciphertext, message, message_len);
+            res ^= ciphertext[message_len-1];
         }
         end = clock();
         res ^= ciphertext[message_len-1];
