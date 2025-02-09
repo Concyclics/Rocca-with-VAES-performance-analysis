@@ -7,7 +7,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6521058.70k
+AES-256-CTR   10845563.46k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -15,7 +15,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    5023329.25k
+AES-256-GCM    8371028.41k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -23,7 +23,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    5929938.92k
+AES-256-CTR   10967569.12k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -31,7 +31,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4470653.50k
+AES-256-GCM    8265891.84k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -39,7 +39,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6135826.26k
+AES-256-CTR   10894829.41k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -47,7 +47,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4803520.53k
+AES-256-GCM    8166167.30k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -55,7 +55,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6077299.20k
+AES-256-CTR   10598714.83k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -63,7 +63,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4550992.91k
+AES-256-GCM    7895027.95k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -71,7 +71,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5920908.33k
+AES-256-CTR   10246838.57k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -79,7 +79,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4417631.94k
+AES-256-GCM    7419791.89k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -87,7 +87,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4699862.94k
+AES-256-CTR    7816938.59k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -95,7 +95,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3107716.83k
+AES-256-GCM    5547432.59k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -103,7 +103,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2401315.33k
+AES-256-CTR    4209654.69k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -111,7 +111,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1603551.40k
+AES-256-GCM    2741173.73k
 Round 2
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -120,7 +120,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6287510.36k
+AES-256-CTR   11061897.06k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -128,7 +128,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4831756.03k
+AES-256-GCM    8194097.15k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -136,7 +136,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6243136.20k
+AES-256-CTR   10935231.96k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -144,7 +144,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4810618.85k
+AES-256-GCM    8168217.84k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -152,7 +152,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6158483.10k
+AES-256-CTR   10873508.79k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -160,7 +160,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4763797.29k
+AES-256-GCM    8177239.37k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -168,7 +168,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6073561.68k
+AES-256-CTR   10623562.84k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -176,7 +176,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4512034.46k
+AES-256-GCM    7856130.47k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -184,7 +184,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5889259.62k
+AES-256-CTR   10191781.29k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -192,7 +192,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4262303.06k
+AES-256-GCM    7427568.61k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -200,7 +200,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4469264.77k
+AES-256-CTR    8230049.42k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -208,7 +208,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3202818.36k
+AES-256-GCM    5523783.51k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -216,7 +216,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2463851.86k
+AES-256-CTR    4209203.42k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -224,7 +224,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1629484.98k
+AES-256-GCM    2713095.70k
 Round 3
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -233,7 +233,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6367745.59k
+AES-256-CTR   10989993.98k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -241,7 +241,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4846417.63k
+AES-256-GCM    8111889.80k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -249,7 +249,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6441067.52k
+AES-256-CTR   10859131.20k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -257,7 +257,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4904042.91k
+AES-256-GCM    8052326.40k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -265,7 +265,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6238978.25k
+AES-256-CTR   10704160.44k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -273,7 +273,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4682970.97k
+AES-256-GCM    7951823.11k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -281,7 +281,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6103410.31k
+AES-256-CTR   10511425.14k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -289,7 +289,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4570358.79k
+AES-256-GCM    7630876.27k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -297,7 +297,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5959935.35k
+AES-256-CTR   10053450.44k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -305,7 +305,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4346820.97k
+AES-256-GCM    7250661.21k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -313,7 +313,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4749093.24k
+AES-256-CTR    8190811.11k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -321,7 +321,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3217110.44k
+AES-256-GCM    5493772.13k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -329,7 +329,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2438720.53k
+AES-256-CTR    4190862.25k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -337,7 +337,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1623611.65k
+AES-256-GCM    2737217.60k
 Round 4
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -346,7 +346,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6396493.93k
+AES-256-CTR   10996876.26k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -354,7 +354,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4859102.83k
+AES-256-GCM    8372791.52k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -362,7 +362,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    5652711.85k
+AES-256-CTR   10968138.93k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -370,7 +370,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4863353.40k
+AES-256-GCM    8284766.81k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -378,7 +378,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6366777.91k
+AES-256-CTR   10938067.46k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -386,7 +386,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4827717.03k
+AES-256-GCM    8228980.31k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -394,7 +394,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6142771.85k
+AES-256-CTR   10726895.30k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -402,7 +402,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4669639.76k
+AES-256-GCM    7916784.83k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -410,7 +410,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5824517.67k
+AES-256-CTR   10232905.96k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -418,7 +418,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4465611.85k
+AES-256-GCM    7462129.33k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -426,7 +426,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4852155.55k
+AES-256-CTR    8246700.10k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -434,7 +434,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3162402.59k
+AES-256-GCM    5499285.59k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -442,7 +442,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2537602.24k
+AES-256-CTR    4119934.54k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -450,7 +450,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1629579.43k
+AES-256-GCM    2733195.87k
 Round 5
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -459,7 +459,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6399144.51k
+AES-256-CTR   11076706.33k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -467,7 +467,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4933822.97k
+AES-256-GCM    8375575.96k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -475,7 +475,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6489230.90k
+AES-256-CTR   11015494.16k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -483,7 +483,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4951481.80k
+AES-256-GCM    8318070.03k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -491,7 +491,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6428769.70k
+AES-256-CTR   10832114.44k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -499,7 +499,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4811909.40k
+AES-256-GCM    8166449.95k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -507,7 +507,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6309182.51k
+AES-256-CTR   10642029.87k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -515,7 +515,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4756392.05k
+AES-256-GCM    7853849.68k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -523,7 +523,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    6053882.31k
+AES-256-CTR   10191383.65k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -531,7 +531,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4421872.02k
+AES-256-GCM    7273899.34k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -539,7 +539,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4853881.64k
+AES-256-CTR    7900244.68k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -547,7 +547,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3264633.38k
+AES-256-GCM    5309267.32k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -555,7 +555,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2508564.88k
+AES-256-CTR    4113835.99k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -563,7 +563,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1626830.47k
+AES-256-GCM    2633775.75k
 Round 6
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -572,7 +572,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6439357.00k
+AES-256-CTR   10830896.41k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -580,7 +580,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    5031446.23k
+AES-256-GCM    8118773.04k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -588,7 +588,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6445630.94k
+AES-256-CTR   10777122.13k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -596,7 +596,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4877975.25k
+AES-256-GCM    8027646.43k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -604,7 +604,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6231555.44k
+AES-256-CTR   10809812.11k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -612,7 +612,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4786346.02k
+AES-256-GCM    8209553.40k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -620,7 +620,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6156336.54k
+AES-256-CTR   10652336.03k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -628,7 +628,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4589821.34k
+AES-256-GCM    7875968.62k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -636,7 +636,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5728498.48k
+AES-256-CTR   10219873.09k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -644,7 +644,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4415659.20k
+AES-256-GCM    7457470.40k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -652,7 +652,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4798379.85k
+AES-256-CTR    8253691.84k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -660,7 +660,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3099430.20k
+AES-256-GCM    5509490.96k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -668,7 +668,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2423349.80k
+AES-256-CTR    4206400.69k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -676,7 +676,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1586379.98k
+AES-256-GCM    2732792.91k
 Round 7
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -685,7 +685,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6370925.92k
+AES-256-CTR   11089329.47k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -693,7 +693,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4737405.70k
+AES-256-GCM    8384396.41k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -701,7 +701,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6104468.42k
+AES-256-CTR   10988620.64k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -709,7 +709,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4795532.80k
+AES-256-GCM    8297646.74k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -717,7 +717,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6116486.54k
+AES-256-CTR   10926961.83k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -725,7 +725,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4719494.90k
+AES-256-GCM    8049302.63k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -733,7 +733,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6007972.52k
+AES-256-CTR   10596471.88k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -741,7 +741,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4556416.32k
+AES-256-GCM    7884745.05k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -749,7 +749,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5725463.52k
+AES-256-CTR   10191980.02k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -757,7 +757,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4276924.19k
+AES-256-GCM    7433896.70k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -765,7 +765,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4567000.33k
+AES-256-CTR    8182541.85k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -773,7 +773,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3208361.95k
+AES-256-GCM    5535804.04k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -781,7 +781,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2413841.97k
+AES-256-CTR    4224057.47k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -789,7 +789,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1606730.19k
+AES-256-GCM    2720129.90k
 Round 8
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -798,7 +798,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6353335.21k
+AES-256-CTR   10970445.95k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -806,7 +806,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4899787.67k
+AES-256-GCM    8338454.21k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -814,7 +814,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6138085.58k
+AES-256-CTR   10944630.44k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -822,7 +822,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4757457.04k
+AES-256-GCM    8207009.45k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -830,7 +830,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6312021.64k
+AES-256-CTR   10693633.26k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -838,7 +838,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4792227.47k
+AES-256-GCM    7934491.81k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -846,7 +846,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    6037383.46k
+AES-256-CTR   10468736.48k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -854,7 +854,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4557853.52k
+AES-256-GCM    7646440.49k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -862,7 +862,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5824771.23k
+AES-256-CTR   10005379.68k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -870,7 +870,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4250282.56k
+AES-256-GCM    7230774.28k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -878,7 +878,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4710438.17k
+AES-256-CTR    7977704.94k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -886,7 +886,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3096755.12k
+AES-256-GCM    5357788.71k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -894,7 +894,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2433537.78k
+AES-256-CTR    4128823.04k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -902,7 +902,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1608902.12k
+AES-256-GCM    2731988.39k
 Round 9
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -911,7 +911,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6140570.08k
+AES-256-CTR   11056688.12k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -919,7 +919,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4762725.17k
+AES-256-GCM    8370205.61k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -927,7 +927,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    6229093.17k
+AES-256-CTR   10958115.30k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -935,7 +935,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4703765.22k
+AES-256-GCM    8312857.92k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -943,7 +943,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6021113.85k
+AES-256-CTR   10803444.98k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -951,7 +951,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4708628.76k
+AES-256-GCM    8186799.64k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -959,7 +959,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    5815929.64k
+AES-256-CTR   10648325.41k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -967,7 +967,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4444071.87k
+AES-256-GCM    7865591.26k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -975,7 +975,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5833730.51k
+AES-256-CTR   10290081.90k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -983,7 +983,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4196818.09k
+AES-256-GCM    7450311.88k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -991,7 +991,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4543166.51k
+AES-256-CTR    8231516.56k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -999,7 +999,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    3029594.78k
+AES-256-GCM    5517175.24k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1007,7 +1007,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2312695.41k
+AES-256-CTR    4225609.03k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1015,7 +1015,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1551484.07k
+AES-256-GCM    2742476.05k
 Round 10
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
@@ -1024,7 +1024,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-CTR    6103726.08k
+AES-256-CTR   11070327.05k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1032,7 +1032,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type          16384 bytes
-AES-256-GCM    4511805.44k
+AES-256-GCM    8382988.49k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1040,7 +1040,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-CTR    5814750.72k
+AES-256-CTR   11060872.84k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1048,7 +1048,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           8192 bytes
-AES-256-GCM    4552064.72k
+AES-256-GCM    8295632.49k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1056,7 +1056,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-CTR    6106214.08k
+AES-256-CTR   10832290.21k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1064,7 +1064,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           4096 bytes
-AES-256-GCM    4552633.82k
+AES-256-GCM    8202085.02k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1072,7 +1072,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-CTR    5865860.55k
+AES-256-CTR   10636843.97k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1080,7 +1080,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           2048 bytes
-AES-256-GCM    4436708.48k
+AES-256-GCM    7849594.32k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1088,7 +1088,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-CTR    5510861.12k
+AES-256-CTR   10279705.06k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1096,7 +1096,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type           1024 bytes
-AES-256-GCM    4019992.64k
+AES-256-GCM    7379277.91k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1104,7 +1104,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-CTR    4532764.56k
+AES-256-CTR    8201379.61k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1112,7 +1112,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type            256 bytes
-AES-256-GCM    2941285.68k
+AES-256-GCM    5506671.99k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1120,7 +1120,7 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-CTR    2353045.15k
+AES-256-CTR    4014796.03k
 version: 3.0.13
 built on: Tue Aug 20 17:05:36 2024 UTC
 options: bn(64,64)
@@ -1128,4 +1128,4 @@ compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=
 CPUINFO: OPENSSL_ia32cap=0xfffa32235f8bffff:0x184007a4219c27ab
 The 'numbers' are in 1000s of bytes per second processed.
 type             64 bytes
-AES-256-GCM    1550174.42k
+AES-256-GCM    2613836.60k
