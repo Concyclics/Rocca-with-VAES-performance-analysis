@@ -1,0 +1,496 @@
+Openssl AES
+Round 1
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-ctr    1040784.01k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-gcm     703082.52k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-ctr    1035108.35k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-gcm     703791.76k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-ctr    1018488.15k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-gcm     693973.36k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-ctr     998913.71k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-gcm     687304.70k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-ctr     940242.28k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-gcm     659823.48k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-ctr     703556.41k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-gcm     523857.94k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-ctr     364356.90k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-gcm     302103.89k
+Round 2
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-ctr    1038521.69k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-gcm     704073.63k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-ctr    1032153.77k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-gcm     703010.59k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-ctr    1016710.49k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-gcm     693982.95k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-ctr     994509.48k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-gcm     690522.85k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-ctr     936812.89k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-gcm     655242.58k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-ctr     703190.13k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-gcm     527486.63k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-ctr     365395.16k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-gcm     300628.68k
+Round 3
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-ctr    1040937.44k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-gcm     705347.69k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-ctr    1033622.18k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-gcm     701922.89k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-ctr    1022093.10k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-gcm     694659.68k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-ctr     997538.88k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-gcm     683492.76k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-ctr     934470.10k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-gcm     652530.67k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-ctr     698659.02k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-gcm     523441.58k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-ctr     358592.02k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-gcm     300823.52k
+Round 4
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-ctr    1039003.14k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-gcm     703416.08k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-ctr    1035877.03k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-gcm     704690.09k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-ctr    1016475.65k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-gcm     693874.73k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-ctr     994577.07k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-gcm     688433.83k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-ctr     931295.46k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-gcm     656572.42k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-ctr     704844.12k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-gcm     525766.38k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-ctr     359733.11k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-gcm     300629.18k
+Round 5
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-ctr    1041364.85k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type          16384 bytes
+aes-256-gcm     704183.22k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-ctr    1038157.32k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           8192 bytes
+aes-256-gcm     702922.92k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-ctr    1018567.99k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           4096 bytes
+aes-256-gcm     694443.24k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-ctr     997597.87k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           2048 bytes
+aes-256-gcm     690745.88k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-ctr     939861.22k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type           1024 bytes
+aes-256-gcm     660408.87k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-ctr     703276.01k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type            256 bytes
+aes-256-gcm     526553.47k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-ctr     360161.61k
+OpenSSL 1.1.1w  11 Sep 2023
+built on: Tue Dec 24 12:44:43 2024 UTC
+options:bn(64,64) rc4(char) des(int) aes(partial) blowfish(ptr) 
+compiler: ccache_cc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -O3 -DPIC -fPIC -ffunction-sections -fdata-sections -pipe -mcpu=cortex-a53 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -Wformat -Werror=format-security -fstack-protector -O3 -fPIC -ffunction-sections -fdata-sections -znow -zrelro -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DVPAES_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DNDEBUG -D_FORTIFY_SOURCE=1 -DPIC
+The 'numbers' are in 1000s of bytes per second processed.
+type             64 bytes
+aes-256-gcm     299078.89k

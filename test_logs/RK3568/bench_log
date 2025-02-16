@@ -1,0 +1,1092 @@
+Cipher Benchmark
+Round 1
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.10, decrypt: 2.10, AD: 1.56
+length: 256, encrypt: 8.06, decrypt: 8.40, AD: 5.97
+length: 512, encrypt: 10.77, decrypt: 11.42, AD: 9.50
+length: 1024, encrypt: 12.85, decrypt: 13.65, AD: 13.56
+length: 2048, encrypt: 14.28, decrypt: 15.53, AD: 17.22
+length: 4096, encrypt: 15.10, decrypt: 16.31, AD: 20.06
+length: 8192, encrypt: 15.43, decrypt: 17.10, AD: 21.79
+length: 16384, encrypt: 14.93, decrypt: 16.56, AD: 22.59
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.14, decrypt: 1.14
+length: 256, encrypt: 4.42, decrypt: 4.51
+length: 512, encrypt: 6.95, decrypt: 7.16
+length: 1024, encrypt: 9.65, decrypt: 10.21
+length: 2048, encrypt: 12.08, decrypt: 12.92
+length: 4096, encrypt: 13.65, decrypt: 15.00
+length: 8192, encrypt: 14.69, decrypt: 16.17
+length: 16384, encrypt: 14.67, decrypt: 16.06
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.47, decrypt: 0.04
+length: 64, encrypt: 2.01, decrypt: 0.14
+length: 256, encrypt: 4.91, decrypt: 0.52
+length: 512, encrypt: 6.35, decrypt: 1.00
+length: 1024, encrypt: 7.49, decrypt: 1.81
+length: 2048, encrypt: 8.35, decrypt: 3.02
+length: 4096, encrypt: 8.78, decrypt: 4.61
+length: 8192, encrypt: 9.05, decrypt: 6.21
+length: 16384, encrypt: 8.95, decrypt: 6.79
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.38, decrypt: 0.13
+length: 256, encrypt: 3.79, decrypt: 0.51
+length: 512, encrypt: 5.37, decrypt: 0.97
+length: 1024, encrypt: 6.85, decrypt: 1.76
+length: 2048, encrypt: 7.87, decrypt: 2.97
+length: 4096, encrypt: 8.53, decrypt: 4.53
+length: 8192, encrypt: 8.88, decrypt: 6.13
+length: 16384, encrypt: 8.83, decrypt: 6.72
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.56, decrypt: 0.57
+length: 256, encrypt: 1.68, decrypt: 1.67
+length: 512, encrypt: 2.48, decrypt: 2.49
+length: 1024, encrypt: 3.30, decrypt: 3.27
+length: 2048, encrypt: 3.93, decrypt: 3.92
+length: 4096, encrypt: 4.33, decrypt: 4.35
+length: 8192, encrypt: 4.59, decrypt: 4.57
+length: 16384, encrypt: 4.65, decrypt: 4.62
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.19, decrypt: 1.17
+length: 256, encrypt: 1.71, decrypt: 1.71
+length: 512, encrypt: 1.85, decrypt: 1.85
+length: 1024, encrypt: 1.92, decrypt: 1.92
+length: 2048, encrypt: 1.96, decrypt: 1.97
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.99, decrypt: 1.99
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.75, decrypt: 0.77
+length: 256, encrypt: 2.54, decrypt: 2.58
+length: 512, encrypt: 4.22, decrypt: 4.21
+length: 1024, encrypt: 6.21, decrypt: 6.16
+length: 2048, encrypt: 8.10, decrypt: 8.10
+length: 4096, encrypt: 9.62, decrypt: 9.60
+length: 8192, encrypt: 10.56, decrypt: 10.57
+length: 16384, encrypt: 10.86, decrypt: 10.89
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.48, decrypt: 1.47
+length: 256, encrypt: 4.28, decrypt: 4.34
+length: 512, encrypt: 6.32, decrypt: 6.37
+length: 1024, encrypt: 8.24, decrypt: 8.20
+length: 2048, encrypt: 9.59, decrypt: 9.60
+length: 4096, encrypt: 10.61, decrypt: 10.60
+length: 8192, encrypt: 11.14, decrypt: 11.18
+length: 16384, encrypt: 11.19, decrypt: 11.19
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.57, decrypt: 2.60
+length: 512, encrypt: 4.25, decrypt: 4.26
+length: 1024, encrypt: 6.31, decrypt: 6.33
+length: 2048, encrypt: 8.24, decrypt: 8.30
+length: 4096, encrypt: 9.78, decrypt: 9.82
+length: 8192, encrypt: 10.83, decrypt: 10.78
+length: 16384, encrypt: 11.16, decrypt: 11.20
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.49, decrypt: 1.48
+length: 256, encrypt: 4.31, decrypt: 4.34
+length: 512, encrypt: 6.38, decrypt: 6.40
+length: 1024, encrypt: 8.41, decrypt: 8.39
+length: 2048, encrypt: 9.75, decrypt: 9.91
+length: 4096, encrypt: 10.89, decrypt: 10.88
+length: 8192, encrypt: 11.29, decrypt: 11.26
+length: 16384, encrypt: 11.43, decrypt: 11.54
+mRound 2
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.10, decrypt: 2.10, AD: 1.55
+length: 256, encrypt: 8.07, decrypt: 8.44, AD: 5.99
+length: 512, encrypt: 10.61, decrypt: 11.28, AD: 9.54
+length: 1024, encrypt: 12.83, decrypt: 13.85, AD: 13.64
+length: 2048, encrypt: 14.27, decrypt: 15.51, AD: 17.30
+length: 4096, encrypt: 15.01, decrypt: 16.49, AD: 20.06
+length: 8192, encrypt: 15.40, decrypt: 17.12, AD: 21.73
+length: 16384, encrypt: 14.99, decrypt: 16.55, AD: 22.64
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.12, decrypt: 1.10
+length: 256, encrypt: 4.40, decrypt: 4.56
+length: 512, encrypt: 6.92, decrypt: 7.23
+length: 1024, encrypt: 9.61, decrypt: 10.25
+length: 2048, encrypt: 12.04, decrypt: 12.98
+length: 4096, encrypt: 13.60, decrypt: 14.95
+length: 8192, encrypt: 14.67, decrypt: 16.15
+length: 16384, encrypt: 14.59, decrypt: 16.03
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.45, decrypt: 0.04
+length: 64, encrypt: 2.03, decrypt: 0.14
+length: 256, encrypt: 4.92, decrypt: 0.53
+length: 512, encrypt: 6.43, decrypt: 1.00
+length: 1024, encrypt: 7.57, decrypt: 1.81
+length: 2048, encrypt: 8.31, decrypt: 3.04
+length: 4096, encrypt: 8.83, decrypt: 4.60
+length: 8192, encrypt: 9.07, decrypt: 6.16
+length: 16384, encrypt: 8.93, decrypt: 6.77
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.38, decrypt: 0.13
+length: 256, encrypt: 3.83, decrypt: 0.51
+length: 512, encrypt: 5.38, decrypt: 0.97
+length: 1024, encrypt: 6.87, decrypt: 1.76
+length: 2048, encrypt: 7.91, decrypt: 2.98
+length: 4096, encrypt: 8.55, decrypt: 4.53
+length: 8192, encrypt: 8.87, decrypt: 6.13
+length: 16384, encrypt: 8.87, decrypt: 6.75
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.57, decrypt: 0.57
+length: 256, encrypt: 1.67, decrypt: 1.68
+length: 512, encrypt: 2.50, decrypt: 2.50
+length: 1024, encrypt: 3.30, decrypt: 3.29
+length: 2048, encrypt: 3.92, decrypt: 3.90
+length: 4096, encrypt: 4.34, decrypt: 4.34
+length: 8192, encrypt: 4.59, decrypt: 4.57
+length: 16384, encrypt: 4.63, decrypt: 4.65
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.19, decrypt: 1.18
+length: 256, encrypt: 1.71, decrypt: 1.70
+length: 512, encrypt: 1.85, decrypt: 1.85
+length: 1024, encrypt: 1.93, decrypt: 1.93
+length: 2048, encrypt: 1.96, decrypt: 1.96
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.99, decrypt: 1.99
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.74, decrypt: 0.77
+length: 256, encrypt: 2.56, decrypt: 2.58
+length: 512, encrypt: 4.23, decrypt: 4.23
+length: 1024, encrypt: 6.23, decrypt: 6.23
+length: 2048, encrypt: 8.18, decrypt: 8.18
+length: 4096, encrypt: 9.62, decrypt: 9.66
+length: 8192, encrypt: 10.54, decrypt: 10.59
+length: 16384, encrypt: 10.86, decrypt: 10.91
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.34, decrypt: 4.35
+length: 512, encrypt: 6.34, decrypt: 6.37
+length: 1024, encrypt: 8.25, decrypt: 8.18
+length: 2048, encrypt: 9.73, decrypt: 9.73
+length: 4096, encrypt: 10.65, decrypt: 10.67
+length: 8192, encrypt: 11.16, decrypt: 11.16
+length: 16384, encrypt: 11.13, decrypt: 11.23
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.58, decrypt: 2.59
+length: 512, encrypt: 4.28, decrypt: 4.27
+length: 1024, encrypt: 6.31, decrypt: 6.31
+length: 2048, encrypt: 8.30, decrypt: 8.27
+length: 4096, encrypt: 9.82, decrypt: 9.75
+length: 8192, encrypt: 10.77, decrypt: 10.83
+length: 16384, encrypt: 10.98, decrypt: 11.15
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.51, decrypt: 1.50
+length: 256, encrypt: 4.38, decrypt: 4.37
+length: 512, encrypt: 6.44, decrypt: 6.44
+length: 1024, encrypt: 8.40, decrypt: 8.39
+length: 2048, encrypt: 9.91, decrypt: 9.81
+length: 4096, encrypt: 10.85, decrypt: 10.81
+length: 8192, encrypt: 11.35, decrypt: 11.39
+length: 16384, encrypt: 11.48, decrypt: 11.54
+mRound 3
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.12, decrypt: 2.08, AD: 1.54
+length: 256, encrypt: 8.05, decrypt: 8.47, AD: 5.98
+length: 512, encrypt: 10.70, decrypt: 11.42, AD: 9.50
+length: 1024, encrypt: 12.84, decrypt: 13.88, AD: 13.65
+length: 2048, encrypt: 14.23, decrypt: 15.59, AD: 17.26
+length: 4096, encrypt: 14.91, decrypt: 16.55, AD: 20.02
+length: 8192, encrypt: 15.40, decrypt: 17.04, AD: 21.55
+length: 16384, encrypt: 14.13, decrypt: 15.71, AD: 21.79
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.10, decrypt: 1.12
+length: 256, encrypt: 4.44, decrypt: 4.58
+length: 512, encrypt: 6.92, decrypt: 7.16
+length: 1024, encrypt: 9.69, decrypt: 10.19
+length: 2048, encrypt: 11.96, decrypt: 12.97
+length: 4096, encrypt: 13.71, decrypt: 15.00
+length: 8192, encrypt: 14.59, decrypt: 16.14
+length: 16384, encrypt: 14.51, decrypt: 16.04
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.50, decrypt: 0.04
+length: 64, encrypt: 2.01, decrypt: 0.14
+length: 256, encrypt: 4.88, decrypt: 0.53
+length: 512, encrypt: 6.40, decrypt: 0.99
+length: 1024, encrypt: 7.59, decrypt: 1.80
+length: 2048, encrypt: 8.26, decrypt: 3.02
+length: 4096, encrypt: 8.76, decrypt: 4.49
+length: 8192, encrypt: 8.60, decrypt: 6.01
+length: 16384, encrypt: 8.51, decrypt: 6.58
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.36, decrypt: 0.13
+length: 256, encrypt: 3.77, decrypt: 0.50
+length: 512, encrypt: 5.42, decrypt: 0.96
+length: 1024, encrypt: 6.81, decrypt: 1.73
+length: 2048, encrypt: 7.81, decrypt: 2.95
+length: 4096, encrypt: 8.48, decrypt: 4.49
+length: 8192, encrypt: 8.89, decrypt: 6.11
+length: 16384, encrypt: 8.78, decrypt: 6.69
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.57, decrypt: 0.56
+length: 256, encrypt: 1.68, decrypt: 1.66
+length: 512, encrypt: 2.48, decrypt: 2.48
+length: 1024, encrypt: 3.27, decrypt: 3.29
+length: 2048, encrypt: 3.91, decrypt: 3.88
+length: 4096, encrypt: 4.26, decrypt: 4.31
+length: 8192, encrypt: 4.59, decrypt: 4.56
+length: 16384, encrypt: 4.67, decrypt: 4.66
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.19, decrypt: 1.18
+length: 256, encrypt: 1.72, decrypt: 1.70
+length: 512, encrypt: 1.84, decrypt: 1.84
+length: 1024, encrypt: 1.93, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.97
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.99, decrypt: 1.99
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.59, decrypt: 2.57
+length: 512, encrypt: 4.24, decrypt: 4.21
+length: 1024, encrypt: 6.20, decrypt: 6.22
+length: 2048, encrypt: 8.17, decrypt: 8.14
+length: 4096, encrypt: 9.62, decrypt: 9.58
+length: 8192, encrypt: 10.61, decrypt: 10.50
+length: 16384, encrypt: 10.88, decrypt: 10.80
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.49
+length: 256, encrypt: 4.35, decrypt: 4.35
+length: 512, encrypt: 6.36, decrypt: 6.38
+length: 1024, encrypt: 8.25, decrypt: 8.20
+length: 2048, encrypt: 9.66, decrypt: 9.73
+length: 4096, encrypt: 10.66, decrypt: 10.61
+length: 8192, encrypt: 11.18, decrypt: 11.12
+length: 16384, encrypt: 11.16, decrypt: 11.03
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.73, decrypt: 0.76
+length: 256, encrypt: 2.52, decrypt: 2.59
+length: 512, encrypt: 4.23, decrypt: 4.26
+length: 1024, encrypt: 6.25, decrypt: 6.27
+length: 2048, encrypt: 8.27, decrypt: 8.27
+length: 4096, encrypt: 9.80, decrypt: 9.77
+length: 8192, encrypt: 10.75, decrypt: 10.62
+length: 16384, encrypt: 10.92, decrypt: 11.10
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.51
+length: 256, encrypt: 4.31, decrypt: 4.33
+length: 512, encrypt: 6.40, decrypt: 6.42
+length: 1024, encrypt: 8.39, decrypt: 8.38
+length: 2048, encrypt: 9.89, decrypt: 9.80
+length: 4096, encrypt: 10.81, decrypt: 10.87
+length: 8192, encrypt: 11.30, decrypt: 11.19
+length: 16384, encrypt: 11.44, decrypt: 11.49
+mRound 4
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.09, AD: 1.55
+length: 256, encrypt: 8.08, decrypt: 8.50, AD: 6.01
+length: 512, encrypt: 10.72, decrypt: 11.49, AD: 9.57
+length: 1024, encrypt: 12.82, decrypt: 13.92, AD: 13.50
+length: 2048, encrypt: 14.22, decrypt: 15.59, AD: 17.12
+length: 4096, encrypt: 14.98, decrypt: 16.60, AD: 19.89
+length: 8192, encrypt: 15.45, decrypt: 17.11, AD: 21.47
+length: 16384, encrypt: 14.93, decrypt: 16.49, AD: 22.50
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.13, decrypt: 1.12
+length: 256, encrypt: 4.43, decrypt: 4.58
+length: 512, encrypt: 6.96, decrypt: 7.28
+length: 1024, encrypt: 9.66, decrypt: 10.31
+length: 2048, encrypt: 12.07, decrypt: 12.78
+length: 4096, encrypt: 13.60, decrypt: 14.99
+length: 8192, encrypt: 14.69, decrypt: 16.23
+length: 16384, encrypt: 14.56, decrypt: 16.03
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.50, decrypt: 0.04
+length: 64, encrypt: 2.02, decrypt: 0.14
+length: 256, encrypt: 4.92, decrypt: 0.53
+length: 512, encrypt: 6.39, decrypt: 1.00
+length: 1024, encrypt: 7.60, decrypt: 1.81
+length: 2048, encrypt: 8.36, decrypt: 3.04
+length: 4096, encrypt: 8.80, decrypt: 4.61
+length: 8192, encrypt: 9.02, decrypt: 6.17
+length: 16384, encrypt: 8.97, decrypt: 6.78
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.38, decrypt: 0.13
+length: 256, encrypt: 3.82, decrypt: 0.51
+length: 512, encrypt: 5.35, decrypt: 0.97
+length: 1024, encrypt: 6.85, decrypt: 1.76
+length: 2048, encrypt: 7.88, decrypt: 2.95
+length: 4096, encrypt: 8.52, decrypt: 4.52
+length: 8192, encrypt: 8.88, decrypt: 6.12
+length: 16384, encrypt: 8.81, decrypt: 6.66
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.56, decrypt: 0.56
+length: 256, encrypt: 1.67, decrypt: 1.67
+length: 512, encrypt: 2.49, decrypt: 2.48
+length: 1024, encrypt: 3.28, decrypt: 3.29
+length: 2048, encrypt: 3.90, decrypt: 3.89
+length: 4096, encrypt: 4.33, decrypt: 4.34
+length: 8192, encrypt: 4.58, decrypt: 4.58
+length: 16384, encrypt: 4.65, decrypt: 4.67
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.19, decrypt: 1.18
+length: 256, encrypt: 1.72, decrypt: 1.72
+length: 512, encrypt: 1.86, decrypt: 1.85
+length: 1024, encrypt: 1.93, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.97
+length: 4096, encrypt: 1.98, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.99, decrypt: 1.98
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.49, decrypt: 2.59
+length: 512, encrypt: 4.14, decrypt: 4.15
+length: 1024, encrypt: 6.18, decrypt: 6.24
+length: 2048, encrypt: 8.10, decrypt: 8.11
+length: 4096, encrypt: 9.59, decrypt: 9.58
+length: 8192, encrypt: 10.58, decrypt: 10.52
+length: 16384, encrypt: 10.73, decrypt: 10.74
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.46, decrypt: 1.48
+length: 256, encrypt: 4.26, decrypt: 4.22
+length: 512, encrypt: 6.25, decrypt: 6.26
+length: 1024, encrypt: 8.23, decrypt: 8.19
+length: 2048, encrypt: 9.68, decrypt: 9.66
+length: 4096, encrypt: 10.47, decrypt: 10.54
+length: 8192, encrypt: 11.11, decrypt: 11.05
+length: 16384, encrypt: 11.08, decrypt: 11.22
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.75, decrypt: 0.77
+length: 256, encrypt: 2.58, decrypt: 2.59
+length: 512, encrypt: 4.27, decrypt: 4.24
+length: 1024, encrypt: 6.31, decrypt: 6.29
+length: 2048, encrypt: 8.30, decrypt: 8.27
+length: 4096, encrypt: 9.75, decrypt: 9.79
+length: 8192, encrypt: 10.82, decrypt: 10.83
+length: 16384, encrypt: 11.15, decrypt: 11.12
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.33, decrypt: 4.38
+length: 512, encrypt: 6.34, decrypt: 6.39
+length: 1024, encrypt: 8.39, decrypt: 8.38
+length: 2048, encrypt: 9.74, decrypt: 9.87
+length: 4096, encrypt: 10.84, decrypt: 10.81
+length: 8192, encrypt: 11.45, decrypt: 11.43
+length: 16384, encrypt: 11.45, decrypt: 11.50
+mRound 5
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.08, AD: 1.54
+length: 256, encrypt: 8.06, decrypt: 8.49, AD: 6.01
+length: 512, encrypt: 10.71, decrypt: 11.47, AD: 9.45
+length: 1024, encrypt: 12.83, decrypt: 13.79, AD: 13.59
+length: 2048, encrypt: 14.18, decrypt: 15.60, AD: 17.23
+length: 4096, encrypt: 14.96, decrypt: 16.49, AD: 19.67
+length: 8192, encrypt: 15.34, decrypt: 17.05, AD: 21.51
+length: 16384, encrypt: 14.79, decrypt: 16.48, AD: 22.43
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.13, decrypt: 1.11
+length: 256, encrypt: 4.39, decrypt: 4.57
+length: 512, encrypt: 6.95, decrypt: 7.26
+length: 1024, encrypt: 9.64, decrypt: 10.28
+length: 2048, encrypt: 12.02, decrypt: 12.98
+length: 4096, encrypt: 13.66, decrypt: 14.77
+length: 8192, encrypt: 14.67, decrypt: 16.22
+length: 16384, encrypt: 14.59, decrypt: 16.05
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.50, decrypt: 0.04
+length: 64, encrypt: 1.99, decrypt: 0.14
+length: 256, encrypt: 4.92, decrypt: 0.53
+length: 512, encrypt: 6.36, decrypt: 1.00
+length: 1024, encrypt: 7.56, decrypt: 1.80
+length: 2048, encrypt: 8.36, decrypt: 3.05
+length: 4096, encrypt: 8.81, decrypt: 4.59
+length: 8192, encrypt: 9.02, decrypt: 6.19
+length: 16384, encrypt: 8.94, decrypt: 6.74
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.38, decrypt: 0.13
+length: 256, encrypt: 3.80, decrypt: 0.51
+length: 512, encrypt: 5.40, decrypt: 0.97
+length: 1024, encrypt: 6.75, decrypt: 1.75
+length: 2048, encrypt: 7.88, decrypt: 2.97
+length: 4096, encrypt: 8.45, decrypt: 4.44
+length: 8192, encrypt: 8.84, decrypt: 6.12
+length: 16384, encrypt: 8.81, decrypt: 6.71
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.14, decrypt: 0.15
+length: 64, encrypt: 0.57, decrypt: 0.56
+length: 256, encrypt: 1.67, decrypt: 1.67
+length: 512, encrypt: 2.49, decrypt: 2.48
+length: 1024, encrypt: 3.30, decrypt: 3.29
+length: 2048, encrypt: 3.90, decrypt: 3.93
+length: 4096, encrypt: 4.34, decrypt: 4.34
+length: 8192, encrypt: 4.58, decrypt: 4.57
+length: 16384, encrypt: 4.67, decrypt: 4.66
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.51
+length: 64, encrypt: 1.18, decrypt: 1.18
+length: 256, encrypt: 1.72, decrypt: 1.71
+length: 512, encrypt: 1.85, decrypt: 1.83
+length: 1024, encrypt: 1.92, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.97
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.99, decrypt: 1.99
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.70, decrypt: 0.76
+length: 256, encrypt: 2.54, decrypt: 2.52
+length: 512, encrypt: 4.22, decrypt: 4.20
+length: 1024, encrypt: 6.21, decrypt: 6.23
+length: 2048, encrypt: 7.96, decrypt: 8.03
+length: 4096, encrypt: 9.41, decrypt: 9.45
+length: 8192, encrypt: 10.51, decrypt: 10.57
+length: 16384, encrypt: 10.84, decrypt: 10.80
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.30, decrypt: 4.34
+length: 512, encrypt: 6.32, decrypt: 6.32
+length: 1024, encrypt: 8.22, decrypt: 8.24
+length: 2048, encrypt: 9.69, decrypt: 9.70
+length: 4096, encrypt: 10.62, decrypt: 10.60
+length: 8192, encrypt: 11.15, decrypt: 11.17
+length: 16384, encrypt: 11.16, decrypt: 11.18
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.60, decrypt: 2.60
+length: 512, encrypt: 4.25, decrypt: 4.24
+length: 1024, encrypt: 6.32, decrypt: 6.31
+length: 2048, encrypt: 8.29, decrypt: 8.19
+length: 4096, encrypt: 9.77, decrypt: 9.82
+length: 8192, encrypt: 10.84, decrypt: 10.82
+length: 16384, encrypt: 11.10, decrypt: 11.20
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.49, decrypt: 1.49
+length: 256, encrypt: 4.37, decrypt: 4.38
+length: 512, encrypt: 6.36, decrypt: 6.41
+length: 1024, encrypt: 8.36, decrypt: 8.38
+length: 2048, encrypt: 9.93, decrypt: 9.89
+length: 4096, encrypt: 10.84, decrypt: 10.88
+length: 8192, encrypt: 11.41, decrypt: 11.42
+length: 16384, encrypt: 11.42, decrypt: 11.45
+mRound 6
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.10, AD: 1.55
+length: 256, encrypt: 7.92, decrypt: 8.36, AD: 5.98
+length: 512, encrypt: 10.74, decrypt: 11.28, AD: 9.45
+length: 1024, encrypt: 12.75, decrypt: 13.66, AD: 13.60
+length: 2048, encrypt: 14.21, decrypt: 15.46, AD: 17.28
+length: 4096, encrypt: 14.98, decrypt: 16.52, AD: 20.04
+length: 8192, encrypt: 15.44, decrypt: 17.01, AD: 21.57
+length: 16384, encrypt: 14.94, decrypt: 16.50, AD: 22.65
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.13, decrypt: 1.13
+length: 256, encrypt: 4.42, decrypt: 4.53
+length: 512, encrypt: 6.83, decrypt: 7.20
+length: 1024, encrypt: 9.64, decrypt: 10.24
+length: 2048, encrypt: 12.06, decrypt: 12.99
+length: 4096, encrypt: 13.63, decrypt: 14.80
+length: 8192, encrypt: 14.72, decrypt: 16.10
+length: 16384, encrypt: 14.68, decrypt: 15.94
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.41, decrypt: 0.04
+length: 64, encrypt: 2.02, decrypt: 0.14
+length: 256, encrypt: 4.91, decrypt: 0.53
+length: 512, encrypt: 6.41, decrypt: 1.00
+length: 1024, encrypt: 7.61, decrypt: 1.82
+length: 2048, encrypt: 8.37, decrypt: 3.04
+length: 4096, encrypt: 8.81, decrypt: 4.59
+length: 8192, encrypt: 9.01, decrypt: 6.19
+length: 16384, encrypt: 8.97, decrypt: 6.73
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.34, decrypt: 0.03
+length: 64, encrypt: 1.37, decrypt: 0.13
+length: 256, encrypt: 3.75, decrypt: 0.51
+length: 512, encrypt: 5.42, decrypt: 0.97
+length: 1024, encrypt: 6.83, decrypt: 1.76
+length: 2048, encrypt: 7.86, decrypt: 2.97
+length: 4096, encrypt: 8.47, decrypt: 4.51
+length: 8192, encrypt: 8.89, decrypt: 6.12
+length: 16384, encrypt: 8.87, decrypt: 6.73
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.56, decrypt: 0.56
+length: 256, encrypt: 1.67, decrypt: 1.65
+length: 512, encrypt: 2.46, decrypt: 2.49
+length: 1024, encrypt: 3.29, decrypt: 3.29
+length: 2048, encrypt: 3.92, decrypt: 3.91
+length: 4096, encrypt: 4.34, decrypt: 4.33
+length: 8192, encrypt: 4.57, decrypt: 4.58
+length: 16384, encrypt: 4.64, decrypt: 4.66
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.18, decrypt: 1.18
+length: 256, encrypt: 1.72, decrypt: 1.69
+length: 512, encrypt: 1.84, decrypt: 1.84
+length: 1024, encrypt: 1.92, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.96
+length: 4096, encrypt: 1.98, decrypt: 1.98
+length: 8192, encrypt: 2.00, decrypt: 1.99
+length: 16384, encrypt: 1.99, decrypt: 1.98
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.74, decrypt: 0.77
+length: 256, encrypt: 2.57, decrypt: 2.57
+length: 512, encrypt: 4.23, decrypt: 4.21
+length: 1024, encrypt: 6.17, decrypt: 6.13
+length: 2048, encrypt: 8.07, decrypt: 8.12
+length: 4096, encrypt: 9.59, decrypt: 9.62
+length: 8192, encrypt: 10.50, decrypt: 10.57
+length: 16384, encrypt: 10.88, decrypt: 10.90
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.31, decrypt: 4.35
+length: 512, encrypt: 6.35, decrypt: 6.36
+length: 1024, encrypt: 8.26, decrypt: 8.16
+length: 2048, encrypt: 9.72, decrypt: 9.71
+length: 4096, encrypt: 10.60, decrypt: 10.65
+length: 8192, encrypt: 11.12, decrypt: 11.16
+length: 16384, encrypt: 11.17, decrypt: 11.25
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.73, decrypt: 0.77
+length: 256, encrypt: 2.60, decrypt: 2.60
+length: 512, encrypt: 4.28, decrypt: 4.27
+length: 1024, encrypt: 6.29, decrypt: 6.27
+length: 2048, encrypt: 8.30, decrypt: 8.29
+length: 4096, encrypt: 9.80, decrypt: 9.79
+length: 8192, encrypt: 10.84, decrypt: 10.84
+length: 16384, encrypt: 11.15, decrypt: 11.16
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.45, decrypt: 1.49
+length: 256, encrypt: 4.31, decrypt: 4.34
+length: 512, encrypt: 6.37, decrypt: 6.39
+length: 1024, encrypt: 8.41, decrypt: 8.40
+length: 2048, encrypt: 9.84, decrypt: 9.85
+length: 4096, encrypt: 10.89, decrypt: 10.87
+length: 8192, encrypt: 11.46, decrypt: 11.44
+length: 16384, encrypt: 11.51, decrypt: 11.51
+mRound 7
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.10, decrypt: 2.07, AD: 1.55
+length: 256, encrypt: 8.06, decrypt: 8.51, AD: 5.46
+length: 512, encrypt: 10.60, decrypt: 11.50, AD: 9.56
+length: 1024, encrypt: 12.84, decrypt: 13.96, AD: 13.55
+length: 2048, encrypt: 14.24, decrypt: 15.61, AD: 17.10
+length: 4096, encrypt: 15.02, decrypt: 16.59, AD: 20.02
+length: 8192, encrypt: 15.34, decrypt: 17.12, AD: 21.63
+length: 16384, encrypt: 15.13, decrypt: 16.62, AD: 22.67
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.14, decrypt: 1.11
+length: 256, encrypt: 4.41, decrypt: 4.57
+length: 512, encrypt: 6.96, decrypt: 7.27
+length: 1024, encrypt: 9.70, decrypt: 10.31
+length: 2048, encrypt: 12.04, decrypt: 12.90
+length: 4096, encrypt: 13.71, decrypt: 15.01
+length: 8192, encrypt: 14.78, decrypt: 16.11
+length: 16384, encrypt: 14.71, decrypt: 16.06
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.51, decrypt: 0.04
+length: 64, encrypt: 2.02, decrypt: 0.14
+length: 256, encrypt: 4.91, decrypt: 0.52
+length: 512, encrypt: 6.43, decrypt: 1.00
+length: 1024, encrypt: 7.60, decrypt: 1.81
+length: 2048, encrypt: 8.38, decrypt: 3.04
+length: 4096, encrypt: 8.80, decrypt: 4.61
+length: 8192, encrypt: 9.00, decrypt: 6.11
+length: 16384, encrypt: 8.92, decrypt: 6.74
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.37, decrypt: 0.13
+length: 256, encrypt: 3.78, decrypt: 0.51
+length: 512, encrypt: 5.40, decrypt: 0.97
+length: 1024, encrypt: 6.84, decrypt: 1.75
+length: 2048, encrypt: 7.90, decrypt: 2.96
+length: 4096, encrypt: 8.51, decrypt: 4.52
+length: 8192, encrypt: 8.87, decrypt: 6.08
+length: 16384, encrypt: 8.83, decrypt: 6.73
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.57, decrypt: 0.56
+length: 256, encrypt: 1.67, decrypt: 1.67
+length: 512, encrypt: 2.48, decrypt: 2.48
+length: 1024, encrypt: 3.30, decrypt: 3.28
+length: 2048, encrypt: 3.92, decrypt: 3.92
+length: 4096, encrypt: 4.33, decrypt: 4.31
+length: 8192, encrypt: 4.56, decrypt: 4.57
+length: 16384, encrypt: 4.67, decrypt: 4.65
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.18, decrypt: 1.17
+length: 256, encrypt: 1.71, decrypt: 1.71
+length: 512, encrypt: 1.84, decrypt: 1.84
+length: 1024, encrypt: 1.92, decrypt: 1.92
+length: 2048, encrypt: 1.96, decrypt: 1.96
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 2.00
+length: 16384, encrypt: 1.98, decrypt: 1.98
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.74, decrypt: 0.76
+length: 256, encrypt: 2.57, decrypt: 2.54
+length: 512, encrypt: 4.21, decrypt: 4.23
+length: 1024, encrypt: 6.22, decrypt: 6.24
+length: 2048, encrypt: 8.16, decrypt: 8.15
+length: 4096, encrypt: 9.64, decrypt: 9.60
+length: 8192, encrypt: 10.61, decrypt: 10.60
+length: 16384, encrypt: 10.82, decrypt: 10.90
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.35, decrypt: 4.34
+length: 512, encrypt: 6.36, decrypt: 6.35
+length: 1024, encrypt: 8.26, decrypt: 8.26
+length: 2048, encrypt: 9.70, decrypt: 9.72
+length: 4096, encrypt: 10.59, decrypt: 10.65
+length: 8192, encrypt: 11.20, decrypt: 11.16
+length: 16384, encrypt: 11.18, decrypt: 11.23
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.73, decrypt: 0.77
+length: 256, encrypt: 2.58, decrypt: 2.58
+length: 512, encrypt: 4.23, decrypt: 4.18
+length: 1024, encrypt: 6.29, decrypt: 6.32
+length: 2048, encrypt: 8.27, decrypt: 8.27
+length: 4096, encrypt: 9.72, decrypt: 9.83
+length: 8192, encrypt: 10.80, decrypt: 10.83
+length: 16384, encrypt: 11.15, decrypt: 11.20
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.51
+length: 256, encrypt: 4.37, decrypt: 4.39
+length: 512, encrypt: 6.44, decrypt: 6.45
+length: 1024, encrypt: 8.41, decrypt: 8.38
+length: 2048, encrypt: 9.89, decrypt: 9.91
+length: 4096, encrypt: 10.89, decrypt: 10.82
+length: 8192, encrypt: 11.43, decrypt: 11.47
+length: 16384, encrypt: 11.46, decrypt: 11.47
+mRound 8
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.07, AD: 1.54
+length: 256, encrypt: 8.08, decrypt: 8.49, AD: 5.98
+length: 512, encrypt: 10.70, decrypt: 11.49, AD: 9.58
+length: 1024, encrypt: 12.78, decrypt: 13.94, AD: 13.62
+length: 2048, encrypt: 14.21, decrypt: 15.55, AD: 17.35
+length: 4096, encrypt: 15.04, decrypt: 16.47, AD: 19.98
+length: 8192, encrypt: 15.45, decrypt: 17.06, AD: 21.71
+length: 16384, encrypt: 14.97, decrypt: 16.60, AD: 22.39
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.14, decrypt: 1.13
+length: 256, encrypt: 4.42, decrypt: 4.57
+length: 512, encrypt: 6.95, decrypt: 7.25
+length: 1024, encrypt: 9.67, decrypt: 10.25
+length: 2048, encrypt: 12.07, decrypt: 13.01
+length: 4096, encrypt: 13.58, decrypt: 14.86
+length: 8192, encrypt: 14.77, decrypt: 16.10
+length: 16384, encrypt: 14.63, decrypt: 16.10
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.50, decrypt: 0.04
+length: 64, encrypt: 2.01, decrypt: 0.14
+length: 256, encrypt: 4.82, decrypt: 0.52
+length: 512, encrypt: 6.37, decrypt: 0.99
+length: 1024, encrypt: 7.43, decrypt: 1.81
+length: 2048, encrypt: 8.30, decrypt: 3.04
+length: 4096, encrypt: 8.77, decrypt: 4.58
+length: 8192, encrypt: 8.99, decrypt: 6.20
+length: 16384, encrypt: 8.95, decrypt: 6.77
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.36, decrypt: 0.13
+length: 256, encrypt: 3.82, decrypt: 0.51
+length: 512, encrypt: 5.41, decrypt: 0.96
+length: 1024, encrypt: 6.79, decrypt: 1.76
+length: 2048, encrypt: 7.83, decrypt: 2.96
+length: 4096, encrypt: 8.49, decrypt: 4.51
+length: 8192, encrypt: 8.87, decrypt: 6.12
+length: 16384, encrypt: 8.84, decrypt: 6.71
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.57, decrypt: 0.56
+length: 256, encrypt: 1.66, decrypt: 1.65
+length: 512, encrypt: 2.46, decrypt: 2.49
+length: 1024, encrypt: 3.29, decrypt: 3.27
+length: 2048, encrypt: 3.92, decrypt: 3.91
+length: 4096, encrypt: 4.33, decrypt: 4.33
+length: 8192, encrypt: 4.57, decrypt: 4.57
+length: 16384, encrypt: 4.65, decrypt: 4.64
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.18, decrypt: 1.18
+length: 256, encrypt: 1.71, decrypt: 1.71
+length: 512, encrypt: 1.84, decrypt: 1.85
+length: 1024, encrypt: 1.92, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.96
+length: 4096, encrypt: 1.98, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 1.99
+length: 16384, encrypt: 1.98, decrypt: 1.99
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.75, decrypt: 0.77
+length: 256, encrypt: 2.57, decrypt: 2.57
+length: 512, encrypt: 4.23, decrypt: 4.22
+length: 1024, encrypt: 6.11, decrypt: 6.23
+length: 2048, encrypt: 8.14, decrypt: 8.16
+length: 4096, encrypt: 9.58, decrypt: 9.61
+length: 8192, encrypt: 10.46, decrypt: 10.61
+length: 16384, encrypt: 10.85, decrypt: 10.86
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.33, decrypt: 4.35
+length: 512, encrypt: 6.32, decrypt: 6.32
+length: 1024, encrypt: 8.24, decrypt: 8.26
+length: 2048, encrypt: 9.63, decrypt: 9.72
+length: 4096, encrypt: 10.60, decrypt: 10.58
+length: 8192, encrypt: 11.10, decrypt: 11.14
+length: 16384, encrypt: 11.16, decrypt: 11.19
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.60, decrypt: 2.59
+length: 512, encrypt: 4.27, decrypt: 4.28
+length: 1024, encrypt: 6.31, decrypt: 6.29
+length: 2048, encrypt: 8.23, decrypt: 8.29
+length: 4096, encrypt: 9.83, decrypt: 9.80
+length: 8192, encrypt: 10.82, decrypt: 10.83
+length: 16384, encrypt: 11.11, decrypt: 11.16
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.49, decrypt: 1.47
+length: 256, encrypt: 4.31, decrypt: 4.34
+length: 512, encrypt: 6.42, decrypt: 6.40
+length: 1024, encrypt: 8.37, decrypt: 8.34
+length: 2048, encrypt: 9.87, decrypt: 9.86
+length: 4096, encrypt: 10.85, decrypt: 10.85
+length: 8192, encrypt: 11.40, decrypt: 11.43
+length: 16384, encrypt: 11.47, decrypt: 11.50
+mRound 9
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.10, AD: 1.55
+length: 256, encrypt: 7.91, decrypt: 8.40, AD: 5.93
+length: 512, encrypt: 10.55, decrypt: 11.29, AD: 9.33
+length: 1024, encrypt: 12.70, decrypt: 13.72, AD: 13.51
+length: 2048, encrypt: 14.16, decrypt: 15.57, AD: 17.23
+length: 4096, encrypt: 14.97, decrypt: 16.52, AD: 19.92
+length: 8192, encrypt: 15.42, decrypt: 16.95, AD: 21.54
+length: 16384, encrypt: 14.92, decrypt: 16.45, AD: 22.42
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.13, decrypt: 1.12
+length: 256, encrypt: 4.44, decrypt: 4.56
+length: 512, encrypt: 6.89, decrypt: 7.16
+length: 1024, encrypt: 9.47, decrypt: 10.08
+length: 2048, encrypt: 11.82, decrypt: 12.78
+length: 4096, encrypt: 13.56, decrypt: 14.93
+length: 8192, encrypt: 14.67, decrypt: 16.20
+length: 16384, encrypt: 14.64, decrypt: 15.96
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.50, decrypt: 0.04
+length: 64, encrypt: 2.01, decrypt: 0.14
+length: 256, encrypt: 4.89, decrypt: 0.53
+length: 512, encrypt: 6.35, decrypt: 1.00
+length: 1024, encrypt: 7.61, decrypt: 1.81
+length: 2048, encrypt: 8.34, decrypt: 3.05
+length: 4096, encrypt: 8.82, decrypt: 4.61
+length: 8192, encrypt: 9.03, decrypt: 6.19
+length: 16384, encrypt: 8.91, decrypt: 6.78
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.38, decrypt: 0.13
+length: 256, encrypt: 3.83, decrypt: 0.51
+length: 512, encrypt: 5.35, decrypt: 0.97
+length: 1024, encrypt: 6.85, decrypt: 1.76
+length: 2048, encrypt: 7.85, decrypt: 2.97
+length: 4096, encrypt: 8.53, decrypt: 4.52
+length: 8192, encrypt: 8.88, decrypt: 6.08
+length: 16384, encrypt: 8.83, decrypt: 6.75
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.56, decrypt: 0.56
+length: 256, encrypt: 1.68, decrypt: 1.67
+length: 512, encrypt: 2.50, decrypt: 2.50
+length: 1024, encrypt: 3.29, decrypt: 3.29
+length: 2048, encrypt: 3.92, decrypt: 3.93
+length: 4096, encrypt: 4.35, decrypt: 4.33
+length: 8192, encrypt: 4.57, decrypt: 4.58
+length: 16384, encrypt: 4.66, decrypt: 4.65
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.52, decrypt: 0.52
+length: 64, encrypt: 1.19, decrypt: 1.18
+length: 256, encrypt: 1.71, decrypt: 1.71
+length: 512, encrypt: 1.86, decrypt: 1.85
+length: 1024, encrypt: 1.93, decrypt: 1.93
+length: 2048, encrypt: 1.97, decrypt: 1.97
+length: 4096, encrypt: 1.99, decrypt: 1.99
+length: 8192, encrypt: 2.00, decrypt: 1.98
+length: 16384, encrypt: 1.98, decrypt: 1.98
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.73, decrypt: 0.76
+length: 256, encrypt: 2.57, decrypt: 2.58
+length: 512, encrypt: 4.22, decrypt: 4.22
+length: 1024, encrypt: 6.14, decrypt: 6.20
+length: 2048, encrypt: 8.13, decrypt: 8.11
+length: 4096, encrypt: 9.56, decrypt: 9.60
+length: 8192, encrypt: 10.55, decrypt: 10.54
+length: 16384, encrypt: 10.71, decrypt: 10.84
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.49
+length: 256, encrypt: 4.33, decrypt: 4.32
+length: 512, encrypt: 6.22, decrypt: 6.34
+length: 1024, encrypt: 8.24, decrypt: 8.23
+length: 2048, encrypt: 9.69, decrypt: 9.67
+length: 4096, encrypt: 10.61, decrypt: 10.62
+length: 8192, encrypt: 11.09, decrypt: 11.17
+length: 16384, encrypt: 11.11, decrypt: 11.15
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.77, decrypt: 0.77
+length: 256, encrypt: 2.59, decrypt: 2.57
+length: 512, encrypt: 4.22, decrypt: 4.26
+length: 1024, encrypt: 6.29, decrypt: 6.29
+length: 2048, encrypt: 8.28, decrypt: 8.25
+length: 4096, encrypt: 9.76, decrypt: 9.79
+length: 8192, encrypt: 10.82, decrypt: 10.78
+length: 16384, encrypt: 11.11, decrypt: 11.11
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.38, decrypt: 4.37
+length: 512, encrypt: 6.41, decrypt: 6.37
+length: 1024, encrypt: 8.27, decrypt: 8.30
+length: 2048, encrypt: 9.88, decrypt: 9.89
+length: 4096, encrypt: 10.85, decrypt: 10.84
+length: 8192, encrypt: 11.42, decrypt: 11.38
+length: 16384, encrypt: 11.38, decrypt: 11.52
+mRound 10
+bench HiAE
+========HiAE test========
+--------functional test----------
+functional test pass.
+
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 2.11, decrypt: 2.08, AD: 1.54
+length: 256, encrypt: 8.08, decrypt: 8.42, AD: 6.00
+length: 512, encrypt: 10.73, decrypt: 11.37, AD: 9.58
+length: 1024, encrypt: 12.82, decrypt: 13.77, AD: 13.42
+length: 2048, encrypt: 13.97, decrypt: 15.26, AD: 17.23
+length: 4096, encrypt: 14.74, decrypt: 16.06, AD: 19.62
+length: 8192, encrypt: 15.36, decrypt: 16.71, AD: 21.68
+length: 16384, encrypt: 15.07, decrypt: 16.33, AD: 22.46
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 1.14, decrypt: 1.13
+length: 256, encrypt: 4.44, decrypt: 4.54
+length: 512, encrypt: 6.93, decrypt: 7.21
+length: 1024, encrypt: 9.55, decrypt: 10.19
+length: 2048, encrypt: 11.92, decrypt: 12.89
+length: 4096, encrypt: 13.68, decrypt: 14.83
+length: 8192, encrypt: 14.72, decrypt: 15.90
+length: 16384, encrypt: 14.62, decrypt: 15.92
+0
+bench AEGIS
+========AEGIS========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.49, decrypt: 0.04
+length: 64, encrypt: 1.99, decrypt: 0.14
+length: 256, encrypt: 4.79, decrypt: 0.53
+length: 512, encrypt: 6.38, decrypt: 0.99
+length: 1024, encrypt: 7.56, decrypt: 1.81
+length: 2048, encrypt: 8.34, decrypt: 3.02
+length: 4096, encrypt: 8.77, decrypt: 4.59
+length: 8192, encrypt: 9.02, decrypt: 6.19
+length: 16384, encrypt: 8.94, decrypt: 6.77
+--------speed test AEAD(Gbps)----------
+length: 16, encrypt: 0.35, decrypt: 0.03
+length: 64, encrypt: 1.37, decrypt: 0.13
+length: 256, encrypt: 3.82, decrypt: 0.51
+length: 512, encrypt: 5.10, decrypt: 0.97
+length: 1024, encrypt: 6.79, decrypt: 1.76
+length: 2048, encrypt: 7.87, decrypt: 2.97
+length: 4096, encrypt: 8.52, decrypt: 4.53
+length: 8192, encrypt: 8.90, decrypt: 6.12
+length: 16384, encrypt: 8.84, decrypt: 6.71
+bench SNOW-V
+========SNOW-V========
+--------speed test Encryption Only(Gbps)----------
+length: 16, encrypt: 0.15, decrypt: 0.15
+length: 64, encrypt: 0.56, decrypt: 0.56
+length: 256, encrypt: 1.68, decrypt: 1.66
+length: 512, encrypt: 2.46, decrypt: 2.47
+length: 1024, encrypt: 3.27, decrypt: 3.28
+length: 2048, encrypt: 3.91, decrypt: 3.90
+length: 4096, encrypt: 4.33, decrypt: 4.32
+length: 8192, encrypt: 4.58, decrypt: 4.57
+length: 16384, encrypt: 4.64, decrypt: 4.64
+--------speed test Encryption Only(GCM)----------
+length: 16, encrypt: 0.53, decrypt: 0.52
+length: 64, encrypt: 1.18, decrypt: 1.18
+length: 256, encrypt: 1.70, decrypt: 1.70
+length: 512, encrypt: 1.84, decrypt: 1.84
+length: 1024, encrypt: 1.93, decrypt: 1.93
+length: 2048, encrypt: 1.96, decrypt: 1.96
+length: 4096, encrypt: 1.99, decrypt: 1.98
+length: 8192, encrypt: 1.98, decrypt: 1.99
+length: 16384, encrypt: 1.98, decrypt: 1.98
+bench ROCCA
+========Rocca========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.76, decrypt: 0.77
+length: 256, encrypt: 2.57, decrypt: 2.58
+length: 512, encrypt: 4.21, decrypt: 4.22
+length: 1024, encrypt: 6.19, decrypt: 6.23
+length: 2048, encrypt: 8.08, decrypt: 8.14
+length: 4096, encrypt: 9.57, decrypt: 9.57
+length: 8192, encrypt: 10.57, decrypt: 10.47
+length: 16384, encrypt: 10.84, decrypt: 10.82
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.31, decrypt: 4.33
+length: 512, encrypt: 6.31, decrypt: 6.35
+length: 1024, encrypt: 8.25, decrypt: 8.17
+length: 2048, encrypt: 9.56, decrypt: 9.64
+length: 4096, encrypt: 10.61, decrypt: 10.56
+length: 8192, encrypt: 11.11, decrypt: 11.10
+length: 16384, encrypt: 11.13, decrypt: 11.15
+ bench ROCCA-S
+========Rocca-S========
+--------speed test AEAD(Gbps)----------
+length: 64, encrypt: 0.68, decrypt: 0.77
+length: 256, encrypt: 2.59, decrypt: 2.59
+length: 512, encrypt: 4.21, decrypt: 4.26
+length: 1024, encrypt: 6.31, decrypt: 6.32
+length: 2048, encrypt: 8.28, decrypt: 8.27
+length: 4096, encrypt: 9.83, decrypt: 9.79
+length: 8192, encrypt: 10.85, decrypt: 10.81
+length: 16384, encrypt: 11.09, decrypt: 11.17
+--------speed test Encryption Only(Gbps)----------
+length: 64, encrypt: 1.50, decrypt: 1.50
+length: 256, encrypt: 4.37, decrypt: 4.39
+length: 512, encrypt: 6.38, decrypt: 6.42
+length: 1024, encrypt: 8.40, decrypt: 8.39
+length: 2048, encrypt: 9.89, decrypt: 9.80
+length: 4096, encrypt: 10.87, decrypt: 10.86
+length: 8192, encrypt: 11.42, decrypt: 11.42
+length: 16384, encrypt: 11.53, decrypt: 11.50
+m
